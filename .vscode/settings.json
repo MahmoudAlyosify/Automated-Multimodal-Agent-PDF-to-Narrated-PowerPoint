@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^cd \"d:\\\\Automated-Multimodal-Agent-PDF-to-Narrated-PowerPoint\\\\Automated Multimodal Agent PDF to Narrated PowerPoint\\\\document_understanding_agent\"; \\.\\\\run_gui\\.ps1$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

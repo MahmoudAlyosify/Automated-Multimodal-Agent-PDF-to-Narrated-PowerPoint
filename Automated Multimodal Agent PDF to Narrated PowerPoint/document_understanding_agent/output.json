@@ -1,0 +1,946 @@
+{
+  "document_tree": {
+    "sections": [
+      {
+        "title": "Document Content",
+        "level": 1,
+        "blocks": [
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "EXPLANATION",
+            "importance": 0.55,
+            "text": "Logo ",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "EXPLANATION",
+            "importance": 0.55,
+            "text": "Create the Future: ",
+            "path": null,
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "title": "AI Design: A Beginner\u2019s Guide to Building Intelligence Through Patterns ",
+        "level": 1,
+        "blocks": [
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "EXPLANATION",
+            "importance": 0.5,
+            "text": "1+1+15+13+10+11+8+11+11+19+8+26+8+8+10+7+6+7+11+8+25+6+8+27+11+5+17+15+8+4+8+12+2=347 pgs ",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "EXPLANATION",
+            "importance": 0.5,
+            "text": "Welcome to the Future, Let's Learn Its Language ",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "IMPORTANT",
+            "importance": 0.75,
+            "text": "Let the journey begin! ",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "QUESTION",
+            "importance": 0.7,
+            "text": "Introduction, 5 - final check done Dedication, 1 - final check done Foreword Acknowledgment, 1 - final check done 1.\u200b Teaching a Computer to Think, 15 - final check done 2.\u200b Predicting the Future (with a Straight Line),  13 - final check done 3.\u200b Is this a Cat or a Dog? The Power of Classification, 10 -  final check done 4.\u200b Making Decisions Like a Pro with Decision Trees, 11 -  final check done 5.\u200b The Wisdom of the Crowd: Random Forests, 8 -  final check done 6.\u200b Finding Groups in Your Data: K-Means Clustering, 11 -  final check done 7.\u200b Your First Artificial Brain: Introduction to Neural Networks, 11 -  final check done 8.\u200b Deep Learning and Computer Vision, 19 -  final check done 9.\u200b Understanding Human Language: Natural Language Processing (NLP), 8 -  final done 10.\u200bIntroducing Transformers: The \"Attention\" Revolution, 26 -  final check done 11.\u200b Building the Library of Everything: LLM Pre-Training, 8 -  final check done 12.\u200bMaking the Model Yours: Fine-Tuning, 8 -  final check done 13.\u200bMaking AI Helpful and Harmless: Alignment & RLHF, 10 -  final check done 14.\u200bAI Teaching AI: The Future with RLAIF, 7 -  final check done 15.\u200bYour Journey as a Coder Continues, 6 -  final check done 16.\u200b Exercise I. 7 -  final check done 17.\u200b Bonus Chapter: Vibe coding, 11 -  final check done 18.\u200b Bonus Chapter: AI Agents, 8 -  final check done 19.\u200b Exercise II. 2 -  final check done \u25cf\u200bAppendix A: The Mathematician's Toolkit, 25 -  final check done \u25cf\u200bAppendix B: Your Coder's Launchpad, 6 -  final check done \u25cf\u200bAppendix C: A Whirlwind Tour of Python, 8 -  final check done \u25cf\u200bAppendix D: Vibe coding example with Gemini, 27 -  final check done \u25cf\u200bAppendix E: Definition and Implementation of Auxiliary Coding Agents, 11 -  final  done \u25cf\u200bAppendix F: The Engines of AI: GPUs, TPUs, and the Quest for Computational Power, 5 done \u25cf\u200bAppendix G: Developing Agents with Google ADK, 17 -  final  done \u25cf\u200bAppendix H: Leveraging Gemini to Redesign the Search UX, 15 - final  done \u25cf\u200bAppendix I: Guide to Google Antigravity, 8- final  done \u25cf\u200bAppendix L: Google Deep Research, 4 - final done \u25cf\u200bFurther Reading & Online Resources, 8 -  final check done \u25cf\u200bGlossary, 12 -  final check done \u25cf\u200bConclusion, 2  -  final check done ",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "ANSWER",
+            "importance": 0.55,
+            "text": "Foreword AI Design Patterns ",
+            "path": null,
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "title": "Firework AI Design ",
+        "level": 1,
+        "blocks": [
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "EXPLANATION",
+            "importance": 0.55,
+            "text": "A Beginner\u2019s Guide to Building Intelligence Through Patterns ",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "EXPLANATION",
+            "importance": 0.55,
+            "text": "Foreword by Richard Seroter ",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "EXPLANATION",
+            "importance": 0.5,
+            "text": "It\u2019s easy to find big, bold statements  about the potential of AI. Google CEO Sundar Pichai says 1",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "EXAMPLE",
+            "importance": 0.5,
+            "text": "that \u201cAI has the potential to be more transformative than electricity or fire.\u201d LinkedIn co-founder Reid Hoffman believes that \u201cAI is going to reshape every industry and every job.\u201d Microsoft CEO Satya Nadella proposes that \u201cAI is going to be the key to understanding and solving many of the world\u2019s most complex problems.\u201d And Jeff Bezos, founder of Amazon, optimistically claims that \u201cAI will enhance the ways humans experience the world.\u201d This isn\u2019t about the future, though; you\u2019re using AI today. The 2025 DORA State of AI-assisted Software Development  report 2",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "QUESTION",
+            "importance": 0.65,
+            "text": "shows that 90% of us are using AI in our daily work. It\u2019s never been easier to sprinkle some AI into our tools or applications. But is that ease leading us to treat AI as a magic black box that we simply consume? Should we know more about it?  I think we should. Are you a builder, or just a consumer? Most of us got into software development because of that rush we feel when building solutions to problems and seeing our ideas come to life on a screen. It\u2019s intoxicating! We ask questions, learn constantly, and take our builder role seriously. Why should AI be any different? Simply relying on someone else\u2019s AI API is insufficient. Our true power lies in understanding the fundamentals of AI/ML models\u2014its training, its biases, and its inner machinery. AI is too ubiquitous and important for today\u2019s software developer to simply be an abstraction we add to our architecture. We need to go deeper in a way that helps us know what these technologies are capable of.  We typically refer to \u201cfull-stack developers\u201d who work on both frontend and backend layers. I believe we\u2019re seeing the early days of full-stack AI developers. The stack extends from data preparation and model training, through smart tuning techniques, up to crafting applications from prompts, and orchestrating fleets of AI agents. Unlike any I\u2019ve ever seen, this book delivers a broad look at every layer of this stack in a way that any software developer can understand. As I read it, I was relieved to see a style and narrative that gives any \u201cregular\u201d developer like me the confidence to truly understand how to do things that I thought were only the realm of data scientists and mathematicians.  And this is important because it\u2019s easy for developers to stay surface-level with AI/ML. We have enough else on our plates already! But there are some meaningful fundamentals that we need to learn, and this book teaches us. How does classification differ from regression? How does a model actually \u201clearn\u201d? What in the world is a random forest and when do I employ one? What\u2019s your most important choice when finding groups in data when doing unsupervised learning? ",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "ANSWER",
+            "importance": 0.5,
+            "text": "2 https://cloud.google.com/resources/content/2025-dora-ai-assisted-software-development-report?hl=en ",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "EXPLANATION",
+            "importance": 0.5,
+            "text": "1 https://time.com/partner-article/7279245/15-quotes-on-the-future-of-ai/ ",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "QUESTION",
+            "importance": 0.65,
+            "text": "How would you train a neural network? What are the challenges and innovations in natural language processing? What are proven techniques for making AI more helpful and teaching it to answer the way we want? You\u2019ll be able to confidently answer every one of these questions when you\u2019re done reading this book.   Mastering these ideas makes you a far more formidable builder of AI solutions. Knowing the how of AI means you have a fresh, grounded perspective when using AI tools to write code, analyze existing systems, or generate documentation. You\u2019ll understand what a base model is truly capable of, and why (and how!) you might ground it with new information for your specific context. The future of software development involves building more AI applications and agents, and understanding the role of LLMs, tools, and effective prompts/instructions in agent design is an enviable skill that separates you from the pack.  The job market is shifting as companies determine how AI impacts their workforce. By investing in the fundamental knowledge found in this book, you are positioning yourself among the top-tier of developers who are well-versed in the most relevant technology transition of recent memory. Instead of letting AI happen to you, you are proactively embracing preparedness and mastering AI. You\u2019ll know how this critical technology works and how to apply it in the real world. This puts you ahead of the curve and in a position to help lead the charge within your company, alongside your colleagues, and across the industry at large.  This journey ahead isn\u2019t easy. Going through this entire book is a commitment. You\u2019ll need to learn entirely new terms, frameworks, and products. You\u2019ll have to go back and re-read a section two or three times to really absorb it. It\u2019s ok. I did too. But Antonio helpfully elevates the key points, and closes each chapter with insights that help us contextualize what we just read. I appreciate that he breaks down complex topics into digestible chunks. But we still have to avoid the tendency to skim over the more intense topics! Challenge yourself to follow every hands-on example, try every exercise, and marinate on each topic. You\u2019ll feel a massive sense of accomplishment if you do.  Stop consuming intelligence; start constructing it. Welcome to the new full-stack.  Richard Seroter, Senior Director and Chief Evangelist at Google Cloud     ",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "ANSWER",
+            "importance": 0.55,
+            "text": "Introduction ",
+            "path": null,
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "title": "Introduction ",
+        "level": 1,
+        "blocks": [
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "QUESTION",
+            "importance": 0.65,
+            "text": "Have you ever been amazed by how your phone instantly recognizes your face, or how streaming services like TikTok and YouTube always seem to know the perfect video to suggest next? This isn't magic\u2014it's Artificial Intelligence (AI), and it's already a seamless part of your daily life. ",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "DEFINITION",
+            "importance": 0.7,
+            "text": "For decades, interacting with computers meant speaking their language: precise, rigid code. That era is changing. The key driver of this revolutionary shift is Generative AI (GenAI). Instead of relying on step-by-step instructions, we are now teaching computers to learn, think, and discover complex patterns autonomously. It's moving from a rulebook model to a dynamic, learning brain. ",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "IMPORTANT",
+            "importance": 0.75,
+            "text": "Generative AI is the essential new literacy for the future, a superpower relevant to everyone. Understanding GenAI provides an incredible advantage whether your goal is to: ",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "EXPLANATION",
+            "importance": 0.5,
+            "text": "\u25cf\u200b Have fun: By creating more sophisticated game characters or generating breathtaking ",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "EXPLANATION",
+            "importance": 0.5,
+            "text": "AI art. \u25cf\u200b Excel at your studies: By leveraging AI tools for advanced research and homework ",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "EXPLANATION",
+            "importance": 0.5,
+            "text": "assistance. \u25cf\u200b Change the world: By applying AI to accelerate scientific breakthroughs, develop cures ",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "EXPLANATION",
+            "importance": 0.5,
+            "text": "for diseases, or combat climate change. ",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "EXAMPLE",
+            "importance": 0.55,
+            "text": "This book is your comprehensive, step-by-step guide to mastering this new language and demystifying the \"magic\" of AI. Our journey starts with the fundamental concept of training a computer through examples\u2014much like human learning\u2014and progresses through foundational algorithms like classification and linear prediction. We will then dive into the latest revolutions: Deep Learning, the powerful Transformer models, Agents and Vibe Coding. You will gain the skills to program your computer to make predictions, classify images, and uncover hidden data patterns. ",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "EXPLANATION",
+            "importance": 0.5,
+            "text": "By the end of this program, you will possess a full-stack coder's toolkit, including: ",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "EXPLANATION",
+            "importance": 0.5,
+            "text": "\u25cf\u200b The core algorithms, from Linear Regression basics to advanced LLM Alignment ",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "EXAMPLE",
+            "importance": 0.55,
+            "text": "methods (such as RLHF and RLAIF). \u25cf\u200b The necessary mathematical foundations (Linear Algebra, Calculus) and Python ",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "EXPLANATION",
+            "importance": 0.5,
+            "text": "environment setup for training models. \u25cf\u200b The modern development workflow, from collaborative Vibe Coding with an AI partner to ",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "EXPLANATION",
+            "importance": 0.5,
+            "text": "managing a full team of specialized Auxiliary Coding Agents. \u25cf\u200b An understanding of the powerful hardware (GPUs and TPUs) that enables these ",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "QUESTION",
+            "importance": 0.65,
+            "text": "massive models. \u25cf\u200b How to create working systems in 42 seconds or less: Focus on prompt-based code ",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "ANSWER",
+            "importance": 0.5,
+            "text": "1 ",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "EXPLANATION",
+            "importance": 0.5,
+            "text": "generation and the development of Agents, including \"vibe coding.\" ",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "DEFINITION",
+            "importance": 0.75,
+            "text": "Our central mission is to define the underlying design patterns of AI and serve as a beginner's guide to becoming an AI designer.  ",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "EXPLANATION",
+            "importance": 0.5,
+            "text": "You don't need to be a coding genius or a math expert to start this journey. All you need is curiosity. Are you ready to stop being merely a user of technology and transform into a creator? ",
+            "path": null,
+            "caption": ""
+          }
+        ],
+        "subsections": [
+          {
+            "title": "Chapters ",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "PARAGRAPH",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": "\u25cf\u200b Chapter 1: Teaching a Computer to Think: This chapter introduces the fundamental ",
+                "path": null,
+                "caption": ""
+              },
+              {
+                "type": "PARAGRAPH",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": "concepts of machine learning, contrasting it with traditional programming. It explains supervised, unsupervised, and reinforcement learning. \u25cf\u200b Chapter 2: Predicting the Future (with a Straight Line): This chapter delves into ",
+                "path": null,
+                "caption": ""
+              },
+              {
+                "type": "PARAGRAPH",
+                "semantic_label": "QUESTION",
+                "importance": 0.65,
+                "text": "linear regression, explaining how it can be used to predict numerical values by finding the \"line of best fit\" in a dataset. \u25cf\u200b Chapter 3: Is this a Cat or a Dog? The Power of Classification: This chapter ",
+                "path": null,
+                "caption": ""
+              },
+              {
+                "type": "PARAGRAPH",
+                "semantic_label": "EXAMPLE",
+                "importance": 0.55,
+                "text": "focuses on classification problems, using the K-Nearest Neighbors (KNN) algorithm as an example to predict categories. \u25cf\u200b Chapter 4: Making Decisions Like a Pro with Decision Trees: This chapter ",
+                "path": null,
+                "caption": ""
+              },
+              {
+                "type": "PARAGRAPH",
+                "semantic_label": "QUESTION",
+                "importance": 0.65,
+                "text": "introduces decision trees as a way to make predictions by creating a flowchart of \"if-then\" rules. \u25cf\u200b Chapter 5: The Wisdom of the Crowd: Random Forests: This chapter explains how ",
+                "path": null,
+                "caption": ""
+              },
+              {
+                "type": "PARAGRAPH",
+                "semantic_label": "DEFINITION",
+                "importance": 0.7,
+                "text": "random forests, an ensemble of many decision trees, can make more accurate and robust predictions. \u25cf\u200b Chapter 6: Finding Groups in Your Data: K-Means Clustering: This chapter covers ",
+                "path": null,
+                "caption": ""
+              },
+              {
+                "type": "PARAGRAPH",
+                "semantic_label": "DEFINITION",
+                "importance": 0.7,
+                "text": "K-Means clustering, an unsupervised learning algorithm for finding hidden groups in unlabeled data. \u25cf\u200b Chapter 7: Your First Artificial Brain: Introduction to Neural Networks: This ",
+                "path": null,
+                "caption": ""
+              },
+              {
+                "type": "PARAGRAPH",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.65,
+                "text": "chapter introduces the basic building blocks of neural networks, explaining how artificial neurons work and how they are organized into layers. \u25cf\u200b Chapter 8: Deep Learning and Computer Vision: This chapter explores ",
+                "path": null,
+                "caption": ""
+              },
+              {
+                "type": "PARAGRAPH",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": "Convolutional Neural Networks (CNNs) and their application in computer vision tasks like image classification. \u25cf\u200b Chapter 9: Understanding Human Language: Natural Language Processing ",
+                "path": null,
+                "caption": ""
+              },
+              {
+                "type": "PARAGRAPH",
+                "semantic_label": "QUESTION",
+                "importance": 0.7000000000000001,
+                "text": "(NLP): This chapter delves into NLP, explaining how to convert text into numerical data for machine learning models. \u25cf\u200b Chapter 10: Introducing Transformers: The \"Attention\" Revolution: This chapter ",
+                "path": null,
+                "caption": ""
+              },
+              {
+                "type": "PARAGRAPH",
+                "semantic_label": "QUESTION",
+                "importance": 0.65,
+                "text": "explains the Transformer architecture and its self-attention mechanism, which revolutionized the field of NLP. \u25cf\u200b Chapter 11: Building the Library of Everything: LLM Pre-Training: This chapter ",
+                "path": null,
+                "caption": ""
+              },
+              {
+                "type": "PARAGRAPH",
+                "semantic_label": "QUESTION",
+                "importance": 0.65,
+                "text": "describes the pre-training process of large language models (LLMs) and how they acquire vast \"world knowledge.\" ",
+                "path": null,
+                "caption": ""
+              },
+              {
+                "type": "PARAGRAPH",
+                "semantic_label": "ANSWER",
+                "importance": 0.5,
+                "text": "2 ",
+                "path": null,
+                "caption": ""
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p1_i0.png]",
+                "caption": "IMAGE: image_p1_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p21_i0.png]",
+                "caption": "IMAGE: image_p21_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p22_i0.png]",
+                "caption": "IMAGE: image_p22_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p23_i0.png]",
+                "caption": "IMAGE: image_p23_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p24_i0.png]",
+                "caption": "IMAGE: image_p24_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p29_i0.png]",
+                "caption": "IMAGE: image_p29_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p30_i0.png]",
+                "caption": "IMAGE: image_p30_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p37_i0.png]",
+                "caption": "IMAGE: image_p37_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p40_i0.png]",
+                "caption": "IMAGE: image_p40_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p44_i0.png]",
+                "caption": "IMAGE: image_p44_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p53_i0.png]",
+                "caption": "IMAGE: image_p53_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p56_i0.png]",
+                "caption": "IMAGE: image_p56_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p62_i0.png]",
+                "caption": "IMAGE: image_p62_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p65_i0.png]",
+                "caption": "IMAGE: image_p65_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p76_i0.png]",
+                "caption": "IMAGE: image_p76_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p78_i0.png]",
+                "caption": "IMAGE: image_p78_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p83_i0.png]",
+                "caption": "IMAGE: image_p83_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p84_i0.png]",
+                "caption": "IMAGE: image_p84_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p86_i0.png]",
+                "caption": "IMAGE: image_p86_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p89_i0.png]",
+                "caption": "IMAGE: image_p89_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p90_i0.png]",
+                "caption": "IMAGE: image_p90_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p96_i0.png]",
+                "caption": "IMAGE: image_p96_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p99_i0.png]",
+                "caption": "IMAGE: image_p99_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p109_i0.png]",
+                "caption": "IMAGE: image_p109_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p115_i0.png]",
+                "caption": "IMAGE: image_p115_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p120_i0.png]",
+                "caption": "IMAGE: image_p120_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p121_i0.png]",
+                "caption": "IMAGE: image_p121_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p127_i0.png]",
+                "caption": "IMAGE: image_p127_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p138_i0.png]",
+                "caption": "IMAGE: image_p138_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p142_i0.png]",
+                "caption": "IMAGE: image_p142_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p142_i1.png]",
+                "caption": "IMAGE: image_p142_i1.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p152_i0.png]",
+                "caption": "IMAGE: image_p152_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p172_i0.png]",
+                "caption": "IMAGE: image_p172_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p177_i0.png]",
+                "caption": "IMAGE: image_p177_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p186_i0.png]",
+                "caption": "IMAGE: image_p186_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p196_i0.png]",
+                "caption": "IMAGE: image_p196_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p242_i0.png]",
+                "caption": "IMAGE: image_p242_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p245_i0.png]",
+                "caption": "IMAGE: image_p245_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p251_i0.png]",
+                "caption": "IMAGE: image_p251_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p252_i0.png]",
+                "caption": "IMAGE: image_p252_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p255_i0.png]",
+                "caption": "IMAGE: image_p255_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p255_i1.png]",
+                "caption": "IMAGE: image_p255_i1.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p257_i0.png]",
+                "caption": "IMAGE: image_p257_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p257_i1.png]",
+                "caption": "IMAGE: image_p257_i1.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p258_i0.png]",
+                "caption": "IMAGE: image_p258_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p258_i1.png]",
+                "caption": "IMAGE: image_p258_i1.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p259_i0.png]",
+                "caption": "IMAGE: image_p259_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p259_i1.png]",
+                "caption": "IMAGE: image_p259_i1.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p286_i0.png]",
+                "caption": "IMAGE: image_p286_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p287_i0.png]",
+                "caption": "IMAGE: image_p287_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p334_i0.png]",
+                "caption": "IMAGE: image_p334_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p347_i0.png]",
+                "caption": "IMAGE: image_p347_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p348_i0.png]",
+                "caption": "IMAGE: image_p348_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p350_i0.png]",
+                "caption": "IMAGE: image_p350_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p351_i0.png]",
+                "caption": "IMAGE: image_p351_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p352_i0.png]",
+                "caption": "IMAGE: image_p352_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p359_i0.png]",
+                "caption": "IMAGE: image_p359_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p363_i0.png]",
+                "caption": "IMAGE: image_p363_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p364_i0.png]",
+                "caption": "IMAGE: image_p364_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p365_i0.png]",
+                "caption": "IMAGE: image_p365_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p366_i0.png]",
+                "caption": "IMAGE: image_p366_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p367_i0.png]",
+                "caption": "IMAGE: image_p367_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p368_i0.png]",
+                "caption": "IMAGE: image_p368_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p372_i0.png]",
+                "caption": "IMAGE: image_p372_i0.png"
+              },
+              {
+                "type": "IMAGE",
+                "semantic_label": "EXPLANATION",
+                "importance": 0.5,
+                "text": null,
+                "path": "[IMAGE: image_p373_i0.png]",
+                "caption": "IMAGE: image_p373_i0.png"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "num_pages": 405,
+    "has_tables": false,
+    "has_images": true,
+    "has_lists": false,
+    "languages": [
+      "en"
+    ],
+    "confidence": 0.39873265219242227,
+    "processing_time": 0.04624509811401367
+  },
+  "warnings": []
+}
