@@ -1,4 +1,4 @@
-```markdown
+
 # Document Understanding Agent (DUA)
 
 > Transform raw PDFs -> Structured Semantic Documents ready for other Agents
