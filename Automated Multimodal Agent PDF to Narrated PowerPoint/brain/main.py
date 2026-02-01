@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Initialize Mistral client
-api_key = os.getenv("MISTRAL_API_KEY")
+api_key = os.getenv("oLkrmVZUB7vIsTkuDHzj0umj4XivvobI")
 if not api_key:
     raise ValueError("MISTRAL_API_KEY environment variable not set. Please set it in a .env file or environment.")
 

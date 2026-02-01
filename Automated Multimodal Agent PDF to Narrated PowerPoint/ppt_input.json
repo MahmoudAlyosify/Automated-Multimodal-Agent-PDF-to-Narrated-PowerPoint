@@ -1,0 +1,105 @@
+{
+  "ppt": {
+    "size": {
+      "width": 960,
+      "height": 540,
+      "unit": "px"
+    },
+    "defaultUnit": "px",
+    "slides": [
+      {
+        "title": "Machine Learning Overview",
+        "elements": [
+          {
+            "type": "text",
+            "text": "Introduction to Machine Learning",
+            "box": {
+              "x": 50,
+              "y": 50,
+              "w": 860,
+              "h": 80
+            },
+            "style": {
+              "fontSize": 40,
+              "bold": true,
+              "align": "center"
+            }
+          },
+          {
+            "type": "text",
+            "text": "A comprehensive guide to AI and machine learning concepts",
+            "box": {
+              "x": 50,
+              "y": 150,
+              "w": 860,
+              "h": 50
+            },
+            "style": {
+              "fontSize": 18,
+              "align": "center"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Key Concepts",
+        "elements": [
+          {
+            "type": "text",
+            "text": "Supervised Learning",
+            "box": {
+              "x": 50,
+              "y": 50,
+              "w": 400,
+              "h": 50
+            },
+            "style": {
+              "fontSize": 24,
+              "bold": true
+            }
+          },
+          {
+            "type": "text",
+            "text": "Learning from labeled training data",
+            "box": {
+              "x": 50,
+              "y": 110,
+              "w": 400,
+              "h": 80
+            },
+            "style": {
+              "fontSize": 14
+            }
+          },
+          {
+            "type": "text",
+            "text": "Unsupervised Learning",
+            "box": {
+              "x": 510,
+              "y": 50,
+              "w": 400,
+              "h": 50
+            },
+            "style": {
+              "fontSize": 24,
+              "bold": true
+            }
+          },
+          {
+            "type": "text",
+            "text": "Finding patterns in unlabeled data",
+            "box": {
+              "x": 510,
+              "y": 110,
+              "w": 400,
+              "h": 80
+            },
+            "style": {
+              "fontSize": 14
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

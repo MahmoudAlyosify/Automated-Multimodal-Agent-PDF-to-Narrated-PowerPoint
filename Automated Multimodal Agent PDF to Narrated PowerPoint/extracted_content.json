@@ -1,0 +1,112 @@
+{
+  "document_tree": {
+    "sections": [
+      {
+        "title": "Document Content",
+        "level": 1,
+        "blocks": [
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "EXPLANATION",
+            "importance": 0.5,
+            "text": "Introduction to Machine Learning",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "EXPLANATION",
+            "importance": 0.5,
+            "text": "Machine Learning is a subset of artificial intelligence that focuses on the development of algorithms and statistical models that enable computers to improve their performance on tasks through experience.",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "EXPLANATION",
+            "importance": 0.5,
+            "text": "Key Concepts:- Supervised Learning: Learning from labeled data- Unsupervised Learning: Finding patterns in unlabeled data- Reinforcement Learning: Learning through interaction with environment",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "EXPLANATION",
+            "importance": 0.5,
+            "text": "Applications of Machine Learning",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "EXPLANATION",
+            "importance": 0.5,
+            "text": "1. Natural Language Processing   - Text classification   - Sentiment analysis   - Machine translation",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "EXPLANATION",
+            "importance": 0.5,
+            "text": "2. Computer Vision   - Image recognition   - Object detection   - Face recognition",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "EXPLANATION",
+            "importance": 0.5,
+            "text": "3. Predictive Analytics   - Stock price prediction   - Customer behavior analysis   - Demand forecasting",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "EXPLANATION",
+            "importance": 0.5,
+            "text": "Future of Machine Learning",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "EXPLANATION",
+            "importance": 0.5,
+            "text": "The future of machine learning holds tremendous potential:",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "LIST",
+            "semantic_label": "EXPLANATION",
+            "importance": 0.5,
+            "text": "- Deep Learning: Neural networks with multiple layers- Quantum Machine Learning: Utilizing quantum computing- Federated Learning: Training on distributed data- Explainable AI: Making models more interpretable",
+            "path": null,
+            "caption": ""
+          },
+          {
+            "type": "PARAGRAPH",
+            "semantic_label": "EXPLANATION",
+            "importance": 0.5,
+            "text": "These advancements will shape the technology landscape for decades to come.",
+            "path": null,
+            "caption": ""
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "num_pages": 3,
+    "has_tables": false,
+    "has_images": false,
+    "has_lists": true,
+    "languages": [
+      "en"
+    ],
+    "confidence": 0.5216666666666666,
+    "processing_time": 0.011688232421875
+  },
+  "warnings": []
+}
