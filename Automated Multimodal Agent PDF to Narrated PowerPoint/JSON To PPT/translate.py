@@ -1,0 +1,127 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Translate Chinese comments to English"""
+
+# Define all replacements
+replacements = [
+    ('# 可选 jsonschema 校验', '# Optional jsonschema validation'),
+    ('except ImportError:  # 允许缺失', 'except ImportError:  # Allow missing'),
+    ('_THEME: Dict[str, Any] = {}  # 全局主题配置', '_THEME: Dict[str, Any] = {}  # Global theme configuration'),
+    ('# 安全/资源限制（可通过环境变量覆盖）', '# Security/Resource limits (can be overridden by environment variables)'),
+    ('ASSET_ROOT = os.environ.get("JSON2PPT_ASSET_ROOT")  # 若设置则 file: 必须在此目录内', 'ASSET_ROOT = os.environ.get("JSON2PPT_ASSET_ROOT")  # If set, file: must be in this directory'),
+    ('SCHEMA_CACHE: Optional[Dict[str, Any]] = None  # 缓存 schema', 'SCHEMA_CACHE: Optional[Dict[str, Any]] = None  # Cached schema'),
+    ('"""转换颜色值，支持主题变量引用"""', '"""Convert color values, supports theme variable references"""'),
+    ('# 支持主题颜色变量 $primary, $secondary等', '# Support theme color variables like $primary, $secondary, etc.'),
+    ('elif len(c) == 8:  # 支持RGBA', 'elif len(c) == 8:  # Support RGBA'),
+    ('"""应用渐变效果"""', '"""Apply gradient effect"""'),
+    ('# 清除默认stops并添加新的', '# Clear default stops and add new ones'),
+    ('position = stop.get("position", 0) / 100.0  # 转换为0-1', 'position = stop.get("position", 0) / 100.0  # Convert to 0-1'),
+    ('"""应用阴影效果"""', '"""Apply shadow effect"""'),
+    ('"""应用旋转"""', '"""Apply rotation"""'),
+    ('"""应用透明度"""', '"""Apply opacity"""'),
+    ('# python-pptx的透明度设置比较复杂，需要通过fill', '# Opacity settings in python-pptx are complex, need to use fill'),
+    ('"""应用超链接"""', '"""Apply hyperlink"""'),
+    ('# 幻灯片内部链接需要特殊处理', '# Slide internal links need special handling'),
+    ('"""应用边框"""', '"""Apply border"""'),
+    ('# python-pptx不直接支持double', '# python-pptx does not directly support double'),
+    ('# 支持主题字体', '# Support theme fonts'),
+    ('"""扩展形状类型映射"""', '"""Extended shape type mapping"""'),
+    ('# 简单 host 匹配或子域匹配', '# Simple host or subdomain matching'),
+    ('# 自动补齐缺失的 \'=\' padding', '# Auto-pad missing padding'),
+    ('# 再尝试忽略非 base64 字符', '# Try ignoring non-base64 characters'),
+    ('# 背景色', '# Background color'),
+    ('# 背景渐变', '# Background gradient'),
+    ('# 背景图片', '# Background image'),
+    ('# 应用图片效果', '# Apply image effects'),
+    ('# 将图片移到最底层', '# Move image to bottom layer'),
+    ('"""应用基础元素属性"""', '"""Apply basic element properties"""'),
+    ('# 旋转', '# Rotation'),
+    ('# 透明度', '# Opacity'),
+    ('# 阴影', '# Shadow'),
+    ('# 超链接', '# Hyperlink'),
+    ('# 应用基础属性', '# Apply basic properties'),
+    ('# 背景和边框', '# Background and border'),
+    ('# 内边距', '# Padding'),
+    ('# 垂直对齐', '# Vertical alignment'),
+    ('# 列表处理', '# Handle list'),
+    ('# 缩进', '# Indentation'),
+    ('# 边框', '# Border'),
+    ('# 图片裁剪（python-pptx支持有限）', '# Image cropping (python-pptx support is limited)'),
+    ('# 需要更复杂的实现', '# More complex implementation needed'),
+    ('# 对于圆形，确保宽高相等', '# For circles, ensure width and height are equal'),
+    ('# 填充', '# Fill'),
+    ('# 渐变', '# Gradient'),
+    ('"""添加线条元素"""', '"""Add line element"""'),
+    ('# 简化实现：只画第一条线段', '# Simplified implementation: only draw first line segment'),
+    ('# 线条样式', '# Line style'),
+    ('"""添加图标元素（简化实现：使用形状代替）"""', '"""Add icon element (simplified: use shape instead)"""'),
+    ('# 使用圆形作为图标占位符', '# Use circle as icon placeholder'),
+    ('# 颜色', '# Color'),
+    ('"""添加组元素（递归处理子元素）"""', '"""Add group element (recursively handle sub-elements)"""'),
+    ('# python-pptx不直接支持组，所以我们依次添加元素', '# python-pptx does not directly support groups, so we add elements sequentially'),
+    ('# 表格边框', '# Table border'),
+    ('# python-pptx表格边框设置比较复杂', '# python-pptx table border settings are complex'),
+    ('"""添加图表，支持常见分类/XY/气泡类型，增强健壮性防止空图。"""', '"""Add chart, support common category/XY/bubble types, enhanced robustness to prevent empty charts."""'),
+    ('# 预处理：去除 None / 非数字（保留可转 float）', '# Preprocess: remove None / non-numeric (keep convertible to float)'),
+    ('# 非数字转 None', '# Convert non-numeric to None'),
+    ('# 分类型图表集合', '# Categorical chart set'),
+    ('# XY / 散点 / 气泡类型检测（通过映射的枚举名称）', '# XY / scatter / bubble type detection (via mapped enum names)'),
+    ('# 气泡：每个点需要 (x, y, size)', '# Bubble: each point needs (x, y, size)'),
+    ('# 气泡图无 categories，按 series 顺序', '# Bubble chart has no categories, order by series'),
+    ('# 强制一个空系列避免 PPTX 生成空框', '# Force an empty series to avoid PPTX generating empty box'),
+    ('# 允许 values 为 [ {x:.., y:.., size:..}, ... ] 或 [[x,y,size], ...]', '# Allow values in [{x:.., y:.., size:..}, ...] or [[x,y,size], ...]'),
+    ('# 没有有效点', '# No valid points'),
+    ('# 分类图', '# Categorical chart'),
+    ('# 空 categories 但有 series，以 series 长度推一个序号分类', '# No categories but have series, infer sequential categories from series length'),
+    ('# 修剪 / 填充长度', '# Trim / pad length'),
+    ('# 如果没有系列生成一个空系列确保渲染框', '# If no series, generate an empty series to ensure rendering'),
+    ('# 回退到一个空的默认柱状图，避免整个生成失败', '# Fall back to empty default bar chart to avoid complete generation failure'),
+    ('# 图例', '# Legend'),
+    ('# 设置图例位置', '# Set legend position'),
+    ('# 数据标签', '# Data labels'),
+    ('# 网格线', '# Grid lines'),
+    ('# 值轴', '# Value axis'),
+    ('# 分类轴', '# Category axis'),
+    ('# 设置系列颜色和样式', '# Set series color and style'),
+    ('# 从series配置获取颜色', '# Get color from series config'),
+    ('# 从options.colors获取颜色', '# Get color from options.colors'),
+    ('# PIE / DOUGHNUT 使用 points 着色', '# PIE / DOUGHNUT use points coloring'),
+    ('# 雷达 / 线图等保证 markers/line', '# Radar / line chart, etc., ensure markers/line'),
+    ('# 暂不实现图表渐变，保留结构', '# Chart gradient not implemented yet, preserve structure'),
+    ('"""添加视频元素（占位符实现）"""', '"""Add video element (placeholder implementation)"""'),
+    ('# python-pptx的视频支持有限，使用占位符', '# python-pptx video support is limited, use placeholder'),
+    ('# 添加文字说明', '# Add text description'),
+    ('"""添加SmartArt元素（简化实现）"""', '"""Add SmartArt element (simplified implementation)"""'),
+    ('# python-pptx不直接支持SmartArt，使用形状组合模拟', '# python-pptx does not directly support SmartArt, use shape combination to simulate'),
+    ('# 这里简化为列表展示', '# Simplified as list display'),
+    ('# 添加形状', '# Add shape'),
+    ('# 设置颜色', '# Set color'),
+    ('# 添加文本', '# Add text'),
+    ('"""应用幻灯片过渡效果（python-pptx支持有限）"""', '"""Apply slide transition effects (python-pptx support is limited)"""'),
+    ('# python-pptx不直接支持过渡效果', '# python-pptx does not directly support transition effects'),
+    ('# 需要通过XML操作来实现', '# Need to implement via XML manipulation'),
+    ('"""构建单个幻灯片的PPT，用于预览"""', '"""Build single slide PPT for preview"""'),
+    ('# 设置全局主题', '# Set global theme'),
+    ('# 设置幻灯片尺寸', '# Set slide size'),
+    ('# 只构建指定的幻灯片', '# Only build specified slide'),
+    ('# 背景', '# Background'),
+    ('# 过渡效果', '# Transition effect'),
+    ('# 处理元素（支持zIndex排序）', '# Handle elements (support zIndex sorting)'),
+]
+
+def translate_file(filepath):
+    """Translate Chinese to English in the given file"""
+    with open(filepath, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    for old, new in replacements:
+        content = content.replace(old, new)
+    
+    with open(filepath, 'w', encoding='utf-8') as f:
+        f.write(content)
+    
+    print(f"Translated {filepath}")
+
+if __name__ == '__main__':
+    translate_file('main.py')
+    translate_file('gui.py')

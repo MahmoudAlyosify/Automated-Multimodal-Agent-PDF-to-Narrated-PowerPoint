@@ -1,0 +1,139 @@
+Instruction to AI Agent (Execute Exactly as Written):
+
+Run this program across the entire system. Treat each component as an independent AI agent with a clearly defined responsibility.
+
+System Overview
+
+The system is composed of multiple AI agents.
+
+The most critical component, referred to as the “brain”, has not been implemented yet and must be created.
+
+The system must be modular, folder-based, and agent-driven.
+
+1. Document Understanding Agent
+
+There is an existing folder named document_understanding_agent.
+
+This agent is responsible for:
+
+Reading and understanding PDF files.
+
+Extracting structured information from PDFs.
+
+Producing a clean, structured JSON output that represents the extracted content.
+
+The output JSON must be machine-readable and ready for downstream agents.
+
+2. Brain Agent (Primary Client)
+
+Create a new folder for the primary client called brain.
+
+This agent represents the central reasoning and orchestration unit of the system.
+
+The brain must be implemented using Mistral AI 7B.
+
+Responsibilities of the brain agent:
+
+Receive JSON output from document_understanding_agent.
+
+Analyze and reason over the extracted content.
+
+Generate presentation-ready slide definitions as JSON.
+
+Decide:
+
+Number of slides
+
+Slide titles
+
+Layout structure
+
+Text content
+
+Colors
+
+Font sizes
+
+Element positioning
+
+Visual hierarchy
+
+3. Slide JSON Specification
+
+The brain agent must output slide data strictly in JSON format.
+
+The JSON must fully describe the presentation, including:
+
+Presentation size
+
+Units
+
+Theme colors
+
+Slide backgrounds
+
+All slide elements (text, layout, styles)
+
+Use the following JSON structure as the exact reference and standard for output format and level of detail:
+
+{
+  "ppt": {
+    "size": { "width": 1280, "height": 720, "unit": "px" },
+    "defaultUnit": "px",
+    "theme": {
+      "colors": {
+        "primary": "#0066CC",
+        "secondary": "#FF6B35",
+        "accent": "#00D9FF",
+        "dark": "#1A1A2E",
+        "light": "#FFFFFF"
+      }
+    },
+    "slides": [
+      {
+        "id": "slide-1",
+        "title": "Title Slide",
+        "background": { "color": "#0066CC" },
+        "elements": [
+          {
+            "type": "text",
+            "text": "AI & Generative AI",
+            "box": { "x": 100, "y": 200, "w": 1080, "h": 120 },
+            "style": { "fontSize": 72, "align": "center", "bold": true, "color": "#FFFFFF" }
+          }
+        ]
+      }
+    ]
+  }
+}
+
+
+All generated slides must follow this schema exactly.
+
+4. PPT Conversion Agent
+
+Once the slide JSON is generated:
+
+Transfer the JSON from the brain agent to the PPT conversion agent.
+
+This transfer and workflow must follow the specifications described in:
+
+Project Definition.pdf
+
+Tool and API Exploration.pdf
+
+The PPT conversion agent’s only responsibility is to convert the JSON into a PowerPoint file.
+
+The PPT agent must not modify content, layout, or styling decisions.
+
+Execution Rules
+
+Follow instructions literally and sequentially.
+
+Do not skip steps.
+
+Do not merge agent responsibilities.
+
+Do not introduce additional formats beyond JSON.
+
+Maintain strict separation of concerns between agents.

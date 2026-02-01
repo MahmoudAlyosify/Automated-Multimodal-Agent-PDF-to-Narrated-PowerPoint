@@ -1,0 +1,286 @@
+{
+  "ppt": {
+    "size": {"width": 1280, "height": 720, "unit": "px"},
+    "defaultUnit": "px",
+    "theme": {
+      "colors": {
+        "primary": "#0066CC",
+        "secondary": "#FF6B35",
+        "accent": "#00D9FF",
+        "dark": "#1A1A2E",
+        "light": "#FFFFFF"
+      }
+    },
+    "slides": [
+      {
+        "id": "slide-1",
+        "title": "Title Slide",
+        "background": {
+          "color": "#0066CC"
+        },
+        "elements": [
+          {
+            "type": "text",
+            "text": "AI & Generative AI",
+            "box": {"x": 100, "y": 200, "w": 1080, "h": 120},
+            "style": {"fontSize": 72, "align": "center", "bold": true, "color": "#FFFFFF"}
+          },
+          {
+            "type": "text",
+            "text": "The Future of Intelligence in 2027",
+            "box": {"x": 100, "y": 350, "w": 1080, "h": 80},
+            "style": {"fontSize": 44, "align": "center", "color": "#00D9FF"}
+          },
+          {
+            "type": "text",
+            "text": "Trends, Applications & Impact",
+            "box": {"x": 100, "y": 480, "w": 1080, "h": 60},
+            "style": {"fontSize": 28, "align": "center", "color": "#E0E0E0"}
+          }
+        ]
+      },
+      {
+        "id": "slide-2",
+        "title": "What is Generative AI?",
+        "background": {"color": "#FFFFFF"},
+        "elements": [
+          {
+            "type": "text",
+            "text": "What is Generative AI?",
+            "box": {"x": 50, "y": 30, "w": 1180, "h": 60},
+            "style": {"fontSize": 48, "bold": true, "color": "#0066CC"}
+          },
+          {
+            "type": "text",
+            "text": "Generative AI uses machine learning models to create new content:",
+            "box": {"x": 80, "y": 120, "w": 1120, "h": 50},
+            "style": {"fontSize": 24, "color": "#1A1A2E"}
+          },
+          {
+            "type": "text",
+            "text": "• Text: Essays, Code, Stories\n• Images: Photos, Art, Designs\n• Video: Animations, Deepfakes\n• Audio: Music, Voice Synthesis\n• Data: Synthetic Training Data",
+            "box": {"x": 150, "y": 200, "w": 1000, "h": 350},
+            "style": {"fontSize": 22, "color": "#333333", "align": "left"}
+          }
+        ]
+      },
+      {
+        "id": "slide-3",
+        "title": "GenAI Market Growth",
+        "background": {"color": "#F5F5F5"},
+        "elements": [
+          {
+            "type": "text",
+            "text": "Market Growth Projections",
+            "box": {"x": 50, "y": 30, "w": 1180, "h": 60},
+            "style": {"fontSize": 48, "bold": true, "color": "#0066CC"}
+          },
+          {
+            "type": "chart",
+            "chartType": "bar",
+            "box": {"x": 100, "y": 120, "w": 1080, "h": 550},
+            "data": {
+              "categories": ["2023", "2024", "2025", "2026", "2027"],
+              "series": [
+                {
+                  "name": "Market Size (Billions USD)",
+                  "values": [14, 42, 98, 180, 310]
+                }
+              ]
+            },
+            "chartOptions": {
+              "colors": ["#FF6B35"]
+            }
+          }
+        ]
+      },
+      {
+        "id": "slide-4",
+        "title": "Key Technologies in 2027",
+        "background": {"color": "#FFFFFF"},
+        "elements": [
+          {
+            "type": "text",
+            "text": "Key Technologies Advancing in 2027",
+            "box": {"x": 50, "y": 30, "w": 1180, "h": 60},
+            "style": {"fontSize": 48, "bold": true, "color": "#0066CC"}
+          },
+          {
+            "type": "shape",
+            "shapeType": "rect",
+            "box": {"x": 100, "y": 130, "w": 350, "h": 200},
+            "fill": "#0066CC",
+            "border": {"color": "#003399", "width": 2}
+          },
+          {
+            "type": "text",
+            "text": "Large Language Models\n(LLMs)\n\nGPT-7, Claude 3+\nMultilingual & Multimodal",
+            "box": {"x": 100, "y": 130, "w": 350, "h": 200},
+            "style": {"fontSize": 18, "align": "center", "color": "#FFFFFF", "bold": true}
+          },
+          {
+            "type": "shape",
+            "shapeType": "rect",
+            "box": {"x": 500, "y": 130, "w": 350, "h": 200},
+            "fill": "#FF6B35",
+            "border": {"color": "#CC4400", "width": 2}
+          },
+          {
+            "type": "text",
+            "text": "Multimodal AI\n\nText + Image + Video\nUnified Understanding",
+            "box": {"x": 500, "y": 130, "w": 350, "h": 200},
+            "style": {"fontSize": 18, "align": "center", "color": "#FFFFFF", "bold": true}
+          },
+          {
+            "type": "shape",
+            "shapeType": "rect",
+            "box": {"x": 900, "y": 130, "w": 280, "h": 200},
+            "fill": "#00D9FF",
+            "border": {"color": "#0099CC", "width": 2}
+          },
+          {
+            "type": "text",
+            "text": "Edge AI\n\nOn-Device Models\nPrivacy-First",
+            "box": {"x": 900, "y": 130, "w": 280, "h": 200},
+            "style": {"fontSize": 18, "align": "center", "color": "#1A1A2E", "bold": true}
+          },
+          {
+            "type": "shape",
+            "shapeType": "rect",
+            "box": {"x": 100, "y": 380, "w": 350, "h": 200},
+            "fill": "#6B0066",
+            "border": {"color": "#4A0044", "width": 2}
+          },
+          {
+            "type": "text",
+            "text": "Reasoning AI\n\nChain-of-Thought\nComplex Problem Solving",
+            "box": {"x": 100, "y": 380, "w": 350, "h": 200},
+            "style": {"fontSize": 18, "align": "center", "color": "#FFFFFF", "bold": true}
+          },
+          {
+            "type": "shape",
+            "shapeType": "rect",
+            "box": {"x": 500, "y": 380, "w": 350, "h": 200},
+            "fill": "#009900",
+            "border": {"color": "#006600", "width": 2}
+          },
+          {
+            "type": "text",
+            "text": "Agentic AI\n\nAutonomous Systems\nGoal-Oriented Tasks",
+            "box": {"x": 500, "y": 380, "w": 350, "h": 200},
+            "style": {"fontSize": 18, "align": "center", "color": "#FFFFFF", "bold": true}
+          },
+          {
+            "type": "shape",
+            "shapeType": "rect",
+            "box": {"x": 900, "y": 380, "w": 280, "h": 200},
+            "fill": "#FF9900",
+            "border": {"color": "#CC6600", "width": 2}
+          },
+          {
+            "type": "text",
+            "text": "Efficient LLMs\n\nSmaller Models\nLow Power Usage",
+            "box": {"x": 900, "y": 380, "w": 280, "h": 200},
+            "style": {"fontSize": 18, "align": "center", "color": "#FFFFFF", "bold": true}
+          }
+        ]
+      },
+      {
+        "id": "slide-5",
+        "title": "Industry Applications",
+        "background": {"color": "#F5F5F5"},
+        "elements": [
+          {
+            "type": "text",
+            "text": "GenAI Applications Across Industries",
+            "box": {"x": 50, "y": 30, "w": 1180, "h": 60},
+            "style": {"fontSize": 48, "bold": true, "color": "#0066CC"}
+          },
+          {
+            "type": "chart",
+            "chartType": "pie",
+            "box": {"x": 50, "y": 120, "w": 550, "h": 550},
+            "data": {
+              "categories": ["Healthcare", "Finance", "Enterprise", "Creative", "Education", "Other"],
+              "series": [
+                {
+                  "name": "Investment %",
+                  "values": [22, 18, 25, 15, 12, 8]
+                }
+              ]
+            }
+          },
+          {
+            "type": "text",
+            "text": "Key Use Cases:\n\n✓ Healthcare: Drug discovery, diagnostics\n✓ Finance: Fraud detection, trading\n✓ Enterprise: Automation, customer service\n✓ Creative: Content, design, media\n✓ Education: Tutoring, assessment",
+            "box": {"x": 650, "y": 150, "w": 580, "h": 500},
+            "style": {"fontSize": 20, "color": "#333333", "align": "left"}
+          }
+        ]
+      },
+      {
+        "id": "slide-6",
+        "title": "Challenges & Concerns",
+        "background": {"color": "#FFFFFF"},
+        "elements": [
+          {
+            "type": "text",
+            "text": "Challenges & Ethical Concerns",
+            "box": {"x": 50, "y": 30, "w": 1180, "h": 60},
+            "style": {"fontSize": 48, "bold": true, "color": "#FF6B35"}
+          },
+          {
+            "type": "text",
+            "text": "⚠ Bias & Fairness: AI models may reflect training data biases\n\n⚠ Data Privacy: Large data requirements raise privacy concerns\n\n⚠ Job Displacement: Automation affecting workforce\n\n⚠ Misinformation: Deepfakes and synthetic content\n\n⚠ Energy Consumption: Training models requires significant power\n\n⚠ Regulation: Laws and policies still catching up\n\n⚠ Security: Adversarial attacks and model theft",
+            "box": {"x": 120, "y": 130, "w": 1040, "h": 550},
+            "style": {"fontSize": 22, "color": "#333333", "align": "left"}
+          }
+        ]
+      },
+      {
+        "id": "slide-7",
+        "title": "Future Outlook",
+        "background": {"color": "#0066CC"},
+        "elements": [
+          {
+            "type": "text",
+            "text": "The Road Ahead: 2027 & Beyond",
+            "box": {"x": 50, "y": 30, "w": 1180, "h": 60},
+            "style": {"fontSize": 48, "bold": true, "color": "#FFFFFF"}
+          },
+          {
+            "type": "text",
+            "text": "Expected Developments:\n\n→ Superintelligent AI systems emerging\n→ Human-AI collaboration becomes mainstream\n→ Personalized AI assistants for every professional\n→ Real-time language translation solved\n→ AI-generated media indistinguishable from real\n→ Universal income discussions accelerate\n→ Global AI governance frameworks established",
+            "box": {"x": 120, "y": 130, "w": 1040, "h": 550},
+            "style": {"fontSize": 24, "color": "#E0E0E0", "align": "left"}
+          }
+        ]
+      },
+      {
+        "id": "slide-8",
+        "title": "Conclusion",
+        "background": {"color": "#1A1A2E"},
+        "elements": [
+          {
+            "type": "text",
+            "text": "The AI Revolution is Here",
+            "box": {"x": 100, "y": 200, "w": 1080, "h": 100},
+            "style": {"fontSize": 56, "align": "center", "bold": true, "color": "#00D9FF"}
+          },
+          {
+            "type": "text",
+            "text": "Generative AI will reshape every industry in 2027\nThe key is responsible development and deployment",
+            "box": {"x": 100, "y": 350, "w": 1080, "h": 150},
+            "style": {"fontSize": 28, "align": "center", "color": "#FFFFFF"}
+          },
+          {
+            "type": "text",
+            "text": "Questions & Discussion",
+            "box": {"x": 100, "y": 550, "w": 1080, "h": 80},
+            "style": {"fontSize": 32, "align": "center", "color": "#FF6B35"}
+          }
+        ]
+      }
+    ]
+  }
+}
