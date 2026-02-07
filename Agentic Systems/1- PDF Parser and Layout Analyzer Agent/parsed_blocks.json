@@ -1,0 +1,1382 @@
+[
+  {
+    "block_id": 0,
+    "block_type": "Paragraph",
+    "text": "Karan Singh, Assistant Professor of Operations Research ",
+    "bbox": [
+      117,
+      83,
+      404,
+      96
+    ],
+    "page": 0
+  },
+  {
+    "block_id": 1,
+    "block_type": "Title",
+    "text": "Principles of Generative AI ",
+    "bbox": [
+      375,
+      118,
+      629,
+      135
+    ],
+    "page": 0
+  },
+  {
+    "block_id": 2,
+    "block_type": "Title",
+    "text": "A Technical Introduction ",
+    "bbox": [
+      386,
+      138,
+      619,
+      155
+    ],
+    "page": 0
+  },
+  {
+    "block_id": 3,
+    "block_type": "Paragraph",
+    "text": "Generative artificial intelligence (GenAI) tools are an emerging class of new-age artificial intelligence algorithms capable of producing novel content - in varied formats such as text, audio, video, pictures, and code - based on user prompts. Recent advances in machine learning (ML), massive datasets, and substantial increases in computing power have propelled such tools to human-level performance on academic and professional benchmarks , 1comparable to the ninetieth percentile on the SAT and the bar exam. ",
+    "bbox": [
+      117,
+      175,
+      873,
+      277
+    ],
+    "page": 0
+  },
+  {
+    "block_id": 4,
+    "block_type": "Paragraph",
+    "text": "This rapid progress has led many  to to believe that the metamorphosis of these technologies 2from research-grade demos to accessible and easy-to-use production-grade goods and services carries the potential to supercharge business processes and operations while enabling entirely new deliverables heretofore rendered infeasible by economic or technological factors. It took OpenAI's ChatGPT, a conversational web app based on a generative (multimodal) language model, about five days to reach one million users  (compared to 2.5 months for 3Instagram). On the business side, the Economist reports that the number of jobs mentioning AI-related skills quadrupled from 2022 to 2023. This enthusiasm has not gone unmet by investors. Generative AI startups reportedly raised 600% more capital in 2022 than in 2020 .   4 ",
+    "bbox": [
+      117,
+      296,
+      881,
+      468
+    ],
+    "page": 0
+  },
+  {
+    "block_id": 5,
+    "block_type": "Paragraph",
+    "text": " 1",
+    "bbox": [
+      872,
+      920,
+      886,
+      935
+    ],
+    "page": 0
+  },
+  {
+    "block_id": 6,
+    "block_type": "Paragraph",
+    "text": "Figure 1: A taxonomy of GenAI-related disciplines.",
+    "bbox": [
+      310,
+      876,
+      709,
+      892
+    ],
+    "page": 0
+  },
+  {
+    "block_id": 7,
+    "block_type": "Paragraph",
+    "text": "Karan Singh, Assistant Professor of Operations Research ",
+    "bbox": [
+      117,
+      83,
+      404,
+      96
+    ],
+    "page": 1
+  },
+  {
+    "block_id": 8,
+    "block_type": "Title",
+    "text": "Purpose and Scope  ",
+    "bbox": [
+      117,
+      117,
+      295,
+      133
+    ],
+    "page": 1
+  },
+  {
+    "block_id": 9,
+    "block_type": "Paragraph",
+    "text": "What are these new-era AI technologies? How do they function? What principles do they operate on? What makes them different than already-hyped-up conventional machine learning (ML) models? For what tasks is this class of technology most impactful? What future advances might one look forward to? These are the questions this report attempts to shed some light on. The report will also tease out how this understanding foundationally informs the best uses (and misuses) of GenAI in applied contexts. ",
+    "bbox": [
+      117,
+      152,
+      875,
+      254
+    ],
+    "page": 1
+  },
+  {
+    "block_id": 10,
+    "block_type": "Paragraph",
+    "text": "A word of disclaimer: this gradient of topics also means that, while the initial sections deal with factual, if somewhat simplified, nuts-and-bolt workings of such models, the later sections delve into hopefully reasonable, but in a manner that only time may attest to, extrapolations and speculations, as necessitated by the developing nature of this technology and its current phase in the technology adoption cycle. ",
+    "bbox": [
+      117,
+      273,
+      877,
+      358
+    ],
+    "page": 1
+  },
+  {
+    "block_id": 11,
+    "block_type": "Paragraph",
+    "text": "While generative AI models come in many different shapes, utilizing varied statistical and computational techniques to target various modalities, ranging from code and text to audio and video, this report focuses almost exclusively on large language models (LLMs) capable of generating novel text from textual prompts. This choice is partly due to the substantial lead LLMs have in driving the overall usage of generative AI models  and partly due to the centrality 5of language in formulating and addressing commonplace information-processing tasks. That said, image- and code-based GenAI models have already witnessed successful commercial product deployment, for example, by Adobe for creating visual content and by Github as a programming assistance tool.   ",
+    "bbox": [
+      117,
+      377,
+      874,
+      532
+    ],
+    "page": 1
+  },
+  {
+    "block_id": 12,
+    "block_type": "Paragraph",
+    "text": " 2",
+    "bbox": [
+      872,
+      920,
+      886,
+      935
+    ],
+    "page": 1
+  },
+  {
+    "block_id": 13,
+    "block_type": "Paragraph",
+    "text": "Figure 2: An image-based GenAI model, Midjourney's response to ",
+    "bbox": [
+      118,
+      843,
+      323,
+      889
+    ],
+    "page": 1
+  },
+  {
+    "block_id": 14,
+    "block_type": "Paragraph",
+    "text": "the prompt - \"Businessman in Tokyo ",
+    "bbox": [
+      125,
+      888,
+      315,
+      919
+    ],
+    "page": 1
+  },
+  {
+    "block_id": 15,
+    "block_type": "Paragraph",
+    "text": "amidst rush hour, his ",
+    "bbox": [
+      135,
+      919,
+      306,
+      934
+    ],
+    "page": 1
+  },
+  {
+    "block_id": 16,
+    "block_type": "Paragraph",
+    "text": "gaze fixed ahead, surrounded by a sea of ",
+    "bbox": [
+      126,
+      934,
+      315,
+      964
+    ],
+    "page": 1
+  },
+  {
+    "block_id": 17,
+    "block_type": "Paragraph",
+    "text": "black umbrellas.\"",
+    "bbox": [
+      150,
+      964,
+      286,
+      980
+    ],
+    "page": 1
+  },
+  {
+    "block_id": 18,
+    "block_type": "Paragraph",
+    "text": "Figure 3: Based on a code-based GenAI model, OpenAI Codex, ",
+    "bbox": [
+      354,
+      843,
+      867,
+      858
+    ],
+    "page": 1
+  },
+  {
+    "block_id": 19,
+    "block_type": "Paragraph",
+    "text": "Github Copilot is a commercial tool that can generate functional code from specifications given as natural language. Reportedly, as ",
+    "bbox": [
+      344,
+      858,
+      877,
+      889
+    ],
+    "page": 1
+  },
+  {
+    "block_id": 20,
+    "block_type": "Paragraph",
+    "text": "of June 2023, it served over a million users. ",
+    "bbox": [
+      435,
+      888,
+      786,
+      904
+    ],
+    "page": 1
+  },
+  {
+    "block_id": 21,
+    "block_type": "Paragraph",
+    "text": "Karan Singh, Assistant Professor of Operations Research ",
+    "bbox": [
+      117,
+      83,
+      404,
+      96
+    ],
+    "page": 2
+  },
+  {
+    "block_id": 22,
+    "block_type": "Title",
+    "text": "A Quick First Introduction to Language Models ",
+    "bbox": [
+      117,
+      117,
+      522,
+      133
+    ],
+    "page": 2
+  },
+  {
+    "block_id": 23,
+    "block_type": "Paragraph",
+    "text": "At its core, a language model implements a simple functionality- to predict the next word (or token) given a context window specifying preceding words. More precisely, given a context window, a language model outputs a probability distribution over all possible words in its vocabulary, indicating the probability with which each possible word follows the given list of words. Upon sampling  a guess of the next word from the said distribution, the language model 6incrementally repeats this ostensibly primitive step to produce a more extensive body of text.     ",
+    "bbox": [
+      117,
+      152,
+      876,
+      271
+    ],
+    "page": 2
+  },
+  {
+    "block_id": 24,
+    "block_type": "Paragraph",
+    "text": "We make two observations here: ",
+    "bbox": [
+      117,
+      738,
+      384,
+      753
+    ],
+    "page": 2
+  },
+  {
+    "block_id": 25,
+    "block_type": "Paragraph",
+    "text": "1. Completions are random. The predicted completion, given a context window, is not ",
+    "bbox": [
+      147,
+      772,
+      843,
+      788
+    ],
+    "page": 2
+  },
+  {
+    "block_id": 26,
+    "block_type": "Paragraph",
+    "text": "deterministic. Sampling the next word in each step from the output distribution introduces enough randomness to permit that the predicted completions could be meaningfully different on every fresh run. This stochasticity is why ChatGPT, for instance, can offer varied answers for the same prompt across successive runs. Replacing the sampling step with choosing (greedily) the most likely immediate word is known to degrade the quality of the produced text. The randomness in responses is also desirable from a user ",
+    "bbox": [
+      167,
+      790,
+      886,
+      892
+    ],
+    "page": 2
+  },
+  {
+    "block_id": 27,
+    "block_type": "Paragraph",
+    "text": " 3",
+    "bbox": [
+      872,
+      920,
+      886,
+      935
+    ],
+    "page": 2
+  },
+  {
+    "block_id": 28,
+    "block_type": "Paragraph",
+    "text": "Figure 4: A probabilistic model predicting the next word coupled with sampling can produce ",
+    "bbox": [
+      139,
+      653,
+      865,
+      668
+    ],
+    "page": 2
+  },
+  {
+    "block_id": 29,
+    "block_type": "Paragraph",
+    "text": "larger bodies of text.",
+    "bbox": [
+      418,
+      668,
+      581,
+      683
+    ],
+    "page": 2
+  },
+  {
+    "block_id": 30,
+    "block_type": "Paragraph",
+    "text": "Karan Singh, Assistant Professor of Operations Research ",
+    "bbox": [
+      117,
+      83,
+      404,
+      96
+    ],
+    "page": 3
+  },
+  {
+    "block_id": 31,
+    "block_type": "Title",
+    "text": "perspective in getting varied responses. From the deployer's perspective, this optionally allows the model to gather user feedback regarding the quality of seemingly plausible responses. This choice partly also contributes to hallucination in language models. ",
+    "bbox": [
+      167,
+      117,
+      869,
+      167
+    ],
+    "page": 3
+  },
+  {
+    "block_id": 32,
+    "block_type": "Paragraph",
+    "text": "2. Initial prompt matters. Language models are conditional probabilistic models. They ",
+    "bbox": [
+      147,
+      186,
+      843,
+      203
+    ],
+    "page": 3
+  },
+  {
+    "block_id": 33,
+    "block_type": "Paragraph",
+    "text": "produce a completion conditioned on the initial set of words. In this way, the initial context window, termed prompt, matters crucially to the produced completion. One hallmark of modern language models is that they keep track of the initial prompt even when generating large bodies of text, unlike the earlier generation of models, thus producing more coherent responses. Artful and cleverly crafted prompts can significantly improve the quality and utility of the synthesized text. Prompt engineering , for example, practices 7that encourage the language model to solve a problem by decomposing it into intermediate subproblems, has been known to improve the performance on logical reasoning tasks. ",
+    "bbox": [
+      167,
+      204,
+      881,
+      358
+    ],
+    "page": 3
+  },
+  {
+    "block_id": 34,
+    "block_type": "Paragraph",
+    "text": "Contextualizing LLMs in terms of Recent AI Advances ",
+    "bbox": [
+      117,
+      378,
+      623,
+      395
+    ],
+    "page": 3
+  },
+  {
+    "block_id": 35,
+    "block_type": "Paragraph",
+    "text": "Although we describe the text generation procedure above, many questions still need to be addressed: How do language models function internally? How are the output probabilities for the next word determined? What goes into creating (and indeed using) a language model? How are language models different from more traditional predictive models if all they do is predict the next token? ",
+    "bbox": [
+      117,
+      418,
+      882,
+      503
+    ],
+    "page": 3
+  },
+  {
+    "block_id": 36,
+    "block_type": "Paragraph",
+    "text": "We address these questions indirectly in the present section by taking a tour of the essential significant developments in machine learning and artificial intelligence that have occurred in the last decade and have fueled the creation of modern large language models. ",
+    "bbox": [
+      117,
+      522,
+      879,
+      572
+    ],
+    "page": 3
+  },
+  {
+    "block_id": 37,
+    "block_type": "Paragraph",
+    "text": "Classical Machine Learning as Prediction Machines ",
+    "bbox": [
+      117,
+      594,
+      563,
+      610
+    ],
+    "page": 3
+  },
+  {
+    "block_id": 38,
+    "block_type": "Paragraph",
+    "text": "We start with the most well-understood subset of machine learning techniques: supervised learning. The central objective in supervised learning is to produce a prediction rule that predicts well on unseen data, given enough labeled examples. For example, consider predicting house prices from the square footage in a given zip code. Instead of creating a hand-crafted prediction rule, the machine learning methodology advocates for choosing a prediction rule from an expressive but non-exhaustive class of rules, such as linear predictors, that provides the best fit on an existing collection of size-price examples. The statistically well-substantiated leap of faith here is that we expect (or at least hope) that a parsimonious prediction rule that predicts well on collected data, for which we know the correct answers, continues to maintain its predictive edge on unseen data, where answers or prices are unknown. Such a predictive methodology benefits from an abundance of labeled examples, hoping that a prediction rule learned from more examples is more robust in that its superior predictive performance on seen data is less ascribable to chance alone. Another example of a supervised learning task is to separate spam from non-spam mail, given the text in email messages. Again, having more examples of spam and non-spam emails is helpful to a supervised learning algorithm. ",
+    "bbox": [
+      117,
+      629,
+      885,
+      888
+    ],
+    "page": 3
+  },
+  {
+    "block_id": 39,
+    "block_type": "Paragraph",
+    "text": " 4",
+    "bbox": [
+      872,
+      920,
+      886,
+      935
+    ],
+    "page": 3
+  },
+  {
+    "block_id": 40,
+    "block_type": "Paragraph",
+    "text": "Karan Singh, Assistant Professor of Operations Research ",
+    "bbox": [
+      117,
+      83,
+      404,
+      96
+    ],
+    "page": 4
+  },
+  {
+    "block_id": 41,
+    "block_type": "Paragraph",
+    "text": "Characteristics common to both language models and supervised learning: ",
+    "bbox": [
+      117,
+      508,
+      718,
+      523
+    ],
+    "page": 4
+  },
+  {
+    "block_id": 42,
+    "block_type": "Paragraph",
+    "text": "1.Predicting Well is the Yardstick. A prediction rule is good as long as it makes reasonable predictions on average. Compared to more ambitious sub-disciplines in statistics, any statements about causality, p-values, and recovering latent structure are absent. We are similarly impervious to such considerations in language models. Such simplicity of goals enables very flexible prediction rules in machine learning. Although seeming modest in its aim, the art of machine learning has long been to cast as many disparate problems as questions about prediction as possible. Predicting house prices from square footage is a regular regression task. But, for reverse image captioning, is \"predicting\" a (high-dimensional) image given a few words a reasonable or well-defined classification task? Yet, this is how machine learning algorithms function. ",
+    "bbox": [
+      147,
+      542,
+      875,
+      714
+    ],
+    "page": 4
+  },
+  {
+    "block_id": 43,
+    "block_type": "Paragraph",
+    "text": "2.Model Agnosticism. Supervised learning algorithms realize the adage that all models are wrong, but some are useful. For example, when building the price predictor above, a data scientist does not believe that the genuine relationship between prices and area is linear or well-specified. Similarly, when using neural networks to predict the next word in language models, we don't believe that this is how Shakespeare must have employed a neural network to compose his texts. ",
+    "bbox": [
+      147,
+      733,
+      884,
+      835
+    ],
+    "page": 4
+  },
+  {
+    "block_id": 44,
+    "block_type": "Paragraph",
+    "text": "Yet, there are crucial differences: ",
+    "bbox": [
+      117,
+      855,
+      384,
+      870
+    ],
+    "page": 4
+  },
+  {
+    "block_id": 45,
+    "block_type": "Paragraph",
+    "text": " 5",
+    "bbox": [
+      872,
+      920,
+      886,
+      935
+    ],
+    "page": 4
+  },
+  {
+    "block_id": 46,
+    "block_type": "Paragraph",
+    "text": "Figure 5: Predicting house prices from square footage. Pictured is a linear regression, an example of a supervised learning algorithm that uses extant ",
+    "bbox": [
+      203,
+      389,
+      801,
+      420
+    ],
+    "page": 4
+  },
+  {
+    "block_id": 47,
+    "block_type": "Paragraph",
+    "text": "data to learn a linear predictor.",
+    "bbox": [
+      378,
+      420,
+      621,
+      435
+    ],
+    "page": 4
+  },
+  {
+    "block_id": 48,
+    "block_type": "Paragraph",
+    "text": "Karan Singh, Assistant Professor of Operations Research ",
+    "bbox": [
+      117,
+      83,
+      404,
+      96
+    ],
+    "page": 5
+  },
+  {
+    "block_id": 49,
+    "block_type": "Title",
+    "text": "1. Fidelity of Seen Data vs. Unseen Data. Classical supervised learning operates on the ",
+    "bbox": [
+      147,
+      117,
+      866,
+      133
+    ],
+    "page": 5
+  },
+  {
+    "block_id": 50,
+    "block_type": "Title",
+    "text": "assumption that seen data must be representative of unseen data in a particular sense, namely that any fixed example is equally likely to be in the seen or unseen bucket. In the absence of temporal effects, this is reasonable for house prices. More generally, supervised learning requires a well-curated dataset that is closely aligned with the prediction task at hand. But, as we will see, language models are trained on vast corpora of somewhat ruthlessly collected texts from the internet. Yet, completing a random partial sentence from the internet is presumably not what businesses using language models care about. ",
+    "bbox": [
+      167,
+      134,
+      878,
+      271
+    ],
+    "page": 5
+  },
+  {
+    "block_id": 51,
+    "block_type": "Paragraph",
+    "text": "Deep Learning as Automated Representation Learning ",
+    "bbox": [
+      117,
+      291,
+      587,
+      306
+    ],
+    "page": 5
+  },
+  {
+    "block_id": 52,
+    "block_type": "Paragraph",
+    "text": "Although useful for panel or tabular data, pre-deep-learning-era supervised algorithms struggled to predict well when presented with visual or auditory inputs. Although the promise of machine learning is predicated on the automation of learning, in practice, supervised learning algorithms require carefully crafted representations of input data in which operations like additions and multiplications, for example, for linear regression, were semantically relevant. Decades of painstaking research in signal processing and computer vision had resulted in domain-specific hand-crafted representations, each useful for a specific modality (images, audio, or video). The predictive performance of ML algorithms was limited by how good such representations were. ",
+    "bbox": [
+      117,
+      325,
+      885,
+      462
+    ],
+    "page": 5
+  },
+  {
+    "block_id": 53,
+    "block_type": "Paragraph",
+    "text": " 6",
+    "bbox": [
+      872,
+      920,
+      886,
+      935
+    ],
+    "page": 5
+  },
+  {
+    "block_id": 54,
+    "block_type": "Paragraph",
+    "text": "Figure 6: A typical deep neural network for recognizing faces. Each successive layer progressively learns higher-level representations (from ",
+    "bbox": [
+      214,
+      870,
+      790,
+      901
+    ],
+    "page": 5
+  },
+  {
+    "block_id": 55,
+    "block_type": "Paragraph",
+    "text": "edges to contours to faces). ",
+    "bbox": [
+      389,
+      900,
+      615,
+      916
+    ],
+    "page": 5
+  },
+  {
+    "block_id": 56,
+    "block_type": "Paragraph",
+    "text": "Karan Singh, Assistant Professor of Operations Research ",
+    "bbox": [
+      117,
+      83,
+      404,
+      96
+    ],
+    "page": 6
+  },
+  {
+    "block_id": 57,
+    "block_type": "Title",
+    "text": "The revolution in deep learning was to automate the process of representation learning itself. Deep learning uses neural networks with multiple layers, each layer incrementally converting the data into a more manageable form, all to make better predictions. This form of automated hierarchical representation learning heralded a decade of tremendous progress in image and speech recognition and machine translation, starting with the breakthrough work of Krizhevsky, Sutskever, and Hinton  in 2012 on the Imagenet challenge. Taking advantage of GPUs (a form 8of shared-memory parallel computing) and the availability of a large public dataset, this seminal work slashed the error rate for image recognition by a substantial multiple. Parallel gains were later realized using similar deep neural network architectures in speech recognition and other machine learning domains. In this sense, the advances deep learning enabled were (relatively) domain agnostic. ",
+    "bbox": [
+      117,
+      117,
+      878,
+      306
+    ],
+    "page": 6
+  },
+  {
+    "block_id": 58,
+    "block_type": "Paragraph",
+    "text": "Although deep neural networks are data-hungry in that they require a substantially large dataset to start predicting well, they also successfully realize a long-promised advantage of neural networks. This factor is crucial to the practice of modern-day machine learning. In the process of hierarchically learning representations, deep nets learn task- (or label--) agnostic features of the dataset in the lower layers, while higher layers closer to the output account for task-specific representations. This permits us to (a) train a deep net to separate images of cats and dogs on a large dataset and (b) subsequently build a shallow (even linear) performant neural net that uses the lower layers of the former to craft useful representations to classify images of zebra and giraffes. Step A is often called pre-training, and step B is referred to as supervised fine-tuning. This manner of amortizing the learning across tasks that are not individually data-rich is central to language models. ",
+    "bbox": [
+      117,
+      325,
+      886,
+      514
+    ],
+    "page": 6
+  },
+  {
+    "block_id": 59,
+    "block_type": "Paragraph",
+    "text": "Word Embeddings and Contrastive Learning ",
+    "bbox": [
+      117,
+      534,
+      502,
+      549
+    ],
+    "page": 6
+  },
+  {
+    "block_id": 60,
+    "block_type": "Paragraph",
+    "text": "While the progress of deep learning in speech and audio was made possible by the availability of large crowd-labeled datasets (with 10s of millions of annotated images), such large high-quality datasets were absent in the textual domain, despite a plethora of unlabelled data in the form of books, Wikipedia articles, and articles on the internet. Could a machine learning algorithm make use of the cheap, unlabelled data instead? ",
+    "bbox": [
+      117,
+      568,
+      872,
+      653
+    ],
+    "page": 6
+  },
+  {
+    "block_id": 61,
+    "block_type": "Paragraph",
+    "text": "In computational linguistics, the distributional hypothesis codifies an appealing and intuitive idea that similar words occur in similar contexts. In 2013, inspired by this observation, Mikolov et al  9trained a neural network, termed Word2Vec, to predict randomly selected words in a text corpus given neighboring words for each. Note that this step doesn't require any need human annotators. They observed that the 300-dimensional vector representations the neural net learned for words had excellent linear algebraic properties that transparently reflected the underlying semantics. For example, one obtained Queen when queried for the word with the vector closest to King - Man + Woman. Thus, each vector dimension captured some abstract semantic degree of freedom. These representations were also valuable for natural classification tasks with limited data, such as sentiment classification, given a small number of examples. ",
+    "bbox": [
+      117,
+      672,
+      883,
+      844
+    ],
+    "page": 6
+  },
+  {
+    "block_id": 62,
+    "block_type": "Paragraph",
+    "text": " 7",
+    "bbox": [
+      872,
+      920,
+      886,
+      935
+    ],
+    "page": 6
+  },
+  {
+    "block_id": 63,
+    "block_type": "Paragraph",
+    "text": "Karan Singh, Assistant Professor of Operations Research ",
+    "bbox": [
+      117,
+      83,
+      404,
+      96
+    ],
+    "page": 7
+  },
+  {
+    "block_id": 64,
+    "block_type": "Paragraph",
+    "text": " The approach of creating auxiliary labeling tasks for free from unlabelled data to learn semantically relevant representation is called contrastive learning and has proved helpful in other domains, too. For example, given a set of unlabelled images, a classifier trained to recognize random crops from the same image as a positive match and those from distinct images as a negative match (pre-training step) learns representations useful for supervised fine-tuning on genuine classification tasks downstream. ",
+    "bbox": [
+      117,
+      478,
+      881,
+      598
+    ],
+    "page": 7
+  },
+  {
+    "block_id": 65,
+    "block_type": "Paragraph",
+    "text": "Transformers mollify the Optimization Landscape ",
+    "bbox": [
+      117,
+      617,
+      545,
+      633
+    ],
+    "page": 7
+  },
+  {
+    "block_id": 66,
+    "block_type": "Paragraph",
+    "text": "While word embeddings serve as proof that textual semantic regularities can be assessed without labeled data, substantive language processing tasks need an algorithmic implementation of the concept of memory to capture relationships between words that are positionally far apart. For example, a common motif in stories is that the next act derives from some event that occurred a while ago.  ",
+    "bbox": [
+      117,
+      652,
+      862,
+      737
+    ],
+    "page": 7
+  },
+  {
+    "block_id": 67,
+    "block_type": "Paragraph",
+    "text": " 8",
+    "bbox": [
+      872,
+      920,
+      886,
+      935
+    ],
+    "page": 7
+  },
+  {
+    "block_id": 68,
+    "block_type": "Paragraph",
+    "text": "Figure 7: Vector space representations of words exhibit linear algebraic relationships between semantic units and can be used to answer analogy ",
+    "bbox": [
+      208,
+      413,
+      796,
+      443
+    ],
+    "page": 7
+  },
+  {
+    "block_id": 69,
+    "block_type": "Paragraph",
+    "text": "questions, e.g., son - father + mother = daughter.",
+    "bbox": [
+      305,
+      443,
+      694,
+      458
+    ],
+    "page": 7
+  },
+  {
+    "block_id": 70,
+    "block_type": "Paragraph",
+    "text": "Figure 8: RNNs capture memory effects by sequentially processing ",
+    "bbox": [
+      233,
+      910,
+      771,
+      925
+    ],
+    "page": 7
+  },
+  {
+    "block_id": 71,
+    "block_type": "Paragraph",
+    "text": "information.",
+    "bbox": [
+      453,
+      925,
+      546,
+      940
+    ],
+    "page": 7
+  },
+  {
+    "block_id": 72,
+    "block_type": "Paragraph",
+    "text": "Karan Singh, Assistant Professor of Operations Research ",
+    "bbox": [
+      117,
+      83,
+      404,
+      96
+    ],
+    "page": 8
+  },
+  {
+    "block_id": 73,
+    "block_type": "Title",
+    "text": "The first generation of neural networks that captured the notion of memory were Recurrent Neural Networks (RNNs), by sequentially processing a piece of text one word at a time while updating an internal state to maintain continuity, a proxy for memory. Unfortunately, optimizing such recurrent neural nets to find one that best fits a given dataset proved extra-ordinarily error-prone and challenging. ",
+    "bbox": [
+      117,
+      117,
+      876,
+      202
+    ],
+    "page": 8
+  },
+  {
+    "block_id": 74,
+    "block_type": "Paragraph",
+    "text": "In 2017, Vaswani et al  introduced a different neural network architecture, termed transformer, 10that could efficiently capture long-range relations between tokens compactly (non-sequentially) by processing the entire surrounding context window at once while remaining amenable to gradient-based optimization. The introduction of transformers spurred a line of research on language models, culminating in training models with an increasingly higher number of parameters trained on ever larger datasets. For example, GPT2 (Generative Pre-trained Transformer 2), released in 2019, is a 1.5 billion parameter model trained on 40 GB of data, while GPT3, released in 2020, is a 175 billion parameter model trained on 570 GB of text data. While larger models resulted in better performance, the open-market cost for training these enormous models was estimated to be tens of millions of dollars.  ",
+    "bbox": [
+      117,
+      221,
+      873,
+      410
+    ],
+    "page": 8
+  },
+  {
+    "block_id": 75,
+    "block_type": "Paragraph",
+    "text": "General-Purpose Language Models: Supervised Fine-tuning & GPT3 ",
+    "bbox": [
+      117,
+      775,
+      704,
+      790
+    ],
+    "page": 8
+  },
+  {
+    "block_id": 76,
+    "block_type": "Paragraph",
+    "text": "The general paradigm brought about by contrastive learning was first to learn a large model on auxiliary tasks created using an unlabelled dataset (the pre-training step) and subsequently to use these learned representations in a downstream supervised learning task given a few task-specific labeled examples (the supervised fine-tuning step). While broadly useful and practical, supervised fine-tuning requires replicas of the baseline pre-trained model for each downstream ",
+    "bbox": [
+      117,
+      809,
+      875,
+      894
+    ],
+    "page": 8
+  },
+  {
+    "block_id": 77,
+    "block_type": "Paragraph",
+    "text": " 9",
+    "bbox": [
+      872,
+      920,
+      886,
+      935
+    ],
+    "page": 8
+  },
+  {
+    "block_id": 78,
+    "block_type": "Paragraph",
+    "text": "Figure 9: The LLM arms race with exponentially increasing ",
+    "bbox": [
+      267,
+      707,
+      737,
+      722
+    ],
+    "page": 8
+  },
+  {
+    "block_id": 79,
+    "block_type": "Paragraph",
+    "text": "parameter counts. (Credit: HuggingFace)",
+    "bbox": [
+      336,
+      722,
+      663,
+      737
+    ],
+    "page": 8
+  },
+  {
+    "block_id": 80,
+    "block_type": "Paragraph",
+    "text": "Karan Singh, Assistant Professor of Operations Research ",
+    "bbox": [
+      117,
+      83,
+      404,
+      96
+    ],
+    "page": 9
+  },
+  {
+    "block_id": 81,
+    "block_type": "Title",
+    "text": "task; further, the large size of language models makes running even a few steps of gradient-based iterative optimization for supervised learning prohibitive except on computationally expensive hardware setups. ",
+    "bbox": [
+      117,
+      117,
+      849,
+      167
+    ],
+    "page": 9
+  },
+  {
+    "block_id": 82,
+    "block_type": "Paragraph",
+    "text": "The paper  describing the architecture of the GPT3 model presents a far cheaper and more 11convenient way of repurposing pre-trained language models for specific downstream tasks, namely, by specifying a few labeled examples in the prompt before asking for a label or response for unseen data. This mode of inference, in-context learning, does not require computationally expensive adjustments to the weights or parameters of an LLM and instead treats the entire downstream supervised task as a prompt for the language model to complete. This makes LLMs very attractive for end-users, who no longer have to create copies of the large model to customize, nor do they have to run a sophisticated optimization procedure to adjust parameters; each downstream task, in effect, becomes a conversation. While fine-tuning may still result in additional performance gains over in-context learning for some tasks in exchange for a massive increase in computational load, a crucial advance of GPT3 is that this substantially lowers this gap, democratizing the use (although not the training) of LLMs. ",
+    "bbox": [
+      117,
+      186,
+      884,
+      393
+    ],
+    "page": 9
+  },
+  {
+    "block_id": 83,
+    "block_type": "Paragraph",
+    "text": " 10",
+    "bbox": [
+      862,
+      920,
+      886,
+      935
+    ],
+    "page": 9
+  },
+  {
+    "block_id": 84,
+    "block_type": "Paragraph",
+    "text": "Figure 10: An illustration of in-context learning. GPT4 figures out the ",
+    "bbox": [
+      229,
+      818,
+      775,
+      834
+    ],
+    "page": 9
+  },
+  {
+    "block_id": 85,
+    "block_type": "Paragraph",
+    "text": "correct pattern that the answer is the first number + reverse of the ",
+    "bbox": [
+      239,
+      833,
+      765,
+      849
+    ],
+    "page": 9
+  },
+  {
+    "block_id": 86,
+    "block_type": "Paragraph",
+    "text": "second, given two examples.",
+    "bbox": [
+      384,
+      849,
+      615,
+      864
+    ],
+    "page": 9
+  },
+  {
+    "block_id": 87,
+    "block_type": "Paragraph",
+    "text": "Karan Singh, Assistant Professor of Operations Research ",
+    "bbox": [
+      117,
+      83,
+      404,
+      96
+    ],
+    "page": 10
+  },
+  {
+    "block_id": 88,
+    "block_type": "Title",
+    "text": "Towards Conversational AI: Learning from Human Feedback ",
+    "bbox": [
+      117,
+      117,
+      638,
+      133
+    ],
+    "page": 10
+  },
+  {
+    "block_id": 89,
+    "block_type": "Paragraph",
+    "text": "While GPT3-like models happen to be good at conversation-centered tasks, they are not explicitly trained or incentivized to follow instructions. OpenAI's InstructGPT model  post pre-12training aligns the model to follow the users' instructions by fine-tuning the model to mimic labeled demonstrations of the desired behavior (via supervised learning) and highly-ranked responses to prompts as collected using human feedback (via reinforcement learning).  ",
+    "bbox": [
+      117,
+      152,
+      859,
+      254
+    ],
+    "page": 10
+  },
+  {
+    "block_id": 90,
+    "block_type": "Paragraph",
+    "text": "The Future: Foundation Models ",
+    "bbox": [
+      117,
+      630,
+      391,
+      646
+    ],
+    "page": 10
+  },
+  {
+    "block_id": 91,
+    "block_type": "Paragraph",
+    "text": "Given the success of language models, there has been increased interest in the possibility of recreating the magic of LLMs in other domains. Such models, generically termed foundation models, attempt to amortize the cost of limited-data downstream tasks by pre-training on large corpora of broadly related tasks or unlabelled datasets. For example, one might be able to repurpose the LLM paradigm to train a generalist robot or decision-making agent that learns from supply chain operations across all industries. ",
+    "bbox": [
+      117,
+      665,
+      869,
+      767
+    ],
+    "page": 10
+  },
+  {
+    "block_id": 92,
+    "block_type": "Paragraph",
+    "text": "Conclusion ",
+    "bbox": [
+      117,
+      788,
+      229,
+      805
+    ],
+    "page": 10
+  },
+  {
+    "block_id": 93,
+    "block_type": "Paragraph",
+    "text": "This report contextualizes large-language models within the more extensive machine learning and artificial intelligence landscape by training the origins of the principal ideas that fuel today's large language models. By bringing out their essential characteristics and differences against traditional modes of machine learning, we hope that a user of such models can be better ",
+    "bbox": [
+      117,
+      824,
+      876,
+      892
+    ],
+    "page": 10
+  },
+  {
+    "block_id": 94,
+    "block_type": "Paragraph",
+    "text": " 11",
+    "bbox": [
+      862,
+      920,
+      886,
+      935
+    ],
+    "page": 10
+  },
+  {
+    "block_id": 95,
+    "block_type": "Paragraph",
+    "text": "Figure 11: While GPT3 performs text completion by guessing the ",
+    "bbox": [
+      242,
+      530,
+      762,
+      546
+    ],
+    "page": 10
+  },
+  {
+    "block_id": 96,
+    "block_type": "Paragraph",
+    "text": "most plausible completion, InstructGPT has been explicitly trained to follow instructions. (Credit: OpenAI's web report)",
+    "bbox": [
+      267,
+      545,
+      737,
+      576
+    ],
+    "page": 10
+  },
+  {
+    "block_id": 97,
+    "block_type": "Paragraph",
+    "text": "Karan Singh, Assistant Professor of Operations Research ",
+    "bbox": [
+      117,
+      83,
+      404,
+      96
+    ],
+    "page": 11
+  },
+  {
+    "block_id": 98,
+    "block_type": "Title",
+    "text": "informed of the underlying tradeoffs such models induce, e.g., the performance-resource tradeoffs between fine-tuning and in-context learning. ",
+    "bbox": [
+      117,
+      117,
+      825,
+      150
+    ],
+    "page": 11
+  },
+  {
+    "block_id": 99,
+    "block_type": "Paragraph",
+    "text": "Endnotes ",
+    "bbox": [
+      117,
+      169,
+      204,
+      185
+    ],
+    "page": 11
+  },
+  {
+    "block_id": 100,
+    "block_type": "Paragraph",
+    "text": " See the first table on OpenAI's announcement for an overview of GPT4's performance on other academic, 1",
+    "bbox": [
+      117,
+      206,
+      828,
+      218
+    ],
+    "page": 11
+  },
+  {
+    "block_id": 101,
+    "block_type": "Paragraph",
+    "text": "professional and programming exams. The quoted ninetieth percentile performance on the bar exam was assessed by Katz et al, but others have raised concerns. ",
+    "bbox": [
+      117,
+      224,
+      880,
+      255
+    ],
+    "page": 11
+  },
+  {
+    "block_id": 102,
+    "block_type": "Paragraph",
+    "text": " See quotes by industry and research leaders here.2",
+    "bbox": [
+      117,
+      269,
+      456,
+      281
+    ],
+    "page": 11
+  },
+  {
+    "block_id": 103,
+    "block_type": "Paragraph",
+    "text": " See initial consumer adoption statistics for ChatGPT here and here.3",
+    "bbox": [
+      117,
+      295,
+      568,
+      308
+    ],
+    "page": 11
+  },
+  {
+    "block_id": 104,
+    "block_type": "Paragraph",
+    "text": " See this reporting for investments in GenAI.4",
+    "bbox": [
+      117,
+      321,
+      415,
+      334
+    ],
+    "page": 11
+  },
+  {
+    "block_id": 105,
+    "block_type": "Paragraph",
+    "text": " See current and project user bases for GenAI here.5",
+    "bbox": [
+      117,
+      348,
+      461,
+      360
+    ],
+    "page": 11
+  },
+  {
+    "block_id": 106,
+    "block_type": "Paragraph",
+    "text": " When producing text, rather than sampling the next word incrementally, a more systematic search operation 6",
+    "bbox": [
+      117,
+      374,
+      849,
+      386
+    ],
+    "page": 11
+  },
+  {
+    "block_id": 107,
+    "block_type": "Paragraph",
+    "text": "termed Beam Search, coined by Raj Reddy at CMU, often yields better results.",
+    "bbox": [
+      117,
+      392,
+      631,
+      405
+    ],
+    "page": 11
+  },
+  {
+    "block_id": 108,
+    "block_type": "Paragraph",
+    "text": " Structuring initial text to elicit useful outputs from GenAI model is called prompt engineering.7",
+    "bbox": [
+      117,
+      419,
+      745,
+      431
+    ],
+    "page": 11
+  },
+  {
+    "block_id": 109,
+    "block_type": "Paragraph",
+    "text": " See the full Krizhevshy, Sutskever, Hinton paper here.8",
+    "bbox": [
+      117,
+      445,
+      477,
+      457
+    ],
+    "page": 11
+  },
+  {
+    "block_id": 110,
+    "block_type": "Paragraph",
+    "text": " See the Word2Vec paper here.9",
+    "bbox": [
+      117,
+      471,
+      329,
+      484
+    ],
+    "page": 11
+  },
+  {
+    "block_id": 111,
+    "block_type": "Paragraph",
+    "text": " See the paper that introduced Transformers here.10",
+    "bbox": [
+      117,
+      497,
+      460,
+      510
+    ],
+    "page": 11
+  },
+  {
+    "block_id": 112,
+    "block_type": "Paragraph",
+    "text": " See the GPT3 paper here.11",
+    "bbox": [
+      117,
+      524,
+      301,
+      536
+    ],
+    "page": 11
+  },
+  {
+    "block_id": 113,
+    "block_type": "Paragraph",
+    "text": " See the instruct GPT paper here.12",
+    "bbox": [
+      117,
+      550,
+      347,
+      562
+    ],
+    "page": 11
+  },
+  {
+    "block_id": 114,
+    "block_type": "Paragraph",
+    "text": " 12",
+    "bbox": [
+      862,
+      920,
+      886,
+      935
+    ],
+    "page": 11
+  }
+]
