@@ -1,0 +1,45 @@
+AGENT NAME: PDF Parser and Layout Analyzer Agent
+
+PURPOSE:
+This agent is responsible for transforming a raw PDF document into a structured, layout-aware representation.
+It leverages Microsoft LayoutLMv3 to preserve spatial layout, hierarchy, and semantic roles of text blocks.
+This agent serves as the foundation for all downstream reasoning agents.
+
+INPUT:
+- PDF file path (single document)
+
+OUTPUT:
+A list of structured layout blocks in JSON format, where each block contains:
+- block_id
+- block_type (Title, Section Header, Paragraph, List Item)
+- text content
+- bounding box coordinates
+- page number
+
+OUTPUT SCHEMA:
+[
+  {
+    "block_id": 1,
+    "block_type": "Section Header",
+    "text": "Project Goals",
+    "bbox": [x1, y1, x2, y2],
+    "page": 1
+  }
+]
+
+PLANNER PSEUDO-CODE:
+1. Load the PDF file.
+2. For each page:
+   a. Extract text and bounding box coordinates.
+   b. Render the page as an image.
+   c. Feed text + image into LayoutLMv3.
+   d. Classify each text block using the LayoutLMv3 classification head.
+3. Preserve reading order and section hierarchy.
+4. Return structured layout blocks.
+
+MODEL:
+- Microsoft LayoutLMv3 (document layout understanding)
+
+NOTES:
+This agent does not perform summarization or generation.
+Its sole responsibility is accurate document understanding.

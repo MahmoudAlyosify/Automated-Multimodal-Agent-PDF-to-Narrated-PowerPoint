@@ -1,0 +1,33 @@
+Run this program across the entire system. Treat each component as an independent AI agent with a clearly defined responsibility.
+
+System Overview
+
+The system is composed of multiple AI agents.
+
+The most critical component, referred to as the “brain”, has not been implemented yet and must be created.
+
+The system must be modular, folder-based, and agent-driven.
+
+
+                ┌────────────────┐
+                │ Master Agent         │
+                │ (Orchestrator)       │
+                └───────┬────────┘
+                        ↓
+        ┌────────────── Parser Agent ───────────────┐
+        ↓                                            ↓
+Semantic Chunker Agent                         Layout Metadata
+        ↓
+Vector Store / Embeddings
+        ↓
+        ┌──────────── Slide Planner Agent ─────────────┐
+        ↓                                               ↓
+ Slide Blueprint                               Constraints Check
+        ↓
+ Slide Generator Agent
+        ↓
+ Script (Narration) Agent
+        ↓
+ TTS / Audio Agent
+        ↓
+ PPTX Builder Agent
