@@ -1,0 +1,25 @@
+AGENT NAME: Text-to-Speech (TTS) Agent
+
+PURPOSE:
+This agent converts narration scripts into spoken audio using a generative speech model.
+
+INPUT:
+- Narration script text
+
+OUTPUT:
+- Audio file (WAV)
+- Converted MP4 file for PPTX embedding
+
+PLANNER PSEUDO-CODE:
+1. Generate speech audio from text.
+2. Normalize volume and clarity.
+3. Convert audio to MP4 format.
+4. Return audio file path.
+
+MODEL:
+- Suno Bark
+
+VOICE SETTINGS:
+- Style: Neutral academic lecturer
+- Tone: Calm and clear
+- Speed: Medium

@@ -1,0 +1,41 @@
+AGENT NAME: Semantic Chunker Agent
+
+PURPOSE:
+This agent converts layout-aware document blocks into semantically meaningful chunks.
+Chunking is based on logical and conceptual boundaries rather than token length.
+
+INPUT:
+- Structured layout blocks from the Parser Agent
+
+OUTPUT:
+A list of semantic chunks, each representing a coherent idea or concept.
+
+OUTPUT SCHEMA:
+{
+  "chunk_id": 12,
+  "text": "...",
+  "semantic_role": "definition | goal | limitation | process",
+  "importance_score": 0.85
+}
+
+PLANNER PSEUDO-CODE:
+1. Group blocks by section headers.
+2. Detect topic continuity and topic shifts.
+3. Merge related paragraphs into semantic units.
+4. Assign a semantic role to each chunk.
+5. Estimate importance score based on instructional value.
+6. Return semantic chunks.
+
+PROMPT TEMPLATE (Mistral 7B):
+You are a semantic analysis agent.
+
+Given academic content:
+- Split the content into logically complete meaning units.
+- Label each unit as one of the following:
+  definition, goal, limitation, process, explanation.
+- Preserve the original intent and wording as much as possible.
+
+Return structured JSON only.
+
+MODEL:
+- Mistral 7B

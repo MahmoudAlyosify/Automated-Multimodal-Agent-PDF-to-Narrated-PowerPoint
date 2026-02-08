@@ -1,0 +1,27 @@
+AGENT NAME: Vector Store and Embeddings Agent
+
+PURPOSE:
+This agent enables grounded retrieval by indexing semantic chunks using dense vector embeddings.
+It ensures that downstream agents operate on retrieved source content rather than hallucinated knowledge.
+
+INPUT:
+- Semantic chunks from the Semantic Chunker Agent
+
+OUTPUT:
+- FAISS vector index
+- Chunk metadata mapping (chunk_id → text)
+
+PLANNER PSEUDO-CODE:
+1. For each semantic chunk:
+   a. Generate a dense embedding.
+   b. Store the embedding in FAISS.
+   c. Store metadata mapping.
+2. Persist the vector index to disk.
+3. Provide similarity-based retrieval interface.
+
+MODEL:
+- Sentence-level embedding model (HuggingFace compatible)
+
+NOTES:
+This is a non-generative, deterministic component.
+No prompts are used in this agent.

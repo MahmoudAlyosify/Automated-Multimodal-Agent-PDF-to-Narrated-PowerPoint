@@ -1,0 +1,26 @@
+AGENT NAME: Master Orchestrator Agent
+
+PURPOSE:
+This agent coordinates the entire multi-agent workflow.
+It manages execution order, data flow, and system state.
+
+RESPONSIBILITIES:
+- Execute agents in correct sequence
+- Pass outputs between agents
+- Handle failures and retries
+- Ensure constraints are satisfied
+
+PLANNER PSEUDO-CODE:
+1. Invoke Parser Agent.
+2. Invoke Semantic Chunker Agent.
+3. Build vector index.
+4. Invoke Slide Planner Agent.
+5. Invoke Slide Generator Agent.
+6. Invoke Script Agent.
+7. Invoke TTS Agent.
+8. Invoke PPTX Builder Agent.
+9. Output final presentation.
+
+NOTES:
+This agent does not perform content generation.
+It functions as a controller and coordinator.
