@@ -1,0 +1,412 @@
+[
+  {
+    "slide_id": 1,
+    "title": "Introduction",
+    "position": "intro",
+    "intent": "Overview and context of the topic about Introduction",
+    "key_concepts": [
+      "A Quick First Introduction to Language Models",
+      "In 2017, Vaswani et al introduced a different neural network architecture, termed transfor",
+      "Key aspect of Introduction",
+      "Key aspect of Introduction",
+      "Key aspect of Introduction"
+    ],
+    "key_points": [
+      "A Quick First Introduction to Language Models",
+      "In 2017, Vaswani et al introduced a different neural network architecture, termed transformer, 10that could efficiently capture long-range relations between tok",
+      "The introduction of transformers spurred a line of research on language models, culminating in training models with an increasingly higher number of parameters ",
+      "For example, GPT2 (Generative Pre-trained Transformer 2), released in 2019, is a 1",
+      "5 billion parameter model trained on 40 GB of data, while GPT3, released in 2020, is a 175 billion parameter model trained on 570 GB of text data"
+    ],
+    "examples": [
+      "For example, GPT2 (Generative Pre-trained Transformer 2), released in 2019, is a 1",
+      "In 2017, Vaswani et al introduced a different neural network architecture, termed transformer, 10that could efficiently capture long-range relations b"
+    ],
+    "source_chunks": [
+      14,
+      53
+    ],
+    "content_summary": "Overview and context of the topic about Introduction"
+  },
+  {
+    "slide_id": 2,
+    "title": "Fundamentals - Part 1",
+    "position": "content",
+    "intent": "Core concepts and foundational terminology. While generative AI models come in many different shapes, utilizing varied statistical and computational techniques to t...",
+    "key_concepts": [
+      "While generative AI models come in many different shapes, utilizing varied statistical and",
+      "perspective in getting varied responses",
+      "assumption that seen data must be representative of unseen data in a particular sense, nam",
+      "While word embeddings serve as proof that textual semantic regularities can be assessed wi",
+      "Key aspect of Fundamentals - Part 1"
+    ],
+    "key_points": [
+      "While generative AI models come in many different shapes, utilizing varied statistical and computational techniques to target various modalities, ranging from c",
+      "This choice is partly due to the substantial lead LLMs have in driving the overall usage of generative AI models and partly due to the centrality 5of language i",
+      "That said, image- and code-based GenAI models have already witnessed successful commercial product deployment, for example, by Adobe for creating visual content",
+      "perspective in getting varied responses",
+      "From the deployer's perspective, this optionally allows the model to gather user feedback regarding the quality of seemingly plausible responses"
+    ],
+    "examples": [
+      "That said, image- and code-based GenAI models have already witnessed successful commercial product deployment, for example, by Adobe for creating visu",
+      "assumption that seen data must be representative of unseen data in a particular sense, namely that any fixed example is equally likely to be in the se"
+    ],
+    "source_chunks": [
+      10,
+      20,
+      35,
+      48
+    ],
+    "content_summary": "Core concepts and foundational terminology. While generative AI models come in many different shapes, utilizing varied statistical and computational techniques to t..."
+  },
+  {
+    "slide_id": 3,
+    "title": "Fundamentals - Part 2",
+    "position": "content",
+    "intent": "Essential principles and frameworks. While generative AI models come in many different shapes, utilizing varied statistical and computational techniques to t...",
+    "key_concepts": [
+      "While generative AI models come in many different shapes, utilizing varied statistical and",
+      "perspective in getting varied responses",
+      "assumption that seen data must be representative of unseen data in a particular sense, nam",
+      "While word embeddings serve as proof that textual semantic regularities can be assessed wi",
+      "Key aspect of Fundamentals - Part 2"
+    ],
+    "key_points": [
+      "While generative AI models come in many different shapes, utilizing varied statistical and computational techniques to target various modalities, ranging from c",
+      "This choice is partly due to the substantial lead LLMs have in driving the overall usage of generative AI models and partly due to the centrality 5of language i",
+      "That said, image- and code-based GenAI models have already witnessed successful commercial product deployment, for example, by Adobe for creating visual content",
+      "perspective in getting varied responses",
+      "From the deployer's perspective, this optionally allows the model to gather user feedback regarding the quality of seemingly plausible responses"
+    ],
+    "examples": [
+      "That said, image- and code-based GenAI models have already witnessed successful commercial product deployment, for example, by Adobe for creating visu",
+      "assumption that seen data must be representative of unseen data in a particular sense, namely that any fixed example is equally likely to be in the se"
+    ],
+    "source_chunks": [
+      10,
+      20,
+      35,
+      48
+    ],
+    "content_summary": "Essential principles and frameworks. While generative AI models come in many different shapes, utilizing varied statistical and computational techniques to t..."
+  },
+  {
+    "slide_id": 4,
+    "title": "Theory and Background",
+    "position": "content",
+    "intent": "Historical context and theoretical foundations. Generative artificial intelligence (GenAI) tools are an emerging class of new-age artificial intelligence algorithms cap...",
+    "key_concepts": [
+      "Generative artificial intelligence (GenAI) tools are an emerging class of new-age artifici",
+      "This rapid progress has led many to to believe that the metamorphosis of these technologie",
+      "What are these new-era AI technologies? How do they function? What principles do they oper",
+      "A word of disclaimer: this gradient of topics also means that, while the initial sections ",
+      "While generative AI models come in many different shapes, utilizing varied statistical and"
+    ],
+    "key_points": [
+      "Generative artificial intelligence (GenAI) tools are an emerging class of new-age artificial intelligence algorithms capable of producing novel content - in var",
+      "Recent advances in machine learning (ML), massive datasets, and substantial increases in computing power have propelled such tools to human-level performance on",
+      "This rapid progress has led many to to believe that the metamorphosis of these technologies 2from research-grade demos to accessible and easy-to-use production-",
+      "It took OpenAI's ChatGPT, a conversational web app based on a generative (multimodal) language model, about five days to reach one million users (compared to 2",
+      "On the business side, the Economist reports that the number of jobs mentioning AI-related skills quadrupled from 2022 to 2023"
+    ],
+    "examples": [
+      "Generative artificial intelligence (GenAI) tools are an emerging class of new-age artificial intelligence algorithms capable of producing novel conten",
+      "That said, image- and code-based GenAI models have already witnessed successful commercial product deployment, for example, by Adobe for creating visu"
+    ],
+    "source_chunks": [
+      3,
+      4,
+      8,
+      9,
+      10,
+      16,
+      17,
+      21
+    ],
+    "content_summary": "Historical context and theoretical foundations. Generative artificial intelligence (GenAI) tools are an emerging class of new-age artificial intelligence algorithms cap..."
+  },
+  {
+    "slide_id": 5,
+    "title": "Key Principles",
+    "position": "content",
+    "intent": "Main principles and guidelines. What are these new-era AI technologies? How do they function? What principles do they operate on? What makes them differ...",
+    "key_concepts": [
+      "What are these new-era AI technologies? How do they function? What principles do they oper",
+      "Key aspect of Key Principles",
+      "Key aspect of Key Principles",
+      "Key aspect of Key Principles",
+      "Key aspect of Key Principles"
+    ],
+    "key_points": [
+      "What are these new-era AI technologies? How do they function? What principles do they operate on? What makes them different than already-hyped-up conventional m",
+      "The report will also tease out how this understanding foundationally informs the best uses (and misuses) of GenAI in applied contexts",
+      "Important aspect of Key Principles",
+      "Important aspect of Key Principles",
+      "Important aspect of Key Principles"
+    ],
+    "examples": [
+      "What are these new-era AI technologies? How do they function? What principles do they operate on? What makes them different than already-hyped-up conv"
+    ],
+    "source_chunks": [
+      8
+    ],
+    "content_summary": "Main principles and guidelines. What are these new-era AI technologies? How do they function? What principles do they operate on? What makes them differ..."
+  },
+  {
+    "slide_id": 6,
+    "title": "Implementation Methods",
+    "position": "content",
+    "intent": "Practical approaches and methodologies. While word embeddings serve as proof that textual semantic regularities can be assessed without labeled data, substantiv...",
+    "key_concepts": [
+      "While word embeddings serve as proof that textual semantic regularities can be assessed wi",
+      "Key aspect of Implementation Methods",
+      "Key aspect of Implementation Methods",
+      "Key aspect of Implementation Methods",
+      "Key aspect of Implementation Methods"
+    ],
+    "key_points": [
+      "While word embeddings serve as proof that textual semantic regularities can be assessed without labeled data, substantive language processing tasks need an algo",
+      "For example, a common motif in stories is that the next act derives from some event that occurred a while ago",
+      "Important aspect of Implementation Methods",
+      "Important aspect of Implementation Methods",
+      "Important aspect of Implementation Methods"
+    ],
+    "examples": [
+      "For example, a common motif in stories is that the next act derives from some event that occurred a while ago",
+      "While word embeddings serve as proof that textual semantic regularities can be assessed without labeled data, substantive language processing tasks ne"
+    ],
+    "source_chunks": [
+      48
+    ],
+    "content_summary": "Practical approaches and methodologies. While word embeddings serve as proof that textual semantic regularities can be assessed without labeled data, substantiv..."
+  },
+  {
+    "slide_id": 7,
+    "title": "Advanced Techniques",
+    "position": "content",
+    "intent": "Advanced implementations and optimizations. While generative AI models come in many different shapes, utilizing varied statistical and computational techniques to t...",
+    "key_concepts": [
+      "While generative AI models come in many different shapes, utilizing varied statistical and",
+      "We start with the most well-understood subset of machine learning techniques: supervised l",
+      "Key aspect of Advanced Techniques",
+      "Key aspect of Advanced Techniques",
+      "Key aspect of Advanced Techniques"
+    ],
+    "key_points": [
+      "While generative AI models come in many different shapes, utilizing varied statistical and computational techniques to target various modalities, ranging from c",
+      "This choice is partly due to the substantial lead LLMs have in driving the overall usage of generative AI models and partly due to the centrality 5of language i",
+      "That said, image- and code-based GenAI models have already witnessed successful commercial product deployment, for example, by Adobe for creating visual content",
+      "We start with the most well-understood subset of machine learning techniques: supervised learning",
+      "The central objective in supervised learning is to produce a prediction rule that predicts well on unseen data, given enough labeled examples"
+    ],
+    "examples": [
+      "That said, image- and code-based GenAI models have already witnessed successful commercial product deployment, for example, by Adobe for creating visu",
+      "The central objective in supervised learning is to produce a prediction rule that predicts well on unseen data, given enough labeled examples"
+    ],
+    "source_chunks": [
+      10,
+      26
+    ],
+    "content_summary": "Advanced implementations and optimizations. While generative AI models come in many different shapes, utilizing varied statistical and computational techniques to t..."
+  },
+  {
+    "slide_id": 8,
+    "title": "Real-World Applications",
+    "position": "content",
+    "intent": "Case studies and practical examples about Real-World Applications",
+    "key_concepts": [
+      "Karan Singh, Assistant Professor of Operations Research",
+      "Generative artificial intelligence (GenAI) tools are an emerging class of new-age artifici",
+      "This rapid progress has led many to to believe that the metamorphosis of these technologie",
+      "Figure 1: A taxonomy of GenAI-related disciplines",
+      "Key aspect of Real-World Applications"
+    ],
+    "key_points": [
+      "Karan Singh, Assistant Professor of Operations Research",
+      "Generative artificial intelligence (GenAI) tools are an emerging class of new-age artificial intelligence algorithms capable of producing novel content - in var",
+      "Recent advances in machine learning (ML), massive datasets, and substantial increases in computing power have propelled such tools to human-level performance on",
+      "This rapid progress has led many to to believe that the metamorphosis of these technologies 2from research-grade demos to accessible and easy-to-use production-",
+      "It took OpenAI's ChatGPT, a conversational web app based on a generative (multimodal) language model, about five days to reach one million users (compared to 2"
+    ],
+    "examples": [
+      "Generative artificial intelligence (GenAI) tools are an emerging class of new-age artificial intelligence algorithms capable of producing novel conten",
+      "That said, image- and code-based GenAI models have already witnessed successful commercial product deployment, for example, by Adobe for creating visu"
+    ],
+    "source_chunks": [
+      0,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10
+    ],
+    "content_summary": "Case studies and practical examples about Real-World Applications"
+  },
+  {
+    "slide_id": 9,
+    "title": "Applications Continued",
+    "position": "content",
+    "intent": "More application examples and use cases about Applications Continued",
+    "key_concepts": [
+      "Karan Singh, Assistant Professor of Operations Research",
+      "Generative artificial intelligence (GenAI) tools are an emerging class of new-age artifici",
+      "This rapid progress has led many to to believe that the metamorphosis of these technologie",
+      "Figure 1: A taxonomy of GenAI-related disciplines",
+      "Key aspect of Applications Continued"
+    ],
+    "key_points": [
+      "Karan Singh, Assistant Professor of Operations Research",
+      "Generative artificial intelligence (GenAI) tools are an emerging class of new-age artificial intelligence algorithms capable of producing novel content - in var",
+      "Recent advances in machine learning (ML), massive datasets, and substantial increases in computing power have propelled such tools to human-level performance on",
+      "This rapid progress has led many to to believe that the metamorphosis of these technologies 2from research-grade demos to accessible and easy-to-use production-",
+      "It took OpenAI's ChatGPT, a conversational web app based on a generative (multimodal) language model, about five days to reach one million users (compared to 2"
+    ],
+    "examples": [
+      "Generative artificial intelligence (GenAI) tools are an emerging class of new-age artificial intelligence algorithms capable of producing novel conten",
+      "That said, image- and code-based GenAI models have already witnessed successful commercial product deployment, for example, by Adobe for creating visu"
+    ],
+    "source_chunks": [
+      0,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10
+    ],
+    "content_summary": "More application examples and use cases about Applications Continued"
+  },
+  {
+    "slide_id": 10,
+    "title": "Best Practices",
+    "position": "content",
+    "intent": "Recommended practices and common pitfalls. What are these new-era AI technologies? How do they function? What principles do they operate on? What makes them differ...",
+    "key_concepts": [
+      "What are these new-era AI technologies? How do they function? What principles do they oper",
+      "produce a completion conditioned on the initial set of words",
+      "We start with the most well-understood subset of machine learning techniques: supervised l",
+      "The first generation of neural networks that captured the notion of memory were Recurrent ",
+      "Key aspect of Best Practices"
+    ],
+    "key_points": [
+      "What are these new-era AI technologies? How do they function? What principles do they operate on? What makes them different than already-hyped-up conventional m",
+      "The report will also tease out how this understanding foundationally informs the best uses (and misuses) of GenAI in applied contexts",
+      "produce a completion conditioned on the initial set of words",
+      "In this way, the initial context window, termed prompt, matters crucially to the produced completion",
+      "One hallmark of modern language models is that they keep track of the initial prompt even when generating large bodies of text, unlike the earlier generation of"
+    ],
+    "examples": [
+      "One hallmark of modern language models is that they keep track of the initial prompt even when generating large bodies of text, unlike the earlier gen",
+      "The central objective in supervised learning is to produce a prediction rule that predicts well on unseen data, given enough labeled examples"
+    ],
+    "source_chunks": [
+      8,
+      21,
+      26,
+      52
+    ],
+    "content_summary": "Recommended practices and common pitfalls. What are these new-era AI technologies? How do they function? What principles do they operate on? What makes them differ..."
+  },
+  {
+    "slide_id": 11,
+    "title": "Limitations and Challenges",
+    "position": "content",
+    "intent": "Constraints, limitations, and solutions. Generative artificial intelligence (GenAI) tools are an emerging class of new-age artificial intelligence algorithms cap...",
+    "key_concepts": [
+      "Generative artificial intelligence (GenAI) tools are an emerging class of new-age artifici",
+      "This rapid progress has led many to to believe that the metamorphosis of these technologie",
+      "What are these new-era AI technologies? How do they function? What principles do they oper",
+      "A word of disclaimer: this gradient of topics also means that, while the initial sections ",
+      "While generative AI models come in many different shapes, utilizing varied statistical and"
+    ],
+    "key_points": [
+      "Generative artificial intelligence (GenAI) tools are an emerging class of new-age artificial intelligence algorithms capable of producing novel content - in var",
+      "Recent advances in machine learning (ML), massive datasets, and substantial increases in computing power have propelled such tools to human-level performance on",
+      "This rapid progress has led many to to believe that the metamorphosis of these technologies 2from research-grade demos to accessible and easy-to-use production-",
+      "It took OpenAI's ChatGPT, a conversational web app based on a generative (multimodal) language model, about five days to reach one million users (compared to 2",
+      "On the business side, the Economist reports that the number of jobs mentioning AI-related skills quadrupled from 2022 to 2023"
+    ],
+    "examples": [
+      "Generative artificial intelligence (GenAI) tools are an emerging class of new-age artificial intelligence algorithms capable of producing novel conten",
+      "That said, image- and code-based GenAI models have already witnessed successful commercial product deployment, for example, by Adobe for creating visu"
+    ],
+    "source_chunks": [
+      3,
+      4,
+      8,
+      9,
+      10,
+      16,
+      17,
+      21
+    ],
+    "content_summary": "Constraints, limitations, and solutions. Generative artificial intelligence (GenAI) tools are an emerging class of new-age artificial intelligence algorithms cap..."
+  },
+  {
+    "slide_id": 12,
+    "title": "Future Developments",
+    "position": "content",
+    "intent": "Emerging trends and research directions. What are these new-era AI technologies? How do they function? What principles do they operate on? What makes them differ...",
+    "key_concepts": [
+      "What are these new-era AI technologies? How do they function? What principles do they oper",
+      "We address these questions indirectly in the present section by taking a tour of the essen",
+      "Key aspect of Future Developments",
+      "Key aspect of Future Developments",
+      "Key aspect of Future Developments"
+    ],
+    "key_points": [
+      "What are these new-era AI technologies? How do they function? What principles do they operate on? What makes them different than already-hyped-up conventional m",
+      "The report will also tease out how this understanding foundationally informs the best uses (and misuses) of GenAI in applied contexts",
+      "We address these questions indirectly in the present section by taking a tour of the essential significant developments in machine learning and artificial intel",
+      "Important aspect of Future Developments",
+      "Important aspect of Future Developments"
+    ],
+    "examples": [
+      "What are these new-era AI technologies? How do they function? What principles do they operate on? What makes them different than already-hyped-up conv",
+      "We address these questions indirectly in the present section by taking a tour of the essential significant developments in machine learning and artifi"
+    ],
+    "source_chunks": [
+      8,
+      24
+    ],
+    "content_summary": "Emerging trends and research directions. What are these new-era AI technologies? How do they function? What principles do they operate on? What makes them differ..."
+  },
+  {
+    "slide_id": 13,
+    "title": "Conclusion",
+    "position": "conclusion",
+    "intent": "Summary, key takeaways, and next steps about Conclusion",
+    "key_concepts": [
+      "Karan Singh, Assistant Professor of Operations Research",
+      "Generative artificial intelligence (GenAI) tools are an emerging class of new-age artifici",
+      "This rapid progress has led many to to believe that the metamorphosis of these technologie",
+      "Figure 1: A taxonomy of GenAI-related disciplines",
+      "Key aspect of Conclusion"
+    ],
+    "key_points": [
+      "Karan Singh, Assistant Professor of Operations Research",
+      "Generative artificial intelligence (GenAI) tools are an emerging class of new-age artificial intelligence algorithms capable of producing novel content - in var",
+      "Recent advances in machine learning (ML), massive datasets, and substantial increases in computing power have propelled such tools to human-level performance on",
+      "This rapid progress has led many to to believe that the metamorphosis of these technologies 2from research-grade demos to accessible and easy-to-use production-",
+      "It took OpenAI's ChatGPT, a conversational web app based on a generative (multimodal) language model, about five days to reach one million users (compared to 2"
+    ],
+    "examples": [
+      "Generative artificial intelligence (GenAI) tools are an emerging class of new-age artificial intelligence algorithms capable of producing novel conten",
+      "That said, image- and code-based GenAI models have already witnessed successful commercial product deployment, for example, by Adobe for creating visu"
+    ],
+    "source_chunks": [
+      0,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10
+    ],
+    "content_summary": "Summary, key takeaways, and next steps about Conclusion"
+  }
+]
