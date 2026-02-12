@@ -4,22 +4,94 @@ PURPOSE:
 This agent converts narration scripts into spoken audio using a generative speech model.
 
 INPUT:
-- Narration script text
+- Narration script text (from scripts.json)
 
 OUTPUT:
-- Audio file (WAV)
+- Audio file (WAV format)
 - Converted MP4 file for PPTX embedding
+- Audio metadata (JSON)
 
 PLANNER PSEUDO-CODE:
-1. Generate speech audio from text.
-2. Normalize volume and clarity.
-3. Convert audio to MP4 format.
-4. Return audio file path.
+1. Load scripts from scripts.json file containing all slide narrations
+2. For each script:
+   a. Generate speech audio from text using Suno Bark
+   b. Normalize volume and apply compression for clarity
+   c. Save as WAV format (PCM 16-bit, 24kHz)
+   d. Convert audio to MP4 format using ffmpeg
+   e. Record metadata (slide ID, title, duration, file paths)
+3. Save aggregate results to audio_metadata.json
+4. Return audio file paths and processing summary
 
 MODEL:
 - Suno Bark
 
 VOICE SETTINGS:
-- Style: Neutral academic lecturer
+- Voice Preset: v2/en_speaker_1 (Neutral academic lecturer)
+- Style: Neutral, professional, academic
 - Tone: Calm and clear
 - Speed: Medium
+- Temperature Settings:
+  * Text Temperature: 0.7 (for consistency)
+  * Waveform Temperature: 0.8 (for naturalness)
+
+PROCESSING PIPELINE:
+1. Audio Generation
+   - Generate raw audio array from text script
+   - Sample rate: 24kHz (Bark native format)
+   
+2. Audio Normalization
+   - Remove DC offset for clean signal
+   - Normalize to [-1, 1] range
+   - Apply dynamic range compression (ratio: 4:1)
+   - Maintain 0.95 peak level to prevent clipping
+
+3. Format Conversion
+   - WAV: PCM 16-bit encoding, 24kHz sample rate
+   - MP4: AAC codec, 128kbps bitrate (suitable for PowerPoint)
+
+DEPENDENCIES:
+- bark-ml: TTS model
+- librosa: Audio processing
+- soundfile: WAV file I/O
+- ffmpeg-python: Format conversion (requires ffmpeg binary)
+
+OUTPUT STRUCTURE:
+audio_output/
+├── slide_01_introduction.wav
+├── slide_01_introduction.mp4
+├── slide_02_fundamentals_part_1.wav
+├── slide_02_fundamentals_part_1.mp4
+├── ... (continues for all slides)
+└── audio_metadata.json
+
+METADATA FORMAT (audio_metadata.json):
+{
+  "version": "1.0",
+  "metadata": {
+    "total_slides": 13,
+    "total_audio_files": 13,
+    "model": "Suno Bark",
+    "voice_style": "Neutral academic lecturer"
+  },
+  "audio_files": [
+    {
+      "slide_id": 1,
+      "title": "Introduction",
+      "duration_seconds": 45.2,
+      "wav_file": "slide_01_introduction.wav",
+      "mp4_file": "slide_01_introduction.mp4",
+      "status": "completed"
+    },
+    ...
+  ]
+}
+
+EXECUTION FLOW:
+1. Initialize TTSAgent with paths
+2. Load scripts.json from previous agent
+3. Iterate through each script entry
+4. Generate audio for each slide's narration
+5. Normalize audio quality and volume
+6. Save in both WAV and MP4 formats
+7. Create comprehensive metadata
+8. Log processing summary with file counts and locations
