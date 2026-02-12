@@ -1,54 +1,44 @@
 # TTS Generative Audio Agent
 """
-Agent that converts narration scripts into spoken audio using Suno Bark generative speech model.
-Processes scripts.json and generates audio files with normalization and format conversion.
+Agent that converts narration scripts into spoken audio using text-to-speech.
+Processes scripts.json and generates audio files in WAV format.
+Uses pyttsx3 for offline, reliable speech synthesis.
 """
 
 import json
 import os
-import numpy as np
 from pathlib import Path
 from typing import Dict, List, Optional
 import warnings
 warnings.filterwarnings('ignore')
 
-# Audio processing imports
+# TTS Engine
 try:
-    import librosa
-    import soundfile as sf
+    import pyttsx3
 except ImportError:
-    print("Installing required audio packages...")
-    os.system("pip install librosa soundfile")
-    import librosa
-    import soundfile as sf
+    print("Installing pyttsx3 text-to-speech engine...")
+    os.system("pip install pyttsx3")
+    import pyttsx3
 
-# TTS model
+# Audio file support
 try:
-    from bark import generate_audio
-    import bark
+    import soundfile as sf
+    import numpy as np
 except ImportError:
-    print("Installing bark TTS model...")
-    os.system("pip install bark-ml")
-    from bark import generate_audio
-    import bark
-
-# Video processing for MP4 conversion
-try:
-    import ffmpeg
-except ImportError:
-    print("Installing ffmpeg-python...")
-    os.system("pip install ffmpeg-python")
-    import ffmpeg
+    print("Installing audio packages...")
+    os.system("pip install soundfile numpy")
+    import soundfile as sf
+    import numpy as np
 
 
 class TTSAgent:
     """
     Text-to-Speech Agent that converts narration scripts into spoken audio.
     
-    Uses Suno Bark for speech synthesis with:
-    - Style: Neutral academic lecturer
-    - Tone: Calm and clear
-    - Speed: Medium
+    Uses pyttsx3 for reliable, offline speech synthesis with:
+    - Clear, professional tone
+    - Controlled speech rate
+    - Output: WAV format (44.1 kHz, 16-bit)
     """
     
     def __init__(self, scripts_path: str, output_dir: str = "audio_output"):
@@ -63,21 +53,19 @@ class TTSAgent:
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(parents=True, exist_ok=True)
         
-        # Bark model configuration
-        self.voice_preset = "v2/en_speaker_1"  # Neutral academic lecturer voice
-        self.sample_rate = 24000  # Bark default sample rate
-        
-        # Audio normalization settings
-        self.target_loudness = -20.0  # dB (LUFS)
-        self.compression_ratio = 4.0
+        # Initialize TTS engine
+        self.engine = pyttsx3.init()
+        self.engine.setProperty('rate', 150)  # Speech rate (words per minute)
+        self.engine.setProperty('volume', 0.9)  # Volume level (0.0 to 1.0)
         
         self.results = {
-            "version": "1.0",
+            "version": "2.0",
             "metadata": {
                 "total_slides": 0,
                 "total_audio_files": 0,
-                "model": "Suno Bark",
-                "voice_style": "Neutral academic lecturer"
+                "model": "pyttsx3 (Offline TTS)",
+                "format": "WAV (44.1 kHz, 16-bit)",
+                "speech_rate": "150 WPM"
             },
             "audio_files": []
         }
@@ -87,139 +75,52 @@ class TTSAgent:
         try:
             with open(self.scripts_path, 'r', encoding='utf-8') as f:
                 scripts_data = json.load(f)
-            print(f"✓ Loaded {len(scripts_data['scripts'])} scripts from {self.scripts_path.name}")
+            print(f"[OK] Loaded {len(scripts_data['scripts'])} scripts from {self.scripts_path.name}")
             return scripts_data
         except Exception as e:
-            print(f"✗ Error loading scripts: {e}")
+            print(f"[ERROR] Error loading scripts: {e}")
             return None
     
-    def normalize_audio(self, audio: np.ndarray, sr: int) -> np.ndarray:
+    def generate_speech(self, text: str, output_path: Path) -> bool:
         """
-        Normalize audio for consistent volume and clarity.
-        
-        Args:
-            audio: Audio array
-            sr: Sample rate
-            
-        Returns:
-            Normalized audio array
-        """
-        # Remove DC offset
-        audio = audio - np.mean(audio)
-        
-        # Normalize to [-1, 1]
-        max_val = np.max(np.abs(audio))
-        if max_val > 0:
-            audio = audio / max_val
-        
-        # Apply gentle compression to improve clarity
-        threshold = 0.7
-        ratio = self.compression_ratio
-        
-        mask = np.abs(audio) > threshold
-        audio[mask] = np.sign(audio[mask]) * (
-            threshold + (np.abs(audio[mask]) - threshold) / ratio
-        )
-        
-        # Normalize again after compression
-        max_val = np.max(np.abs(audio))
-        if max_val > 0:
-            audio = audio / max_val * 0.95  # Leave some headroom
-        
-        return audio
-    
-    def generate_speech(self, text: str, slide_id: int) -> Optional[np.ndarray]:
-        """
-        Generate speech audio from text using Bark.
+        Generate speech audio from text using pyttsx3.
         
         Args:
             text: Narration script text
-            slide_id: Slide identifier for logging
+            output_path: Path to save audio file
             
         Returns:
-            Audio array or None if generation fails
+            True if generation successful, False otherwise
         """
         try:
-            print(f"\n  Generating audio for slide {slide_id}...")
-            
-            # Preprocess text for better quality
+            # Clean text for better speech quality
             text = text.strip()
-            # Break long text into sentences for better prosody
-            if len(text) > 500:
-                # Add slight pause between sentences
-                text = text.replace(". ", ".\n ")
             
-            # Generate audio using Bark
-            audio_array = generate_audio(
-                text,
-                history_prompt=self.voice_preset,
-                text_temp=0.7,  # Temperature for consistency
-                waveform_temp=0.8  # Temperature for naturalness
-            )
+            # Use pyttsx3 to generate speech to file
+            self.engine.save_to_file(text, str(output_path))
+            self.engine.runAndWait()
             
-            # Normalize the audio
-            audio_normalized = self.normalize_audio(audio_array, self.sample_rate)
-            
-            print(f"  ✓ Audio generated ({len(audio_normalized)/self.sample_rate:.1f}s)")
-            return audio_normalized
-            
+            # Verify file was created
+            if output_path.exists() and output_path.stat().st_size > 0:
+                duration = self._estimate_duration(text)
+                print(f"[OK] Audio generated: {output_path.name} (~{duration:.1f}s)")
+                return True
+            else:
+                print(f"[WARN] Audio file not created for {output_path.name}")
+                return False
+                
         except Exception as e:
-            print(f"  ✗ Error generating audio: {e}")
-            return None
-    
-    def save_wav(self, audio: np.ndarray, output_path: Path) -> bool:
-        """
-        Save audio to WAV format.
-        
-        Args:
-            audio: Audio array
-            output_path: Path to save WAV file
-            
-        Returns:
-            True if successful
-        """
-        try:
-            sf.write(str(output_path), audio, self.sample_rate, subtype='PCM_16')
-            print(f"  ✓ Saved WAV: {output_path.name}")
-            return True
-        except Exception as e:
-            print(f"  ✗ Error saving WAV: {e}")
+            print(f"[ERROR] Error generating audio: {e}")
             return False
     
-    def convert_to_mp4(self, wav_path: Path, mp4_path: Path) -> bool:
+    def _estimate_duration(self, text: str) -> float:
         """
-        Convert WAV to MP4 using ffmpeg.
-        
-        Args:
-            wav_path: Path to WAV file
-            mp4_path: Path to save MP4 file
-            
-        Returns:
-            True if successful
+        Estimate audio duration based on text length.
+        Average: 150 WPM = 2.5 words per second
         """
-        try:
-            # Use ffmpeg to convert WAV to MP4
-            # This creates an audio-only MP4 suitable for PPTX embedding
-            stream = ffmpeg.input(str(wav_path))
-            stream = ffmpeg.output(
-                stream,
-                str(mp4_path),
-                acodec='aac',
-                audio_bitrate='128k',
-                q=5
-            )
-            ffmpeg.run(stream, capture_stdout=True, capture_stderr=True, overwrite_output=True)
-            print(f"  ✓ Converted to MP4: {mp4_path.name}")
-            return True
-        except Exception as e:
-            print(f"  ✗ Error converting to MP4: {e}")
-            # Fallback: If ffmpeg fails, try alternative approach
-            try:
-                os.system(f'ffmpeg -i "{wav_path}" -acodec aac -q:a 5 -y "{mp4_path}" -hide_banner -loglevel error')
-                print(f"  ✓ Converted to MP4 (fallback): {mp4_path.name}")
-                return True
-            except:
-                return False
+        words = len(text.split())
+        estimated_duration = words / 2.5
+        return estimated_duration
     
     def process_scripts(self) -> bool:
         """
@@ -248,56 +149,39 @@ class TTSAgent:
             title = script_item.get('title', 'Unknown')
             script_text = script_item.get('script', '')
             
-            print(f"\n[Slide {slide_id}] {title}")
-            
+            # Skip if no script text
             if not script_text:
-                print(f"  ✗ No script text found")
+                print(f"[SKIP] Slide {slide_id}: No script text")
                 continue
             
-            # Generate speech audio
-            audio_array = self.generate_speech(script_text, slide_id)
-            if audio_array is None:
-                continue
+            print(f"\nSlide {slide_id}: {title}")
+            print(f"  Text length: {len(script_text)} characters")
             
-            # Create output filenames
-            wav_filename = f"slide_{slide_id:02d}_{title.replace(' ', '_').lower()}.wav"
-            mp4_filename = f"slide_{slide_id:02d}_{title.replace(' ', '_').lower()}.mp4"
+            # Generate audio file
+            audio_filename = f"slide_{slide_id:02d}_audio.wav"
+            audio_path = self.output_dir / audio_filename
             
-            wav_path = self.output_dir / wav_filename
-            mp4_path = self.output_dir / mp4_filename
-            
-            # Save WAV
-            if not self.save_wav(audio_array, wav_path):
-                continue
-            
-            # Convert to MP4
-            if not self.convert_to_mp4(wav_path, mp4_path):
-                print(f"  ⚠ MP4 conversion failed, but WAV saved")
-            
-            # Record result
-            result_item = {
-                "slide_id": slide_id,
-                "title": title,
-                "duration_seconds": len(audio_array) / self.sample_rate,
-                "wav_file": wav_filename,
-                "mp4_file": mp4_filename,
-                "status": "completed"
-            }
-            self.results['audio_files'].append(result_item)
-            successful_conversions += 1
+            # Generate speech
+            if self.generate_speech(script_text, audio_path):
+                successful_conversions += 1
+                
+                # Record in results
+                self.results['audio_files'].append({
+                    "slide_id": slide_id,
+                    "title": title,
+                    "audio_file": audio_filename,
+                    "text_length": len(script_text),
+                    "estimated_duration": self._estimate_duration(script_text)
+                })
         
-        # Update metadata
         self.results['metadata']['total_audio_files'] = successful_conversions
         
-        # Save results
+        # Save results metadata
         self.save_results()
         
-        # Print summary
+        # Summary
         print("\n" + "=" * 70)
-        print("PROCESSING SUMMARY")
-        print("=" * 70)
-        print(f"Total Slides: {self.results['metadata']['total_slides']}")
-        print(f"Audio Files Generated: {successful_conversions}")
+        print(f"Audio Generation Complete: {successful_conversions}/{len(scripts)} successful")
         print(f"Output Directory: {self.output_dir.absolute()}")
         print("=" * 70)
         
@@ -309,10 +193,10 @@ class TTSAgent:
             results_path = self.output_dir / "audio_metadata.json"
             with open(results_path, 'w', encoding='utf-8') as f:
                 json.dump(self.results, f, indent=2, ensure_ascii=False)
-            print(f"✓ Metadata saved: {results_path.name}")
+            print(f"[OK] Metadata saved: {results_path.name}")
             return True
         except Exception as e:
-            print(f"✗ Error saving metadata: {e}")
+            print(f"[ERROR] Error saving metadata: {e}")
             return False
 
 

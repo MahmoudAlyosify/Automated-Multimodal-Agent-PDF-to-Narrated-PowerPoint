@@ -34,8 +34,10 @@ from pptx import Presentation
 from pptx.util import Inches, Pt
 from pptx.enum.text import PP_ALIGN, MSO_ANCHOR
 from pptx.dml.color import RGBColor
+from pptx.oxml.xmlchemy import OxmlElement
 from PIL import Image, ImageDraw
 import io
+import os
 
 
 # ============================================================================
@@ -56,7 +58,7 @@ logger = logging.getLogger(__name__)
 class PPTXBuilderAgent:
     """Converts JSON presentation design to PowerPoint file"""
     
-    def __init__(self):
+    def __init__(self, audio_folder: Optional[str] = None):
         self.prs = None
         self.presentation_data = None
         self.slide_width = 1280
@@ -64,6 +66,8 @@ class PPTXBuilderAgent:
         self.scale_x = 1.0  # Scaling factor for x-coordinates
         self.scale_y = 1.0  # Scaling factor for y-coordinates
         self.font_scale = 1.0  # Scaling factor for font sizes
+        self.audio_folder = Path(audio_folder) if audio_folder else None  # Audio folder path
+        self.audio_files = {}  # Cache for audio file paths by slide_id
     
     def load_presentation_json(self, json_file: str = "presentation.json") -> bool:
         """Load presentation JSON from file"""
@@ -79,11 +83,37 @@ class PPTXBuilderAgent:
             self.slide_width = size_info['width']
             self.slide_height = size_info['height']
             
+            # Load audio files if audio folder exists
+            self._load_audio_files()
+            
             return True
             
         except Exception as e:
             logger.error(f"Failed to load presentation JSON: {e}")
             return False
+    
+    def _load_audio_files(self):
+        """Load available audio files from audio folder"""
+        if not self.audio_folder or not self.audio_folder.exists():
+            logger.warning(f"Audio folder not found: {self.audio_folder}")
+            return
+        
+        try:
+            # Find all WAV and MP3 files in audio folder
+            for audio_file in self.audio_folder.glob("*.wav"):
+                # Extract slide ID from filename (e.g., "slide_01_audio.wav" -> 1)
+                filename = audio_file.stem
+                if filename.startswith("slide_"):
+                    try:
+                        slide_id = int(filename.split("_")[1])
+                        self.audio_files[slide_id] = audio_file
+                        logger.info(f"Found audio for slide {slide_id}: {audio_file.name}")
+                    except (ValueError, IndexError):
+                        pass
+            
+            logger.info(f"Loaded {len(self.audio_files)} audio files")
+        except Exception as e:
+            logger.warning(f"Error loading audio files: {e}")
     
     def build_presentation(self) -> bool:
         """Build PowerPoint presentation from JSON"""
@@ -132,6 +162,10 @@ class PPTXBuilderAgent:
         elements = slide_data.get('elements', [])
         for element in elements:
             self._add_element(slide, element)
+        
+        # Embed audio if available
+        slide_id = slide_data.get('slide_id', slide_number)
+        self._embed_audio_to_slide(slide, slide_id, slide_number)
     
     def _apply_background(self, slide, background_data: Optional[Dict]):
         """Apply background to slide"""
@@ -386,6 +420,37 @@ class PPTXBuilderAgent:
         # Treat as shape element
         self._add_shape_element(slide, element_data)
     
+    def _embed_audio_to_slide(self, slide, slide_id: int, slide_number: int):
+        """Embed audio file to slide if available"""
+        try:
+            # Check if audio file exists for this slide
+            if slide_id not in self.audio_files:
+                return
+            
+            audio_path = self.audio_files[slide_id]
+            if not audio_path.exists():
+                logger.warning(f"Audio file not found: {audio_path}")
+                return
+            
+            # Add audio to slide (bottom right corner, small size)
+            # Position: near bottom right, size: 0.5" x 0.5"
+            left = self.prs.slide_width - Inches(0.7)
+            top = self.prs.slide_height - Inches(0.7)
+            
+            # Add audio shape
+            audio_shape = slide.shapes.add_movie(
+                str(audio_path),
+                left,
+                top,
+                width=Inches(0.5),
+                height=Inches(0.5)
+            )
+            
+            logger.info(f"[OK] Embedded audio for slide {slide_id}: {audio_path.name}")
+            
+        except Exception as e:
+            logger.warning(f"[WARN] Could not embed audio for slide {slide_id}: {e}")
+    
     def _hex_to_rgb(self, hex_color: str) -> Tuple[int, int, int]:
         """Convert hex color to RGB tuple"""
         
@@ -458,6 +523,7 @@ Examples:
   python pptx_builder_agent.py                    # Default (from ../5- Slide Generator Agent/)
   python pptx_builder_agent.py --input presentation.json
   python pptx_builder_agent.py --output lecture.pptx
+  python pptx_builder_agent.py --audio ../8-\ TTS\ Generative\ Audio\ Agent/audio_output
         """
     )
     
@@ -473,6 +539,12 @@ Examples:
         help='Output PowerPoint file (default: lecture.pptx)'
     )
     
+    parser.add_argument(
+        '--audio',
+        default=None,
+        help='Audio folder containing WAV files for slides'
+    )
+    
     args = parser.parse_args()
     
     print("\n" + "="*80)
@@ -480,9 +552,11 @@ Examples:
     print("="*80)
     print(f"Input: {args.input}")
     print(f"Output: {args.output}")
+    if args.audio:
+        print(f"Audio Folder: {args.audio}")
     
-    # Create agent
-    builder = PPTXBuilderAgent()
+    # Create agent with audio folder
+    builder = PPTXBuilderAgent(audio_folder=args.audio)
     
     # Load JSON
     if not builder.load_presentation_json(args.input):
@@ -503,7 +577,7 @@ Examples:
     builder.display_summary()
     
     print("\n" + "="*80)
-    print("✅ PPTX GENERATION COMPLETE")
+    print("[OK] PPTX GENERATION COMPLETE")
     print("="*80)
 
 

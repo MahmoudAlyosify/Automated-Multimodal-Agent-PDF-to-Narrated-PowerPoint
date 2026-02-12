@@ -1,0 +1,87 @@
+{
+  "version": "1.0",
+  "metadata": {
+    "total_slides": 13,
+    "total_duration_seconds": 945
+  },
+  "scripts": [
+    {
+      "slide_id": 1,
+      "title": "Introduction",
+      "script": "Welcome, and thank you for using Mahmoud and Mirna's project. \n\nToday, we'll explore the fascinating world of generative artificial intelligence. This presentation will take you on a journey through the fundamentals, practical applications, and future implications of AI systems that can create new content.\n\nWe'll start by understanding what makes these systems work, then dive into how they're being used in real-world scenarios, and finally discuss the important considerations and future directions of this rapidly evolving field.\n\nLet's begin!",
+      "duration_seconds": 45
+    },
+    {
+      "slide_id": 2,
+      "title": "Fundamentals - Part 1",
+      "script": "In this section, 'Fundamentals - Part 1', we explore several important aspects:\n\n1. While generative AI models come in many different shapes, utilizing varied statistical and computati...\n2. This choice is partly due to the substantial lead LLMs have in driving the overall usage of generati...\n3. That said, image- and code-based GenAI models have already witnessed successful commercial product d...\n\nThese elements work together to create a comprehensive understanding of Fundamentals - Part 1. Let's look at how these concepts apply in practice and why they matter for the broader context of generative AI systems.",
+      "duration_seconds": 75
+    },
+    {
+      "slide_id": 3,
+      "title": "Fundamentals - Part 2",
+      "script": "In this section, 'Fundamentals - Part 2', we explore several important aspects:\n\n1. While generative AI models come in many different shapes, utilizing varied statistical and computati...\n2. This choice is partly due to the substantial lead LLMs have in driving the overall usage of generati...\n3. That said, image- and code-based GenAI models have already witnessed successful commercial product d...\n\nThese elements work together to create a comprehensive understanding of Fundamentals - Part 2. Let's look at how these concepts apply in practice and why they matter for the broader context of generative AI systems.",
+      "duration_seconds": 75
+    },
+    {
+      "slide_id": 4,
+      "title": "Theory and Background",
+      "script": "In this section, 'Theory and Background', we explore several important aspects:\n\n1. Generative artificial intelligence (GenAI) tools are an emerging class of new-age artificial intelli...\n2. Recent advances in machine learning (ML), massive datasets, and substantial increases in computing p...\n3. This rapid progress has led many to to believe that the metamorphosis of these technologies 2from re...\n\nThese elements work together to create a comprehensive understanding of Theory and Background. Let's look at how these concepts apply in practice and why they matter for the broader context of generative AI systems.",
+      "duration_seconds": 75
+    },
+    {
+      "slide_id": 5,
+      "title": "Key Principles",
+      "script": "In this section, 'Key Principles', we explore several important aspects:\n\n1. What are these new-era AI technologies? How do they function? What principles do they operate on? Wh...\n2. The report will also tease out how this understanding foundationally informs the best uses (and misu...\n3. Important aspect of Key Principles\n\nThese elements work together to create a comprehensive understanding of Key Principles. Let's look at how these concepts apply in practice and why they matter for the broader context of generative AI systems.",
+      "duration_seconds": 75
+    },
+    {
+      "slide_id": 6,
+      "title": "Implementation Methods",
+      "script": "In this section, 'Implementation Methods', we explore several important aspects:\n\n1. While word embeddings serve as proof that textual semantic regularities can be assessed without labe...\n2. For example, a common motif in stories is that the next act derives from some event that occurred a ...\n3. Important aspect of Implementation Methods\n\nThese elements work together to create a comprehensive understanding of Implementation Methods. Let's look at how these concepts apply in practice and why they matter for the broader context of generative AI systems.",
+      "duration_seconds": 75
+    },
+    {
+      "slide_id": 7,
+      "title": "Advanced Techniques",
+      "script": "In this section, 'Advanced Techniques', we explore several important aspects:\n\n1. While generative AI models come in many different shapes, utilizing varied statistical and computati...\n2. This choice is partly due to the substantial lead LLMs have in driving the overall usage of generati...\n3. That said, image- and code-based GenAI models have already witnessed successful commercial product d...\n\nThese elements work together to create a comprehensive understanding of Advanced Techniques. Let's look at how these concepts apply in practice and why they matter for the broader context of generative AI systems.",
+      "duration_seconds": 75
+    },
+    {
+      "slide_id": 8,
+      "title": "Real-World Applications",
+      "script": "In this section, 'Real-World Applications', we explore several important aspects:\n\n1. Karan Singh, Assistant Professor of Operations Research\n2. Generative artificial intelligence (GenAI) tools are an emerging class of new-age artificial intelli...\n3. Recent advances in machine learning (ML), massive datasets, and substantial increases in computing p...\n\nThese elements work together to create a comprehensive understanding of Real-World Applications. Let's look at how these concepts apply in practice and why they matter for the broader context of generative AI systems.",
+      "duration_seconds": 75
+    },
+    {
+      "slide_id": 9,
+      "title": "Applications Continued",
+      "script": "In this section, 'Applications Continued', we explore several important aspects:\n\n1. Karan Singh, Assistant Professor of Operations Research\n2. Generative artificial intelligence (GenAI) tools are an emerging class of new-age artificial intelli...\n3. Recent advances in machine learning (ML), massive datasets, and substantial increases in computing p...\n\nThese elements work together to create a comprehensive understanding of Applications Continued. Let's look at how these concepts apply in practice and why they matter for the broader context of generative AI systems.",
+      "duration_seconds": 75
+    },
+    {
+      "slide_id": 10,
+      "title": "Best Practices",
+      "script": "In this section, 'Best Practices', we explore several important aspects:\n\n1. What are these new-era AI technologies? How do they function? What principles do they operate on? Wh...\n2. The report will also tease out how this understanding foundationally informs the best uses (and misu...\n3. produce a completion conditioned on the initial set of words\n\nThese elements work together to create a comprehensive understanding of Best Practices. Let's look at how these concepts apply in practice and why they matter for the broader context of generative AI systems.",
+      "duration_seconds": 75
+    },
+    {
+      "slide_id": 11,
+      "title": "Limitations and Challenges",
+      "script": "In this section, 'Limitations and Challenges', we explore several important aspects:\n\n1. Generative artificial intelligence (GenAI) tools are an emerging class of new-age artificial intelli...\n2. Recent advances in machine learning (ML), massive datasets, and substantial increases in computing p...\n3. This rapid progress has led many to to believe that the metamorphosis of these technologies 2from re...\n\nThese elements work together to create a comprehensive understanding of Limitations and Challenges. Let's look at how these concepts apply in practice and why they matter for the broader context of generative AI systems.",
+      "duration_seconds": 75
+    },
+    {
+      "slide_id": 12,
+      "title": "Future Developments",
+      "script": "In this section, 'Future Developments', we explore several important aspects:\n\n1. What are these new-era AI technologies? How do they function? What principles do they operate on? Wh...\n2. The report will also tease out how this understanding foundationally informs the best uses (and misu...\n3. We address these questions indirectly in the present section by taking a tour of the essential signi...\n\nThese elements work together to create a comprehensive understanding of Future Developments. Let's look at how these concepts apply in practice and why they matter for the broader context of generative AI systems.",
+      "duration_seconds": 75
+    },
+    {
+      "slide_id": 13,
+      "title": "Conclusion",
+      "script": "In this section, 'Conclusion', we explore several important aspects:\n\n1. Karan Singh, Assistant Professor of Operations Research\n2. Generative artificial intelligence (GenAI) tools are an emerging class of new-age artificial intelli...\n3. Recent advances in machine learning (ML), massive datasets, and substantial increases in computing p...\n\nThese elements work together to create a comprehensive understanding of Conclusion. Let's look at how these concepts apply in practice and why they matter for the broader context of generative AI systems.",
+      "duration_seconds": 75
+    }
+  ]
+}
