@@ -25,7 +25,7 @@
     "slides": [
       {
         "id": "slide-1",
-        "title": "Introduction",
+        "title": "Introduction to Generative Artificial Intelligence (GenAI): Emergence and Significance",
         "background": {
           "gradient": {
             "type": "linear",
@@ -49,7 +49,7 @@
         "elements": [
           {
             "type": "text",
-            "text": "Introduction",
+            "text": "Introduction to Generative Artificial Intelligence (GenAI): Emergence and Significance",
             "box": {
               "x": 640,
               "y": 180,
@@ -73,7 +73,7 @@
           },
           {
             "type": "text",
-            "text": "Overview and context of the topic about Introduction",
+            "text": "By the end of this study, learners should understand the emergence and significance of Generative Ar",
             "box": {
               "x": 640,
               "y": 330,
@@ -113,7 +113,7 @@
       },
       {
         "id": "slide-2",
-        "title": "Fundamentals - Part 1",
+        "title": "Defining Generative AI: Core Concepts and Distinctions from Traditional Machine Learning",
         "background": {
           "color": "#f7fafc"
         },
@@ -136,7 +136,7 @@
           },
           {
             "type": "text",
-            "text": "Fundamentals - Part 1",
+            "text": "Defining Generative AI: Core Concepts and Distinctions from Traditional Machine Learning",
             "box": {
               "x": 60,
               "y": 20,
@@ -153,7 +153,7 @@
           },
           {
             "type": "text",
-            "text": "Core concepts and foundational terminology. While generative AI models come in many different shapes, utilizing varied s",
+            "text": "By studying this material, learners should master the fundamental distinctions between generative AI and traditional mac",
             "box": {
               "x": 60,
               "y": 110,
@@ -185,7 +185,7 @@
           },
           {
             "type": "text",
-            "text": "While generative AI models come in ",
+            "text": "Generative artificial intelligence ",
             "box": {
               "x": 75,
               "y": 165,
@@ -218,7 +218,7 @@
           },
           {
             "type": "text",
-            "text": "perspective in getting varied respo",
+            "text": "Supervised learning as a subset of ",
             "box": {
               "x": 445,
               "y": 165,
@@ -251,7 +251,7 @@
           },
           {
             "type": "text",
-            "text": "assumption that seen data must be r",
+            "text": "The centrality of predictive perfor",
             "box": {
               "x": 815,
               "y": 165,
@@ -279,7 +279,7 @@
           },
           {
             "type": "text",
-            "text": "While generative AI models come in many different shapes, utilizing varied statistical and comp",
+            "text": "Generative AI tools have achieved human-level performance on academic and professional benchmar",
             "box": {
               "x": 110,
               "y": 260,
@@ -306,7 +306,7 @@
           },
           {
             "type": "text",
-            "text": "This choice is partly due to the substantial lead LLMs have in driving the overall usage of gen",
+            "text": "Traditional supervised learning relies on labeled examples to train prediction rules, such as l",
             "box": {
               "x": 110,
               "y": 305,
@@ -333,7 +333,7 @@
           },
           {
             "type": "text",
-            "text": "That said, image- and code-based GenAI models have already witnessed successful commercial prod",
+            "text": "The simplicity of focusing solely on predictive performance, rather than causality or statistic",
             "box": {
               "x": 110,
               "y": 350,
@@ -360,7 +360,7 @@
           },
           {
             "type": "text",
-            "text": "perspective in getting varied responses",
+            "text": "The rapid adoption of generative AI, exemplified by OpenAI's ChatGPT reaching one million users",
             "box": {
               "x": 110,
               "y": 395,
@@ -387,7 +387,7 @@
           },
           {
             "type": "text",
-            "text": "From the deployer's perspective, this optionally allows the model to gather user feedback regar",
+            "text": "While generative AI encompasses models for various modalities, large language models (LLMs) hav",
             "box": {
               "x": 110,
               "y": 440,
@@ -438,7 +438,7 @@
       },
       {
         "id": "slide-3",
-        "title": "Fundamentals - Part 2",
+        "title": "Taxonomy of GenAI-Related Disciplines: A Comprehensive Classification Framework",
         "background": {
           "color": "#f7fafc"
         },
@@ -461,7 +461,7 @@
           },
           {
             "type": "text",
-            "text": "Fundamentals - Part 2",
+            "text": "Taxonomy of GenAI-Related Disciplines: A Comprehensive Classification Framework",
             "box": {
               "x": 60,
               "y": 20,
@@ -478,7 +478,7 @@
           },
           {
             "type": "text",
-            "text": "Essential principles and frameworks. While generative AI models come in many different shapes, utilizing varied statisti",
+            "text": "By studying this material, learners should master the foundational principles and practical applications of key discipli",
             "box": {
               "x": 60,
               "y": 110,
@@ -510,7 +510,7 @@
           },
           {
             "type": "text",
-            "text": "While generative AI models come in ",
+            "text": "The primacy of prediction as the ce",
             "box": {
               "x": 75,
               "y": 165,
@@ -543,7 +543,7 @@
           },
           {
             "type": "text",
-            "text": "perspective in getting varied respo",
+            "text": "The distributional hypothesis in co",
             "box": {
               "x": 445,
               "y": 165,
@@ -576,7 +576,7 @@
           },
           {
             "type": "text",
-            "text": "assumption that seen data must be r",
+            "text": "Contrastive learning, an unsupervis",
             "box": {
               "x": 815,
               "y": 165,
@@ -604,7 +604,7 @@
           },
           {
             "type": "text",
-            "text": "While generative AI models come in many different shapes, utilizing varied statistical and comp",
+            "text": "In machine learning, the success of a prediction rule is measured by its ability to make reason",
             "box": {
               "x": 110,
               "y": 260,
@@ -631,7 +631,7 @@
           },
           {
             "type": "text",
-            "text": "This choice is partly due to the substantial lead LLMs have in driving the overall usage of gen",
+            "text": "The distributional hypothesis underpins many modern natural language processing techniques, as ",
             "box": {
               "x": 110,
               "y": 305,
@@ -658,7 +658,7 @@
           },
           {
             "type": "text",
-            "text": "That said, image- and code-based GenAI models have already witnessed successful commercial prod",
+            "text": "Contrastive learning leverages unlabeled data to create pretext tasks, such as distinguishing b",
             "box": {
               "x": 110,
               "y": 350,
@@ -685,7 +685,7 @@
           },
           {
             "type": "text",
-            "text": "perspective in getting varied responses",
+            "text": "Word2Vec’s vector representations not only capture semantic nuances but also prove invaluable f",
             "box": {
               "x": 110,
               "y": 395,
@@ -712,7 +712,7 @@
           },
           {
             "type": "text",
-            "text": "From the deployer's perspective, this optionally allows the model to gather user feedback regar",
+            "text": "Machine learning’s strength lies in its ability to reframe a wide array of problems—from predic",
             "box": {
               "x": 110,
               "y": 440,
@@ -763,7 +763,7 @@
       },
       {
         "id": "slide-4",
-        "title": "Theory and Background",
+        "title": "From Research Demos to Production-Grade Tools: The Evolutionary Trajectory of GenAI Technologies",
         "background": {
           "color": "#f7fafc"
         },
@@ -786,7 +786,7 @@
           },
           {
             "type": "text",
-            "text": "Theory and Background",
+            "text": "From Research Demos to Production-Grade Tools: The Evolutionary Trajectory of GenAI Technologies",
             "box": {
               "x": 60,
               "y": 20,
@@ -803,7 +803,7 @@
           },
           {
             "type": "text",
-            "text": "Historical context and theoretical foundations. Generative artificial intelligence (GenAI) tools are an emerging class o",
+            "text": "By studying this material, learners should understand the transformative journey of generative AI technologies from expe",
             "box": {
               "x": 60,
               "y": 110,
@@ -835,7 +835,7 @@
           },
           {
             "type": "text",
-            "text": "Generative artificial intelligence ",
+            "text": "Generative Artificial Intelligence ",
             "box": {
               "x": 75,
               "y": 165,
@@ -868,7 +868,7 @@
           },
           {
             "type": "text",
-            "text": "This rapid progress has led many to",
+            "text": "Large Language Models (LLMs) that g",
             "box": {
               "x": 445,
               "y": 165,
@@ -901,7 +901,7 @@
           },
           {
             "type": "text",
-            "text": "What are these new-era AI technolog",
+            "text": "Prompt engineering—the deliberate s",
             "box": {
               "x": 815,
               "y": 165,
@@ -929,7 +929,7 @@
           },
           {
             "type": "text",
-            "text": "Generative artificial intelligence (GenAI) tools are an emerging class of new-age artificial in",
+            "text": "Generative AI technologies have transitioned rapidly from research demonstrations to accessible",
             "box": {
               "x": 110,
               "y": 260,
@@ -956,7 +956,7 @@
           },
           {
             "type": "text",
-            "text": "Recent advances in machine learning (ML), massive datasets, and substantial increases in comput",
+            "text": "The economic and operational impact of GenAI is already measurable: the number of job postings ",
             "box": {
               "x": 110,
               "y": 305,
@@ -983,7 +983,7 @@
           },
           {
             "type": "text",
-            "text": "This rapid progress has led many to to believe that the metamorphosis of these technologies 2fr",
+            "text": "While GenAI encompasses models that generate diverse content types—including images, audio, and",
             "box": {
               "x": 110,
               "y": 350,
@@ -1010,7 +1010,7 @@
           },
           {
             "type": "text",
-            "text": "It took OpenAI's ChatGPT, a conversational web app based on a generative (multimodal) language ",
+            "text": "At their core, LLMs operate on a deceptively simple mechanism: predicting the next word in a se",
             "box": {
               "x": 110,
               "y": 395,
@@ -1037,7 +1037,7 @@
           },
           {
             "type": "text",
-            "text": "On the business side, the Economist reports that the number of jobs mentioning AI-related skill",
+            "text": "Successful commercial deployments of GenAI are already evident, such as Adobe’s use of image-ba",
             "box": {
               "x": 110,
               "y": 440,
@@ -1088,7 +1088,7 @@
       },
       {
         "id": "slide-5",
-        "title": "Key Principles",
+        "title": "Modalities of GenAI: Text, Audio, Video, and Code Generation Capabilities Explored",
         "background": {
           "color": "#f7fafc"
         },
@@ -1111,7 +1111,7 @@
           },
           {
             "type": "text",
-            "text": "Key Principles",
+            "text": "Modalities of GenAI: Text, Audio, Video, and Code Generation Capabilities Explored",
             "box": {
               "x": 60,
               "y": 20,
@@ -1128,7 +1128,7 @@
           },
           {
             "type": "text",
-            "text": "Main principles and guidelines. What are these new-era AI technologies? How do they function? What principles do they op",
+            "text": "By studying this material, learners should understand the diverse modalities of Generative AI—particularly text, audio, ",
             "box": {
               "x": 60,
               "y": 110,
@@ -1160,7 +1160,7 @@
           },
           {
             "type": "text",
-            "text": "What are these new-era AI technolog",
+            "text": "Generative Artificial Intelligence ",
             "box": {
               "x": 75,
               "y": 165,
@@ -1193,7 +1193,7 @@
           },
           {
             "type": "text",
-            "text": "Key aspect of Key Principles",
+            "text": "Large Language Models (LLMs) as a d",
             "box": {
               "x": 445,
               "y": 165,
@@ -1226,7 +1226,7 @@
           },
           {
             "type": "text",
-            "text": "Key aspect of Key Principles",
+            "text": "Prompt engineering, the practice of",
             "box": {
               "x": 815,
               "y": 165,
@@ -1254,7 +1254,7 @@
           },
           {
             "type": "text",
-            "text": "What are these new-era AI technologies? How do they function? What principles do they operate o",
+            "text": "Generative AI tools have achieved human-level performance on academic and professional benchmar",
             "box": {
               "x": 110,
               "y": 260,
@@ -1281,7 +1281,7 @@
           },
           {
             "type": "text",
-            "text": "The report will also tease out how this understanding foundationally informs the best uses (and",
+            "text": "While GenAI encompasses multiple modalities, large language models (LLMs) dominate usage due to",
             "box": {
               "x": 110,
               "y": 305,
@@ -1308,7 +1308,7 @@
           },
           {
             "type": "text",
-            "text": "Important aspect of Key Principles",
+            "text": "Modern language models maintain coherence over large bodies of text by tracking the initial pro",
             "box": {
               "x": 110,
               "y": 350,
@@ -1335,7 +1335,7 @@
           },
           {
             "type": "text",
-            "text": "Important aspect of Key Principles",
+            "text": "Supervised learning relies on the assumption that a prediction rule trained on labeled data wil",
             "box": {
               "x": 110,
               "y": 395,
@@ -1362,7 +1362,7 @@
           },
           {
             "type": "text",
-            "text": "Important aspect of Key Principles",
+            "text": "Early neural networks like Recurrent Neural Networks (RNNs) introduced memory into text process",
             "box": {
               "x": 110,
               "y": 440,
@@ -1413,7 +1413,7 @@
       },
       {
         "id": "slide-6",
-        "title": "Implementation Methods",
+        "title": "Underlying Principles of GenAI: Probabilistic Models and Statistical Foundations",
         "background": {
           "color": "#f7fafc"
         },
@@ -1436,7 +1436,7 @@
           },
           {
             "type": "text",
-            "text": "Implementation Methods",
+            "text": "Underlying Principles of GenAI: Probabilistic Models and Statistical Foundations",
             "box": {
               "x": 60,
               "y": 20,
@@ -1453,7 +1453,7 @@
           },
           {
             "type": "text",
-            "text": "Practical approaches and methodologies. While word embeddings serve as proof that textual semantic regularities can be a",
+            "text": "By studying this material, learners should grasp the foundational principles that distinguish generative AI—particularly",
             "box": {
               "x": 60,
               "y": 110,
@@ -1485,7 +1485,7 @@
           },
           {
             "type": "text",
-            "text": "While word embeddings serve as proo",
+            "text": "Large language models (LLMs) as con",
             "box": {
               "x": 75,
               "y": 165,
@@ -1518,7 +1518,7 @@
           },
           {
             "type": "text",
-            "text": "Key aspect of Implementation Method",
+            "text": "Prompt engineering and the critical",
             "box": {
               "x": 445,
               "y": 165,
@@ -1551,7 +1551,7 @@
           },
           {
             "type": "text",
-            "text": "Key aspect of Implementation Method",
+            "text": "Performance-resource tradeoffs in m",
             "box": {
               "x": 815,
               "y": 165,
@@ -1579,7 +1579,7 @@
           },
           {
             "type": "text",
-            "text": "While word embeddings serve as proof that textual semantic regularities can be assessed without",
+            "text": "Generative AI, particularly large language models, operates on probabilistic foundations, gener",
             "box": {
               "x": 110,
               "y": 260,
@@ -1606,7 +1606,7 @@
           },
           {
             "type": "text",
-            "text": "For example, a common motif in stories is that the next act derives from some event that occurr",
+            "text": "The quality and structure of the initial prompt significantly influence the utility and accurac",
             "box": {
               "x": 110,
               "y": 305,
@@ -1633,7 +1633,7 @@
           },
           {
             "type": "text",
-            "text": "Important aspect of Implementation Methods",
+            "text": "While LLMs dominate current GenAI applications due to their versatility in language-based tasks",
             "box": {
               "x": 110,
               "y": 350,
@@ -1660,7 +1660,7 @@
           },
           {
             "type": "text",
-            "text": "Important aspect of Implementation Methods",
+            "text": "Generative models introduce unique tradeoffs, such as the balance between computational resourc",
             "box": {
               "x": 110,
               "y": 395,
@@ -1687,7 +1687,7 @@
           },
           {
             "type": "text",
-            "text": "Important aspect of Implementation Methods",
+            "text": "The probabilistic nature of language models, combined with mechanisms for gathering user feedba",
             "box": {
               "x": 110,
               "y": 440,
@@ -1738,7 +1738,7 @@
       },
       {
         "id": "slide-7",
-        "title": "Advanced Techniques",
+        "title": "Language Models Unveiled: Mechanics of Next-Token Prediction and Context Windows",
         "background": {
           "color": "#f7fafc"
         },
@@ -1761,7 +1761,7 @@
           },
           {
             "type": "text",
-            "text": "Advanced Techniques",
+            "text": "Language Models Unveiled: Mechanics of Next-Token Prediction and Context Windows",
             "box": {
               "x": 60,
               "y": 20,
@@ -1778,7 +1778,7 @@
           },
           {
             "type": "text",
-            "text": "Advanced implementations and optimizations. While generative AI models come in many different shapes, utilizing varied s",
+            "text": "By the end of this study, learners should understand the core mechanics of next-token prediction in large language model",
             "box": {
               "x": 60,
               "y": 110,
@@ -1810,7 +1810,7 @@
           },
           {
             "type": "text",
-            "text": "While generative AI models come in ",
+            "text": "Next-token prediction as the founda",
             "box": {
               "x": 75,
               "y": 165,
@@ -1843,7 +1843,7 @@
           },
           {
             "type": "text",
-            "text": "We start with the most well-underst",
+            "text": "Context windows (or prompts) as the",
             "box": {
               "x": 445,
               "y": 165,
@@ -1876,7 +1876,7 @@
           },
           {
             "type": "text",
-            "text": "Key aspect of Advanced Techniques",
+            "text": "In-context learning, a paradigm whe",
             "box": {
               "x": 815,
               "y": 165,
@@ -1904,7 +1904,7 @@
           },
           {
             "type": "text",
-            "text": "While generative AI models come in many different shapes, utilizing varied statistical and comp",
+            "text": "Modern language models distinguish themselves from earlier generations by maintaining awareness",
             "box": {
               "x": 110,
               "y": 260,
@@ -1931,7 +1931,7 @@
           },
           {
             "type": "text",
-            "text": "This choice is partly due to the substantial lead LLMs have in driving the overall usage of gen",
+            "text": "The primary measure of success for language models is their ability to make reasonable predicti",
             "box": {
               "x": 110,
               "y": 305,
@@ -1958,7 +1958,7 @@
           },
           {
             "type": "text",
-            "text": "That said, image- and code-based GenAI models have already witnessed successful commercial prod",
+            "text": "While traditional supervised learning relies on carefully curated datasets tailored to specific",
             "box": {
               "x": 110,
               "y": 350,
@@ -1985,7 +1985,7 @@
           },
           {
             "type": "text",
-            "text": "We start with the most well-understood subset of machine learning techniques: supervised learni",
+            "text": "The introduction of in-context learning in models like GPT-3 has revolutionized the practical d",
             "box": {
               "x": 110,
               "y": 395,
@@ -2012,7 +2012,7 @@
           },
           {
             "type": "text",
-            "text": "The central objective in supervised learning is to produce a prediction rule that predicts well",
+            "text": "Despite the computational efficiency of in-context learning, fine-tuning may still offer perfor",
             "box": {
               "x": 110,
               "y": 440,
@@ -2063,7 +2063,7 @@
       },
       {
         "id": "slide-8",
-        "title": "Real-World Applications",
+        "title": "Stochasticity in GenAI: The Role of Randomness in Generating Diverse and Plausible Outputs",
         "background": {
           "color": "#f7fafc"
         },
@@ -2086,7 +2086,7 @@
           },
           {
             "type": "text",
-            "text": "Real-World Applications",
+            "text": "Stochasticity in GenAI: The Role of Randomness in Generating Diverse and Plausible Outputs",
             "box": {
               "x": 60,
               "y": 20,
@@ -2103,7 +2103,7 @@
           },
           {
             "type": "text",
-            "text": "Case studies and practical examples about Real-World Applications",
+            "text": "By studying this material, learners should understand the fundamental role of stochasticity in generative AI, particular",
             "box": {
               "x": 60,
               "y": 110,
@@ -2135,7 +2135,7 @@
           },
           {
             "type": "text",
-            "text": "Karan Singh, Assistant Professor of",
+            "text": "Stochasticity in generative AI refe",
             "box": {
               "x": 75,
               "y": 165,
@@ -2168,7 +2168,7 @@
           },
           {
             "type": "text",
-            "text": "Generative artificial intelligence ",
+            "text": "Prompt engineering is the practice ",
             "box": {
               "x": 445,
               "y": 165,
@@ -2201,7 +2201,7 @@
           },
           {
             "type": "text",
-            "text": "This rapid progress has led many to",
+            "text": "Beam Search is a systematic search ",
             "box": {
               "x": 815,
               "y": 165,
@@ -2229,7 +2229,7 @@
           },
           {
             "type": "text",
-            "text": "Karan Singh, Assistant Professor of Operations Research",
+            "text": "The stochastic nature of generative AI models, such as ChatGPT, is what allows them to produce ",
             "box": {
               "x": 110,
               "y": 260,
@@ -2256,7 +2256,7 @@
           },
           {
             "type": "text",
-            "text": "Generative artificial intelligence (GenAI) tools are an emerging class of new-age artificial in",
+            "text": "Replacing the stochastic sampling step with a greedy, deterministic approach—where the most lik",
             "box": {
               "x": 110,
               "y": 305,
@@ -2283,7 +2283,7 @@
           },
           {
             "type": "text",
-            "text": "Recent advances in machine learning (ML), massive datasets, and substantial increases in comput",
+            "text": "Prompt engineering has emerged as a critical skill in leveraging generative AI, as artfully cra",
             "box": {
               "x": 110,
               "y": 350,
@@ -2310,7 +2310,7 @@
           },
           {
             "type": "text",
-            "text": "This rapid progress has led many to to believe that the metamorphosis of these technologies 2fr",
+            "text": "While generative AI encompasses a broad range of modalities, including audio, video, and code, ",
             "box": {
               "x": 110,
               "y": 395,
@@ -2337,7 +2337,7 @@
           },
           {
             "type": "text",
-            "text": "It took OpenAI's ChatGPT, a conversational web app based on a generative (multimodal) language ",
+            "text": "Modern language models differ from earlier generations by maintaining awareness of the initial ",
             "box": {
               "x": 110,
               "y": 440,
@@ -2388,7 +2388,7 @@
       },
       {
         "id": "slide-9",
-        "title": "Applications Continued",
+        "title": "Prompt Engineering: How Initial Context Shapes GenAI Outputs and Applications",
         "background": {
           "color": "#f7fafc"
         },
@@ -2411,7 +2411,7 @@
           },
           {
             "type": "text",
-            "text": "Applications Continued",
+            "text": "Prompt Engineering: How Initial Context Shapes GenAI Outputs and Applications",
             "box": {
               "x": 60,
               "y": 20,
@@ -2428,7 +2428,7 @@
           },
           {
             "type": "text",
-            "text": "More application examples and use cases about Applications Continued",
+            "text": "By studying this material, learners should master how the initial context—known as the prompt—fundamentally shapes the o",
             "box": {
               "x": 60,
               "y": 110,
@@ -2460,7 +2460,7 @@
           },
           {
             "type": "text",
-            "text": "Karan Singh, Assistant Professor of",
+            "text": "Prompt Engineering",
             "box": {
               "x": 75,
               "y": 165,
@@ -2493,7 +2493,7 @@
           },
           {
             "type": "text",
-            "text": "Generative artificial intelligence ",
+            "text": "Beam Search",
             "box": {
               "x": 445,
               "y": 165,
@@ -2526,7 +2526,7 @@
           },
           {
             "type": "text",
-            "text": "This rapid progress has led many to",
+            "text": "In-Context Learning",
             "box": {
               "x": 815,
               "y": 165,
@@ -2554,7 +2554,7 @@
           },
           {
             "type": "text",
-            "text": "Karan Singh, Assistant Professor of Operations Research",
+            "text": "Prompt engineering refers to the deliberate structuring of initial text inputs to elicit more u",
             "box": {
               "x": 110,
               "y": 260,
@@ -2581,7 +2581,7 @@
           },
           {
             "type": "text",
-            "text": "Generative artificial intelligence (GenAI) tools are an emerging class of new-age artificial in",
+            "text": "Unlike earlier models, modern language models maintain awareness of the initial prompt througho",
             "box": {
               "x": 110,
               "y": 305,
@@ -2608,7 +2608,7 @@
           },
           {
             "type": "text",
-            "text": "Recent advances in machine learning (ML), massive datasets, and substantial increases in comput",
+            "text": "In-context learning is a method that allows pre-trained language models to adapt to new tasks w",
             "box": {
               "x": 110,
               "y": 350,
@@ -2635,7 +2635,7 @@
           },
           {
             "type": "text",
-            "text": "This rapid progress has led many to to believe that the metamorphosis of these technologies 2fr",
+            "text": "Generative AI tools, such as large language models, have achieved human-level performance on be",
             "box": {
               "x": 110,
               "y": 395,
@@ -2662,7 +2662,7 @@
           },
           {
             "type": "text",
-            "text": "It took OpenAI's ChatGPT, a conversational web app based on a generative (multimodal) language ",
+            "text": "While fine-tuning a model may still offer performance gains for certain tasks, the gap between ",
             "box": {
               "x": 110,
               "y": 440,
@@ -2713,7 +2713,7 @@
       },
       {
         "id": "slide-10",
-        "title": "Best Practices",
+        "title": "Case Study: Image Generation with Midjourney – Techniques and Creative Applications",
         "background": {
           "color": "#f7fafc"
         },
@@ -2736,7 +2736,7 @@
           },
           {
             "type": "text",
-            "text": "Best Practices",
+            "text": "Case Study: Image Generation with Midjourney – Techniques and Creative Applications",
             "box": {
               "x": 60,
               "y": 20,
@@ -2753,7 +2753,7 @@
           },
           {
             "type": "text",
-            "text": "Recommended practices and common pitfalls. What are these new-era AI technologies? How do they function? What principles",
+            "text": "By studying this material, learners should understand the role and capabilities of image-based generative AI models like",
             "box": {
               "x": 60,
               "y": 110,
@@ -2785,7 +2785,7 @@
           },
           {
             "type": "text",
-            "text": "What are these new-era AI technolog",
+            "text": "Generative AI models and their vari",
             "box": {
               "x": 75,
               "y": 165,
@@ -2818,7 +2818,7 @@
           },
           {
             "type": "text",
-            "text": "produce a completion conditioned on",
+            "text": "Supervised learning as a foundation",
             "box": {
               "x": 445,
               "y": 165,
@@ -2851,7 +2851,7 @@
           },
           {
             "type": "text",
-            "text": "We start with the most well-underst",
+            "text": "The limitations of pre-deep-learnin",
             "box": {
               "x": 815,
               "y": 165,
@@ -2879,7 +2879,7 @@
           },
           {
             "type": "text",
-            "text": "What are these new-era AI technologies? How do they function? What principles do they operate o",
+            "text": "While large language models (LLMs) dominate the current landscape of generative AI due to their",
             "box": {
               "x": 110,
               "y": 260,
@@ -2906,7 +2906,7 @@
           },
           {
             "type": "text",
-            "text": "The report will also tease out how this understanding foundationally informs the best uses (and",
+            "text": "Supervised learning aims to create prediction rules that generalize well to unseen data by leve",
             "box": {
               "x": 110,
               "y": 305,
@@ -2933,7 +2933,7 @@
           },
           {
             "type": "text",
-            "text": "produce a completion conditioned on the initial set of words",
+            "text": "Before the advent of deep learning, supervised algorithms struggled with visual and auditory da",
             "box": {
               "x": 110,
               "y": 350,
@@ -2960,7 +2960,7 @@
           },
           {
             "type": "text",
-            "text": "In this way, the initial context window, termed prompt, matters crucially to the produced compl",
+            "text": "Deep learning transformed machine learning by automating representation learning through multi-",
             "box": {
               "x": 110,
               "y": 395,
@@ -2987,7 +2987,7 @@
           },
           {
             "type": "text",
-            "text": "One hallmark of modern language models is that they keep track of the initial prompt even when ",
+            "text": "Generative AI models like Midjourney introduce randomness through stochastic sampling, allowing",
             "box": {
               "x": 110,
               "y": 440,
@@ -3038,7 +3038,7 @@
       },
       {
         "id": "slide-11",
-        "title": "Limitations and Challenges",
+        "title": "Case Study: Code Generation with GitHub Copilot – Transforming Software Development Workflows",
         "background": {
           "color": "#f7fafc"
         },
@@ -3061,7 +3061,7 @@
           },
           {
             "type": "text",
-            "text": "Limitations and Challenges",
+            "text": "Case Study: Code Generation with GitHub Copilot – Transforming Software Development Workflows",
             "box": {
               "x": 60,
               "y": 20,
@@ -3078,7 +3078,7 @@
           },
           {
             "type": "text",
-            "text": "Constraints, limitations, and solutions. Generative artificial intelligence (GenAI) tools are an emerging class of new-a",
+            "text": "By studying this material, learners should understand how GitHub Copilot exemplifies the practical application of code-b",
             "box": {
               "x": 60,
               "y": 110,
@@ -3110,7 +3110,7 @@
           },
           {
             "type": "text",
-            "text": "Generative artificial intelligence ",
+            "text": "Generative Artificial Intelligence ",
             "box": {
               "x": 75,
               "y": 165,
@@ -3143,7 +3143,7 @@
           },
           {
             "type": "text",
-            "text": "This rapid progress has led many to",
+            "text": "Large Language Models (LLMs) that g",
             "box": {
               "x": 445,
               "y": 165,
@@ -3176,7 +3176,7 @@
           },
           {
             "type": "text",
-            "text": "What are these new-era AI technolog",
+            "text": "Supervised learning as a machine le",
             "box": {
               "x": 815,
               "y": 165,
@@ -3204,7 +3204,7 @@
           },
           {
             "type": "text",
-            "text": "Generative artificial intelligence (GenAI) tools are an emerging class of new-age artificial in",
+            "text": "GitHub Copilot demonstrates the successful commercial deployment of code-based generative AI mo",
             "box": {
               "x": 110,
               "y": 260,
@@ -3231,7 +3231,7 @@
           },
           {
             "type": "text",
-            "text": "Recent advances in machine learning (ML), massive datasets, and substantial increases in comput",
+            "text": "While generative AI models span multiple modalities, including audio, video, and images, this r",
             "box": {
               "x": 110,
               "y": 305,
@@ -3258,7 +3258,7 @@
           },
           {
             "type": "text",
-            "text": "This rapid progress has led many to to believe that the metamorphosis of these technologies 2fr",
+            "text": "The core functionality of a language model lies in its ability to predict the next word in a se",
             "box": {
               "x": 110,
               "y": 350,
@@ -3285,7 +3285,7 @@
           },
           {
             "type": "text",
-            "text": "It took OpenAI's ChatGPT, a conversational web app based on a generative (multimodal) language ",
+            "text": "Generative AI tools have achieved human-level performance on academic and professional benchmar",
             "box": {
               "x": 110,
               "y": 395,
@@ -3312,7 +3312,7 @@
           },
           {
             "type": "text",
-            "text": "On the business side, the Economist reports that the number of jobs mentioning AI-related skill",
+            "text": "Introducing randomness by sampling from the probability distribution of next-word predictions—r",
             "box": {
               "x": 110,
               "y": 440,
@@ -3363,7 +3363,7 @@
       },
       {
         "id": "slide-12",
-        "title": "Future Developments",
+        "title": "Ethical, Societal, and Operational Implications of Deploying GenAI in Real-World Scenarios",
         "background": {
           "color": "#f7fafc"
         },
@@ -3386,7 +3386,7 @@
           },
           {
             "type": "text",
-            "text": "Future Developments",
+            "text": "Ethical, Societal, and Operational Implications of Deploying GenAI in Real-World Scenarios",
             "box": {
               "x": 60,
               "y": 20,
@@ -3403,7 +3403,7 @@
           },
           {
             "type": "text",
-            "text": "Emerging trends and research directions. What are these new-era AI technologies? How do they function? What principles d",
+            "text": "By studying this material, learners should understand the foundational principles and real-world implications of deployi",
             "box": {
               "x": 60,
               "y": 110,
@@ -3435,7 +3435,7 @@
           },
           {
             "type": "text",
-            "text": "What are these new-era AI technolog",
+            "text": "Generative Artificial Intelligence ",
             "box": {
               "x": 75,
               "y": 165,
@@ -3468,7 +3468,7 @@
           },
           {
             "type": "text",
-            "text": "We address these questions indirect",
+            "text": "Large Language Models (LLMs) as a d",
             "box": {
               "x": 445,
               "y": 165,
@@ -3501,7 +3501,7 @@
           },
           {
             "type": "text",
-            "text": "Key aspect of Future Developments",
+            "text": "Prompt engineering as the practice ",
             "box": {
               "x": 815,
               "y": 165,
@@ -3529,7 +3529,7 @@
           },
           {
             "type": "text",
-            "text": "What are these new-era AI technologies? How do they function? What principles do they operate o",
+            "text": "Generative AI tools have achieved human-level performance on academic and professional benchmar",
             "box": {
               "x": 110,
               "y": 260,
@@ -3556,7 +3556,7 @@
           },
           {
             "type": "text",
-            "text": "The report will also tease out how this understanding foundationally informs the best uses (and",
+            "text": "The rapid adoption of GenAI is evident in its exponential user growth—OpenAI’s ChatGPT reached ",
             "box": {
               "x": 110,
               "y": 305,
@@ -3583,7 +3583,7 @@
           },
           {
             "type": "text",
-            "text": "We address these questions indirectly in the present section by taking a tour of the essential ",
+            "text": "While GenAI encompasses a broad range of modalities, including image and code generation, large",
             "box": {
               "x": 110,
               "y": 350,
@@ -3610,7 +3610,7 @@
           },
           {
             "type": "text",
-            "text": "Important aspect of Future Developments",
+            "text": "The deployment of GenAI in real-world scenarios introduces significant ethical, societal, and o",
             "box": {
               "x": 110,
               "y": 395,
@@ -3637,7 +3637,7 @@
           },
           {
             "type": "text",
-            "text": "Important aspect of Future Developments",
+            "text": "The speculative nature of GenAI’s long-term impact reflects its position in the early stages of",
             "box": {
               "x": 110,
               "y": 440,
@@ -3688,7 +3688,7 @@
       },
       {
         "id": "slide-13",
-        "title": "Conclusion",
+        "title": "Synthesis and Key Takeaways: The Future Trajectory and Research Directions in GenAI",
         "background": {
           "gradient": {
             "type": "linear",
@@ -3723,7 +3723,7 @@
           },
           {
             "type": "text",
-            "text": "Conclusion",
+            "text": "Synthesis and Key Takeaways: The Future Trajectory and Research Directions in GenAI",
             "box": {
               "x": 80,
               "y": 60,
@@ -3761,7 +3761,7 @@
           },
           {
             "type": "text",
-            "text": "Karan Singh, Assistant Professor of Operations Research",
+            "text": "Generative AI tools have achieved human-level performance on academic and professional ben",
             "box": {
               "x": 130,
               "y": 210,
@@ -3792,7 +3792,7 @@
           },
           {
             "type": "text",
-            "text": "Generative artificial intelligence (GenAI) tools are an emerging class of new-age artifici",
+            "text": "The adoption of GenAI has been extraordinarily swift, with platforms like OpenAI’s ChatGPT",
             "box": {
               "x": 130,
               "y": 260,
@@ -3823,7 +3823,7 @@
           },
           {
             "type": "text",
-            "text": "Recent advances in machine learning (ML), massive datasets, and substantial increases in c",
+            "text": "The economic and operational impact of GenAI is already substantial, with the number of jo",
             "box": {
               "x": 130,
               "y": 310,
@@ -3854,7 +3854,7 @@
           },
           {
             "type": "text",
-            "text": "This rapid progress has led many to to believe that the metamorphosis of these technologie",
+            "text": "While GenAI encompasses a broad range of modalities, including images, audio, and code, la",
             "box": {
               "x": 130,
               "y": 360,

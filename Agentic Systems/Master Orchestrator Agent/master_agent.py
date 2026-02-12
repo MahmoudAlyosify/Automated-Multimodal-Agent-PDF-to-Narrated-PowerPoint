@@ -328,12 +328,18 @@ class MasterOrchestratorAgent:
         logger.info("="*80)
         
         try:
+            # Create output subdirectories
+            (self.output_dir / "audio").mkdir(parents=True, exist_ok=True)
+            (self.output_dir / "metadata").mkdir(parents=True, exist_ok=True)
+            
+            # Copy PowerPoint
             src_pptx = self.pptx_dir / "lecture.pptx"
             if src_pptx.exists():
                 dst_pptx = self.output_dir / "Narrated-PowerPoint.pptx"
                 shutil.copy2(src_pptx, dst_pptx)
                 logger.info(f"[OK] PowerPoint: {dst_pptx.name}")
             
+            # Copy all audio files
             audio_src = self.tts_dir / "audio_output"
             if audio_src.exists():
                 for f in audio_src.glob("*"):
@@ -341,6 +347,7 @@ class MasterOrchestratorAgent:
                         shutil.copy2(f, self.output_dir / "audio" / f.name)
                 logger.info("[OK] Audio files copied")
             
+            # Copy metadata files
             for src, name in [
                 (self.parser_dir / "parsed_blocks.json", "parsed_blocks.json"),
                 (self.chunker_dir / "semantic_chunks.json", "semantic_chunks.json"),

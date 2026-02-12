@@ -96,9 +96,15 @@ class TTSAgent:
             # Clean text for better speech quality
             text = text.strip()
             
+            # Reinitialize engine for each file to avoid hanging
+            engine = pyttsx3.init()
+            engine.setProperty('rate', 150)
+            engine.setProperty('volume', 0.9)
+            
             # Use pyttsx3 to generate speech to file
-            self.engine.save_to_file(text, str(output_path))
-            self.engine.runAndWait()
+            engine.save_to_file(text, str(output_path))
+            engine.runAndWait()
+            engine.stop()
             
             # Verify file was created
             if output_path.exists() and output_path.stat().st_size > 0:
