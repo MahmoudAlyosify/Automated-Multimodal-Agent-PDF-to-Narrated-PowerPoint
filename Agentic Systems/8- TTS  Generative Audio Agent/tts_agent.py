@@ -57,6 +57,7 @@ class TTSAgent:
         self.engine = pyttsx3.init()
         self.engine.setProperty('rate', 150)  # Speech rate (words per minute)
         self.engine.setProperty('volume', 0.9)  # Volume level (0.0 to 1.0)
+        self.pending_jobs = []
         
         self.results = {
             "version": "2.0",
@@ -93,30 +94,17 @@ class TTSAgent:
             True if generation successful, False otherwise
         """
         try:
-            # Clean text for better speech quality
             text = text.strip()
-            
-            # Reinitialize engine for each file to avoid hanging
-            engine = pyttsx3.init()
-            engine.setProperty('rate', 150)
-            engine.setProperty('volume', 0.9)
-            
-            # Use pyttsx3 to generate speech to file
-            engine.save_to_file(text, str(output_path))
-            engine.runAndWait()
-            engine.stop()
-            
-            # Verify file was created
-            if output_path.exists() and output_path.stat().st_size > 0:
-                duration = self._estimate_duration(text)
-                print(f"[OK] Audio generated: {output_path.name} (~{duration:.1f}s)")
-                return True
-            else:
-                print(f"[WARN] Audio file not created for {output_path.name}")
+            if not text:
                 return False
-                
+            
+            # Queue synthesis jobs and flush once to avoid per-file engine stalls.
+            self.engine.save_to_file(text, str(output_path))
+            self.pending_jobs.append((output_path, text))
+            return True
+        
         except Exception as e:
-            print(f"[ERROR] Error generating audio: {e}")
+            print(f"[ERROR] Error queueing audio generation: {e}")
             return False
     
     def _estimate_duration(self, text: str) -> float:
@@ -147,7 +135,7 @@ class TTSAgent:
         scripts = scripts_data.get('scripts', [])
         self.results['metadata']['total_slides'] = len(scripts)
         
-        successful_conversions = 0
+        queued_items = []
         
         # Process each script
         for script_item in scripts:
@@ -167,18 +155,41 @@ class TTSAgent:
             audio_filename = f"slide_{slide_id:02d}_audio.wav"
             audio_path = self.output_dir / audio_filename
             
-            # Generate speech
+            # Queue speech generation
             if self.generate_speech(script_text, audio_path):
-                successful_conversions += 1
-                
-                # Record in results
-                self.results['audio_files'].append({
+                queued_items.append({
                     "slide_id": slide_id,
                     "title": title,
+                    "audio_path": audio_path,
                     "audio_file": audio_filename,
                     "text_length": len(script_text),
                     "estimated_duration": self._estimate_duration(script_text)
                 })
+        
+        successful_conversions = 0
+        if self.pending_jobs:
+            try:
+                self.engine.runAndWait()
+                self.engine.stop()
+            except Exception as e:
+                print(f"[ERROR] Error during audio synthesis: {e}")
+                return False
+        
+        # Verify generated files and record metadata.
+        for item in queued_items:
+            audio_path = item["audio_path"]
+            if audio_path.exists() and audio_path.stat().st_size > 0:
+                successful_conversions += 1
+                print(f"[OK] Audio generated: {audio_path.name} (~{item['estimated_duration']:.1f}s)")
+                self.results['audio_files'].append({
+                    "slide_id": item["slide_id"],
+                    "title": item["title"],
+                    "audio_file": item["audio_file"],
+                    "text_length": item["text_length"],
+                    "estimated_duration": item["estimated_duration"]
+                })
+            else:
+                print(f"[WARN] Audio file not created for {audio_path.name}")
         
         self.results['metadata']['total_audio_files'] = successful_conversions
         
