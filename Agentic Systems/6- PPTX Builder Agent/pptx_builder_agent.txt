@@ -1,0 +1,24 @@
+AGENT NAME: PPTX Builder Agent
+
+PURPOSE:
+This agent materializes generated slide content into a PowerPoint (.pptx) file.
+
+INPUT:
+- Generated slide content as JSON
+
+OUTPUT:
+- lecture.pptx file
+
+PLANNER PSEUDO-CODE:
+1. Initialize a PowerPoint document.
+2. For each slide:
+   a. Create a title slide layout.
+   b. Insert bullet text.
+   c. Reserve space for narration audio.
+3. Save the final PPTX file.
+
+TOOLS:
+- python-pptx
+
+NOTES:
+This agent performs no reasoning or generation.
