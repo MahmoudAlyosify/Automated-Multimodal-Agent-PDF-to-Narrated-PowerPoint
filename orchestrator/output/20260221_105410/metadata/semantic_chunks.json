@@ -1,0 +1,227 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "text": "International Journal on Recent and Innovation Trends in Computing and Communication ISSN: 2321-8169 Volume: 2 Issue: 1 96 - 100 _______________________________________________________________________________________ 96 IJRITCC | January 2014, Available @ http://www.ijritcc.org ______________________________________________________________________________________"
+  },
+  {
+    "chunk_id": 1,
+    "page": 0,
+    "text": "Research Paper on Basic of Artificial Neural Network Ms. Sonali. B. Maind Department of Information Technology Datta Meghe Institute of Engineering, Technology & Research, Sawangi (M), Wardha sonali.maind@gmail.com Ms. Priyanka Wankar Department of Computer Science and Engineering Datta Meghe Institute of Engineering, Technology & Research, Sawangi (M), Wardha"
+  },
+  {
+    "chunk_id": 2,
+    "page": 0,
+    "text": "Priyanka.wankar9@gmail.com"
+  },
+  {
+    "chunk_id": 3,
+    "page": 0,
+    "text": "Abstract-An Artificial Neural Network (ANN) is an information processing paradigm that is inspired by the way biological nervous systems, such as the brain, process information. The key element of this paradigm is the novel structure of the information processing system. It is composed of a large number of highly interconnected processing elements (neurons) working in unison to solve specific problems. ANNs, like people, learn by example. An ANN is configured for a specific application, such as pattern recognition or data classification, through a learning process. Learning in biological systems involves adjustments to the synaptic connections that exist between the neurons. This is true of ANNs as well. This paper gives overview of Artificial Neural Network, working & training of ANN. It also explain the application and advantages of ANN. Keywords:- ANN(Artificial Neural Network), Neurons, pattern recognition. _______________________________________________________*****_____________________________________________________"
+  },
+  {
+    "chunk_id": 4,
+    "page": 0,
+    "text": "INTRODUCTION"
+  },
+  {
+    "chunk_id": 5,
+    "page": 0,
+    "text": "The study of the human brain is thousands of years old. With the advent of modern electronics, it was only natural to try to harness this thinking process. The first step toward artificial neural networks came in 1943 when Warren McCulloch, a neurophysiologist, and a young mathematician, Walter Pitts, wrote a paper on how neurons might work. They modeled a simple neural network with electrical circuits. Neural networks, with their remarkable ability to derive meaning from complicated or imprecise data, can be used to extract patterns and detect trends that are too complex to be noticed by either humans or other computer techniques. A trained neural network can be thought of as an \"expert\" in the category of information it has been given to analyse. Other advantages include: 1. Adaptive learning: An ability to learn how to do tasks based on the data given for training or initial experience. 2. Self-Organisation: An ANN can create its own organisation or representation of the information it receives during learning time. 3. Real Time Operation: ANN computations may be carried out in parallel, and special hardware devices are being designed and manufactured which take advantage of this capability. 4. Fault Tolerance via Redundant Information Coding: Partial destruction of a network leads to the corresponding degradation of performance. However, some network capabilities may be retained even with major network damage."
+  },
+  {
+    "chunk_id": 6,
+    "page": 0,
+    "text": "Neural networks take a different approach to problem solving than that of conventional computers. Conventional computers use an algorithmic approach i.e. the computer follows a set of instructions in order to solve a problem. Unless the specific steps that the computer needs to follow are known the computer cannot solve the problem. That restricts the problem solving capability of conventional computers to problems that we already understand and know how to solve. But computers would be so much more useful if they could do things that we don't exactly know how to do. Neural networks process information in a similar way the human brain does. The network is composed of a large number of highly interconnected processing elements (neurons) working in parallel to solve a specific problem. Neural networks learn by example. They cannot be programmed to perform a specific task. The examples must be selected carefully otherwise useful time is wasted or even worse the network might be functioning incorrectly. The disadvantage is that because the network finds out how to solve the problem by itself, its operation can be unpredictable. On the other hand, conventional computers use a cognitive approach to problem solving; the way the problem is to solved must be known and stated in small unambiguous instructions. These instructions are then"
+  },
+  {
+    "chunk_id": 7,
+    "page": 1,
+    "text": "International Journal on Recent and Innovation Trends in Computing and Communication ISSN: 2321-8169 Volume: 2 Issue: 1 96 - 100"
+  },
+  {
+    "chunk_id": 8,
+    "page": 1,
+    "text": "_______________________________________________________________________________________ 97 IJRITCC | January 2014, Available @ http://www.ijritcc.org ______________________________________________________________________________________"
+  },
+  {
+    "chunk_id": 9,
+    "page": 1,
+    "text": "converted to a high level language program and then into machine code that the computer can understand. These machines are totally predictable; if anything goes wrong is due to a software or hardware fault. Neural networks and conventional algorithmic computers are not in competition but complement each other. There are tasks are more suited to an algorithmic approach like arithmetic operations and tasks that are more suited to neural networks. Even more, a large number of tasks, require systems that use a combination of the two approaches (normally a conventional computer is used to supervise the neural network) in order to perform at maximum efficiency."
+  },
+  {
+    "chunk_id": 10,
+    "page": 1,
+    "text": "What is Artificial Neural Network?"
+  },
+  {
+    "chunk_id": 11,
+    "page": 1,
+    "text": "Artificial Neural Networks are relatively crude electronic models based on the neural structure of the brain. The brain basically learns from experience. It is natural proof that some problems that are beyond the scope of current computers are indeed solvable by small energy efficient packages. This brain modeling also promises a less technical way to develop machine solutions. This new approach to computing also provides a more graceful degradation during system overload than its more traditional counterparts. These biologically inspired methods of computing are thought to be the next major advancement in the computing industry. Even simple animal brains are capable of functions that are currently impossible for computers. Computers do rote things well, like keeping ledgers or performing complex math. But computers have trouble recognizing even simple patterns much less generalizing those patterns of the past into actions of the future. Now, advances in biological research promise an initial understanding of the natural thinking mechanism. This research shows that brains store information as patterns. Some of these patterns are very complicated and allow us the ability to recognize individual faces from many different angles. This process of storing information as patterns, utilizing those patterns, and then solving problems encompasses a new field in computing. This field, as mentioned before, does not utilize traditional programming but involves the creation of massively parallel networks and the training of those networks to solve specific problems. This field also utilizes words very different from traditional computing, words like behave, react, self-organize, learn, generalize, and forget. Whenever we talk about a neural network, we should more popularly say ―Artificial Neural Network (ANN)‖, ANN are computers whose architecture is modelled after the brain. They typically consist of hundreds of simple processing units which are wired together in a complex communication network. Each unit or node is a simplified model of real neuron which sends off a new signal or fires if it receives a sufficiently strong Input signal from the other nodes to which it is connected."
+  },
+  {
+    "chunk_id": 12,
+    "page": 1,
+    "text": "Traditionally neural network was used to refer as network or circuit of biological neurones, but modern usage of the term often refers to ANN. ANN is mathematical model or computational model, an information processing paradigm i.e. inspired by the way biological nervous system, such as brain information system. ANN is made up of interconnecting artificial neurones which are programmed like to mimic the properties of m biological neurons. These neurons working in unison to solve specific problems. ANN is configured for solving artificial intelligence problems without creating a model of real biological system. ANN is used for speech recognition, image analysis, adaptive control etc. These applications are done through a learning process, like learning in biological system, which involves the adjustment between neurones through synaptic connection. Same happen in the ANN."
+  },
+  {
+    "chunk_id": 13,
+    "page": 1,
+    "text": "Working of ANN:"
+  },
+  {
+    "chunk_id": 14,
+    "page": 1,
+    "text": "The other parts of the ―art‖ of using neural networks revolve around the myriad of ways these individual neurons can be clustered together. This clustering occurs in the human mind in such a way that information can be processed in a dynamic, interactive, and self-organizing way. Biologically, neural networks are constructed in a three-dimensional world from microscopic components. These neurons seem capable of nearly unrestricted interconnections. That is not true of any proposed, or existing, man-made network. Integrated circuits, using current technology, are two-dimensional devices with a limited number of layers for interconnection. This physical reality restrains the types, and scope, of artificial neural networks that can be implemented in silicon."
+  },
+  {
+    "chunk_id": 15,
+    "page": 1,
+    "text": "Currently, neural networks are the simple clustering of the primitive artificial neurons. This clustering occurs by creating layers which are then connected to one another. How these layers connect is the other part of the \"art\" of engineering networks to resolve real world problems."
+  },
+  {
+    "chunk_id": 16,
+    "page": 2,
+    "text": "International Journal on Recent and Innovation Trends in Computing and Communication ISSN: 2321-8169 Volume: 2 Issue: 1 96 - 100"
+  },
+  {
+    "chunk_id": 17,
+    "page": 2,
+    "text": "_______________________________________________________________________________________ 98 IJRITCC | January 2014, Available @ http://www.ijritcc.org ______________________________________________________________________________________"
+  },
+  {
+    "chunk_id": 18,
+    "page": 2,
+    "text": "Figure 1:- A Simple Neural Network Diagram."
+  },
+  {
+    "chunk_id": 19,
+    "page": 2,
+    "text": "Basically, all artificial neural networks have a similar structure or topology as shown in Figure1. In that structure some of the neurons interfaces to the real world to receive its inputs. Other neurons provide the real world with the network's outputs. This output might be the particular character that the network thinks that it has scanned or the particular image it thinks is being viewed. All the rest of the neurons are hidden from view."
+  },
+  {
+    "chunk_id": 20,
+    "page": 2,
+    "text": "But a neural network is more than a bunch of neurons. Some early researchers tried to simply connect neurons in a random manner, without much success. Now, it is known that even the brains of snails are structured devices. One of the easiest ways to design a structure is to create layers of elements. It is the grouping of these neurons into layers, the connections between these layers, and the summation and transfer functions that comprises a functioning neural network. The general terms used to describe these characteristics are common to all networks."
+  },
+  {
+    "chunk_id": 21,
+    "page": 2,
+    "text": "Although there are useful networks which contain only one layer, or even one element, most applications require networks that contain at least the three normal types of layers - input, hidden, and output. The layer of input neurons receive the data either from input files or directly from electronic sensors in real-time applications. The output layer sends information directly to the outside world, to a secondary computer process, or to other devices such as a mechanical control system. Between these two layers can be many hidden layers. These internal layers contain many of the neurons in various interconnected structures. The inputs and outputs of each of these hidden neurons simply go to other neurons."
+  },
+  {
+    "chunk_id": 22,
+    "page": 2,
+    "text": "In most networks each neuron in a hidden layer receives the signals from all of the neurons in a layer above it, typically an input layer. After a neuron performs its function it passes its output to all of the neurons in the layer below it, providing a feedforward path to the output. (Note: in section 5 the drawings are reversed, inputs come into the bottom and outputs come out the top.)"
+  },
+  {
+    "chunk_id": 23,
+    "page": 2,
+    "text": "These lines of communication from one neuron to another are important aspects of neural networks. They are the glue to the system. They are the connections which provide a variable strength to an input. There are two types of these connections. One causes the summing mechanism of the next neuron to add while the other causes it to subtract. In more human terms one excites while the other inhibits."
+  },
+  {
+    "chunk_id": 24,
+    "page": 2,
+    "text": "Some networks want a neuron to inhibit the other neurons in the same layer. This is called lateral inhibition. The most common use of this is in the output layer. For example in text recognition if the probability of a character being a \"P\" is .85 and the probability of the character being an \"F\" is .65, the network wants to choose the highest probability and inhibit all the others. It can do that with lateral inhibition. This concept is also called competition. Another type of connection is feedback. This is where the output of one layer routes back to a previous layer. An example of this is shown in Figure 2."
+  },
+  {
+    "chunk_id": 25,
+    "page": 2,
+    "text": "Figure 2:- Simple Network with Feedback and Competition."
+  },
+  {
+    "chunk_id": 26,
+    "page": 2,
+    "text": "The way that the neurons are connected to each other has a significant impacton the operation of the network. In the larger, more professional softwaredevelopment packages the user is allowed to add, delete, and control theseconnections at will. By \"tweaking\" parameters these connections can be made toeither excite or inhibit."
+  },
+  {
+    "chunk_id": 27,
+    "page": 2,
+    "text": "Training an Artificial Neural Network"
+  },
+  {
+    "chunk_id": 28,
+    "page": 2,
+    "text": "Once a network has been structured for a particular application, that network is ready to be trained. To start this process the initial weights are chosen randomly. Then, the training, or learning, begins. There are two approaches to training - supervised and unsupervised. Supervised training involves a mechanism of providing the network with the desired output either by manually \"grading\" the network's performance or by providing the desired outputs with the inputs. Unsupervised training is where the network has to make sense of the inputs without outside help. The vast bulk of networks utilize supervised training. Unsupervised training is used to perform some initial characterization on"
+  },
+  {
+    "chunk_id": 29,
+    "page": 3,
+    "text": "International Journal on Recent and Innovation Trends in Computing and Communication ISSN: 2321-8169 Volume: 2 Issue: 1 96 - 100"
+  },
+  {
+    "chunk_id": 30,
+    "page": 3,
+    "text": "_______________________________________________________________________________________ 99 IJRITCC | January 2014, Available @ http://www.ijritcc.org ______________________________________________________________________________________"
+  },
+  {
+    "chunk_id": 31,
+    "page": 3,
+    "text": "inputs. However, in the full blown sense of being truly self learning, it is still just a shining promise that is not fully understood, does not completely work, and thus is relegated to the lab. 1. Supervised Training."
+  },
+  {
+    "chunk_id": 32,
+    "page": 3,
+    "text": "In supervised training, both the inputs and the outputs are provided. The network then processes the inputs and compares its resulting outputs against the desired outputs. Errors are then propagated back through the system, causing the system to adjust the weights which control the network. This process occurs over and over as the weights are continually tweaked. The set of data which enables the training is called the \"training set.\" During the training of a network the same set of data is processed many times as the connection weights are ever refined. The current commercial network development packages provide tools to monitor how well an artificial neural network is converging on the ability to predict the right answer. These tools allow the training process to go on for days, stopping only when the system reaches some statistically desired point, or accuracy. However, some networks never learn. This could be because the input data does not contain the specific information from which the desired output is derived. Networks also don't converge if there is not enough data to enable complete learning. Ideally, there should be enough data so that part of the data can be held back as a test. Many layered networks with multiple nodes are capable of memorizing data. To monitor the network to determine if the system is simply memorizing its data in some non significant way, supervised training needs to hold back a set of data to be used to test the system after it has undergone its training. If a network simply can't solve the problem, the designer then has to review the input and outputs, the number of layers, the number of elements per layer, the connections between the layers, the summation, transfer, and training functions, and even the initial weights themselves. Those changes required to create a successful network constitute a process wherein the \"art\" of neural networking occurs. Another part of the designer's creativity governs the rules of training. There are many laws (algorithms) used to implement the adaptive feedback required to adjust the weights during training. The most common technique is backward-error propagation, more commonly known as back-propagation. These various learning techniques are explored in greater depth later in this report. Yet, training is not just a technique. It involves a \"feel,\" and conscious analysis, to insure that the network is not over trained. Initially, an artificial neural network configures itself with the general statistical trends of the data. Later, it continues to \"learn\" about other aspects of the data which may be spurious from a general viewpoint. When finally the system has been correctly trained, and no further learning is needed, the weights can, if desired, be \"frozen.\" In some systems this finalized network is then turned into hardware so that it can be fast. Other systems don't lock themselves in but continue to learn while in production use. 2. Unsupervised, or Adaptive Training."
+  },
+  {
+    "chunk_id": 33,
+    "page": 3,
+    "text": "The other type of training is called unsupervised training. In unsupervised training, the network is provided with inputs but not with desired outputs. The system itself must then decide what features it will use to group the input data. This is often referred to as self-organization or adaption. At the present time, unsupervised learning is not well understood. This adaption to the environment is the promise which would enable science fiction types of robots to continually learn on their own as they encounter new situations and new environments. Life is filled with situations where exact training sets do not exist. Some of these situations involve military action where new combat techniques and new weapons might be encountered. Because of this unexpected aspect to life and the human desire to be prepared, there continues to be research into, and hope for, this field. Yet, at the present time, the vast bulk of neural network work is in systems with supervised learning. Supervised learning is achieving results. Application The various real time application of Artificial Neural Network are as follows: 1. Function approximation, or regression analysis, including time series prediction and modelling. 2. Call control- answer an incoming call (speaker-ON)"
+  },
+  {
+    "chunk_id": 34,
+    "page": 3,
+    "text": "with a wave of the hand while driving. 3. Classification, including pattern and sequence recognition, novelty detection and sequential decision making. 4. Skip tracks or control volume on your media player using simple hand motions- lean back, and with no need to shift to the device- control what you watch/ listen to. 5. Data processing, including filtering, clustering, blind signal separation and compression. 6. Scroll Web Pages, or within an eBook with simple left"
+  },
+  {
+    "chunk_id": 35,
+    "page": 3,
+    "text": "and right hand gestures, this is ideal when touching the device is a barrier such as wet hands are wet, with gloves, dirty etc. 7. Application areas of ANNs include system identification and control (vehicle control, process control), game-playing and decision making (backgammon, chess, racing), pattern recognition (radar systems, face identification, object recognition, etc.), sequence recognition (gesture, speech, handwritten text recognition), medical diagnosis, financial applications, data mining (or knowledge discovery in databases, \"KDD\"). 8. Another interesting use case is when using the Smartphone as a media hub, a user can dock the device to the TV and watch content from the device- while"
+  },
+  {
+    "chunk_id": 36,
+    "page": 4,
+    "text": "International Journal on Recent and Innovation Trends in Computing and Communication ISSN: 2321-8169 Volume: 2 Issue: 1 96 - 100"
+  },
+  {
+    "chunk_id": 37,
+    "page": 4,
+    "text": "_______________________________________________________________________________________ 100 IJRITCC | January 2014, Available @ http://www.ijritcc.org ______________________________________________________________________________________ controlling the content in a touch-free manner from afar. 9. If your hands are dirty or a person hates smudges, touch-free controls are a benefit Advantages 1. Adaptive learning: An ability to learn how to do tasks based on the data given for training or initial experience. 2. Self-Organisation: An ANN can create its own organisation or representation of the information it receives during learning time. 3. Real Time Operation: ANN computations may be carried out in parallel, and special hardware devices are being designed and manufactured which take advantage of this capability. 4. Pattern recognition is a powerful technique for"
+  },
+  {
+    "chunk_id": 38,
+    "page": 4,
+    "text": "harnessing the information in the data and generalizing about it. Neural nets learn to recognize the patterns which exist in the data set. 5. The system is developed through learning rather than"
+  },
+  {
+    "chunk_id": 39,
+    "page": 4,
+    "text": "programming.. Neural nets teach themselves the patterns in the data freeing the analyst for more interesting work. 6. Neural networks are flexible in a changing environment. Although neural networks may take some time to learn a sudden drastic change they are excellent at adapting to constantly changing information. 7. Neural networks can build informative models"
+  },
+  {
+    "chunk_id": 40,
+    "page": 4,
+    "text": "whenever conventional approaches fail. Because neural networks can handle very complex interactions they can easily model data which is too difficult to model with traditional approaches such as inferential statistics or programming logic. 8. Performance of neural networks is at least as good as classical statistical modelling, and better on most problems. The neural networks build models that are more reflective of the structure of the data in significantly less time."
+  },
+  {
+    "chunk_id": 41,
+    "page": 4,
+    "text": "CONCLUSION"
+  },
+  {
+    "chunk_id": 42,
+    "page": 4,
+    "text": "In this paper we discussed about the Artificial neural network, working of ANN. Also training phases of an ANN. There are various advantages of ANN over conventional approaches. Depending on the nature of the application and the strength of the internal data patterns you can generally expect a network to train quite well. This applies to problems where the relationships may be quite dynamic or non-linear. ANNs provide an analytical alternative to conventional techniques which are often limited by strict assumptions of normality, linearity, variable independence etc. Because an ANN can capture many kinds of relationships it allows the user to quickly and relatively easily model phenomena which otherwise may have been very difficult or imposible to explain otherwise. Today, neural networks discussions are occurring everywhere. Their promise seems very bright as nature itself is the proof that this kind of thing works. Yet, its future, indeed the very key to the whole technology, lies in hardware development. Currently most neural network development is simply proving that the principal works."
+  },
+  {
+    "chunk_id": 43,
+    "page": 4,
+    "text": "REFERENCES"
+  },
+  {
+    "chunk_id": 44,
+    "page": 4,
+    "text": "[1] Bradshaw, J.A., Carden, K.J., Riordan, D., 1991. Ecological ―Applications Using a Novel Expert System Shell‖. Comp. Appl. Biosci. 7, 79-83. [2] Lippmann, R.P., 1987. An introduction to computing with neural nets. IEEE Accost. Speech Signal Process. Mag., April: 4-22. [3] N. Murata, S. Yoshizawa, and S. Amari, ―Learning curves, model selection and complexity of neural networks,‖ in Advances in Neural Information Processing Systems 5, S. Jose Hanson, J. D. Cowan, and C. Lee Giles, ed. San Mateo, CA: Morgan Kaufmann, 1993, pp. 607-614"
+  }
+]

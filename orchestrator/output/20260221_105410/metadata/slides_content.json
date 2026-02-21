@@ -1,0 +1,3898 @@
+{
+  "version": "1.0",
+  "ppt": {
+    "size": {
+      "width": 1280,
+      "height": 720,
+      "unit": "px"
+    },
+    "defaultUnit": "px",
+    "theme": {
+      "colors": {
+        "primary": "#3B82F6",
+        "secondary": "#10B981",
+        "accent": "#F59E0B",
+        "danger": "#EF4444",
+        "light_bg": "#f7fafc",
+        "dark_text": "#1f2937",
+        "white": "#ffffff"
+      },
+      "fonts": {
+        "heading": "Microsoft YaHei",
+        "body": "Arial"
+      }
+    },
+    "slides": [
+      {
+        "id": "slide-1",
+        "title": "Introduction to Artificial Neural Networks (ANNs): Historical Context and Motivation",
+        "background": {
+          "gradient": {
+            "type": "linear",
+            "angle": 135,
+            "stops": [
+              {
+                "color": "#667eea",
+                "position": 0
+              },
+              {
+                "color": "#764ba2",
+                "position": 100
+              }
+            ]
+          }
+        },
+        "transition": {
+          "type": "fade",
+          "duration": 0.8
+        },
+        "elements": [
+          {
+            "type": "text",
+            "text": "Introduction to Artificial Neural Networks (ANNs): Historical Context and Motivation",
+            "box": {
+              "x": 640,
+              "y": 180,
+              "w": 600,
+              "h": 120
+            },
+            "style": {
+              "fontSize": 56,
+              "align": "center",
+              "color": "#ffffff",
+              "bold": true,
+              "font": "Microsoft YaHei"
+            },
+            "shadow": {
+              "x": 2,
+              "y": 2,
+              "blur": 5,
+              "color": "#00000040"
+            },
+            "rotation": -1
+          },
+          {
+            "type": "text",
+            "text": "By studying this material, learners should understand the foundational historical context and core m",
+            "box": {
+              "x": 640,
+              "y": 330,
+              "w": 600,
+              "h": 80
+            },
+            "style": {
+              "fontSize": 28,
+              "align": "center",
+              "color": "#ffffff",
+              "font": "Arial"
+            },
+            "shadow": {
+              "x": 1,
+              "y": 1,
+              "blur": 3,
+              "color": "#00000030"
+            }
+          },
+          {
+            "type": "line",
+            "points": [
+              {
+                "x": 300,
+                "y": 450
+              },
+              {
+                "x": 980,
+                "y": 450
+              }
+            ],
+            "stroke": "#ffffff",
+            "strokeWidth": 2,
+            "strokeStyle": "solid"
+          }
+        ]
+      },
+      {
+        "id": "slide-2",
+        "title": "Biological Inspiration: How the Human Brain Informs Neural Network Design",
+        "background": {
+          "color": "#f7fafc"
+        },
+        "transition": {
+          "type": "slideInRight",
+          "duration": 0.6
+        },
+        "elements": [
+          {
+            "type": "shape",
+            "shapeType": "rect",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "w": 1280,
+              "h": 100
+            },
+            "fill": "#3B82F6",
+            "border": null
+          },
+          {
+            "type": "text",
+            "text": "Biological Inspiration: How the Human Brain Informs Neural Network Design",
+            "box": {
+              "x": 60,
+              "y": 20,
+              "w": 1160,
+              "h": 80
+            },
+            "style": {
+              "fontSize": 44,
+              "align": "left",
+              "color": "#ffffff",
+              "bold": true,
+              "font": "Microsoft YaHei"
+            }
+          },
+          {
+            "type": "text",
+            "text": "By studying this material, learners should understand how the structure and function of the human brain have inspired th",
+            "box": {
+              "x": 60,
+              "y": 110,
+              "w": 1160,
+              "h": 40
+            },
+            "style": {
+              "fontSize": 14,
+              "color": "#10B981",
+              "italic": true,
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 60,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Artificial Neural Networks (ANNs) a",
+            "box": {
+              "x": 75,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 430,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Adaptive learning and self-organiza",
+            "box": {
+              "x": 445,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 800,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Parallel processing and real-time o",
+            "box": {
+              "x": 815,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 265,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "The foundational work on artificial neural networks began in 1943 with Warren McCulloch and Wal",
+            "box": {
+              "x": 110,
+              "y": 260,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 310,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "Unlike conventional computers that rely on algorithmic, step-by-step instructions, neural netwo",
+            "box": {
+              "x": 110,
+              "y": 305,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 355,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "Artificial neural networks exhibit several key advantages, including adaptive learning (learnin",
+            "box": {
+              "x": 110,
+              "y": 350,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 400,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "The design of neural networks is constrained by physical realities, such as the two-dimensional",
+            "box": {
+              "x": 110,
+              "y": 395,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 445,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "Training a neural network involves iterative refinement of synaptic weights, often through supe",
+            "box": {
+              "x": 110,
+              "y": 440,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "line",
+            "points": [
+              {
+                "x": 60,
+                "y": 700
+              },
+              {
+                "x": 1220,
+                "y": 700
+              }
+            ],
+            "stroke": "#10B981",
+            "strokeWidth": 3,
+            "strokeStyle": "solid"
+          },
+          {
+            "type": "text",
+            "text": "2",
+            "box": {
+              "x": 1200,
+              "y": 690,
+              "w": 60,
+              "h": 30
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#3B82F6",
+              "align": "right",
+              "bold": true,
+              "font": "Arial"
+            }
+          }
+        ]
+      },
+      {
+        "id": "slide-3",
+        "title": "Fundamental Differences: ANNs vs. Conventional Algorithmic Computing",
+        "background": {
+          "color": "#f7fafc"
+        },
+        "transition": {
+          "type": "slideInRight",
+          "duration": 0.6
+        },
+        "elements": [
+          {
+            "type": "shape",
+            "shapeType": "rect",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "w": 1280,
+              "h": 100
+            },
+            "fill": "#3B82F6",
+            "border": null
+          },
+          {
+            "type": "text",
+            "text": "Fundamental Differences: ANNs vs. Conventional Algorithmic Computing",
+            "box": {
+              "x": 60,
+              "y": 20,
+              "w": 1160,
+              "h": 80
+            },
+            "style": {
+              "fontSize": 44,
+              "align": "left",
+              "color": "#ffffff",
+              "bold": true,
+              "font": "Microsoft YaHei"
+            }
+          },
+          {
+            "type": "text",
+            "text": "By studying this material, learners should master the fundamental distinctions between Artificial Neural Networks (ANNs)",
+            "box": {
+              "x": 60,
+              "y": 110,
+              "w": 1160,
+              "h": 40
+            },
+            "style": {
+              "fontSize": 14,
+              "color": "#10B981",
+              "italic": true,
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 60,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Algorithmic approach in conventiona",
+            "box": {
+              "x": 75,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 430,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Parallel processing and interconnec",
+            "box": {
+              "x": 445,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 800,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Learning by example as the training",
+            "box": {
+              "x": 815,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 265,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "Conventional computers rely on an algorithmic approach, where problem-solving requires explicit",
+            "box": {
+              "x": 110,
+              "y": 260,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 310,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "Artificial Neural Networks (ANNs) process information in a manner inspired by the human brain, ",
+            "box": {
+              "x": 110,
+              "y": 305,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 355,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "Unlike conventional computers, which are entirely predictable and fail only due to hardware or ",
+            "box": {
+              "x": 110,
+              "y": 350,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 400,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "ANNs and conventional algorithmic computers are not competitive but complementary; while arithm",
+            "box": {
+              "x": 110,
+              "y": 395,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 445,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "ANNs provide a powerful alternative to conventional techniques by capturing complex, non-linear",
+            "box": {
+              "x": 110,
+              "y": 440,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "line",
+            "points": [
+              {
+                "x": 60,
+                "y": 700
+              },
+              {
+                "x": 1220,
+                "y": 700
+              }
+            ],
+            "stroke": "#10B981",
+            "strokeWidth": 3,
+            "strokeStyle": "solid"
+          },
+          {
+            "type": "text",
+            "text": "3",
+            "box": {
+              "x": 1200,
+              "y": 690,
+              "w": 60,
+              "h": 30
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#3B82F6",
+              "align": "right",
+              "bold": true,
+              "font": "Arial"
+            }
+          }
+        ]
+      },
+      {
+        "id": "slide-4",
+        "title": "Core Components of ANNs: Neurons, Synapses, and Weighted Connections",
+        "background": {
+          "color": "#f7fafc"
+        },
+        "transition": {
+          "type": "slideInRight",
+          "duration": 0.6
+        },
+        "elements": [
+          {
+            "type": "shape",
+            "shapeType": "rect",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "w": 1280,
+              "h": 100
+            },
+            "fill": "#3B82F6",
+            "border": null
+          },
+          {
+            "type": "text",
+            "text": "Core Components of ANNs: Neurons, Synapses, and Weighted Connections",
+            "box": {
+              "x": 60,
+              "y": 20,
+              "w": 1160,
+              "h": 80
+            },
+            "style": {
+              "fontSize": 44,
+              "align": "left",
+              "color": "#ffffff",
+              "bold": true,
+              "font": "Microsoft YaHei"
+            }
+          },
+          {
+            "type": "text",
+            "text": "By studying this material, learners should master the fundamental building blocks of Artificial Neural Networks (ANNs), ",
+            "box": {
+              "x": 60,
+              "y": 110,
+              "w": 1160,
+              "h": 40
+            },
+            "style": {
+              "fontSize": 14,
+              "color": "#10B981",
+              "italic": true,
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 60,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Artificial Neural Networks (ANNs) a",
+            "box": {
+              "x": 75,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 430,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Neurons as the fundamental processi",
+            "box": {
+              "x": 445,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 800,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Synaptic connections and weighted c",
+            "box": {
+              "x": 815,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 265,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "Artificial Neural Networks learn by example, much like biological systems, through a process th",
+            "box": {
+              "x": 110,
+              "y": 260,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 310,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "The structure of an ANN, particularly how neurons are clustered into layers and interconnected,",
+            "box": {
+              "x": 110,
+              "y": 305,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 355,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "The physical limitations of man-made networks, such as the two-dimensional constraints of integ",
+            "box": {
+              "x": 110,
+              "y": 350,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 400,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "Supervised training in ANNs relies on a 'training set' of data, where the network repeatedly pr",
+            "box": {
+              "x": 110,
+              "y": 395,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 445,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "The success of an ANN depends on multiple factors, including the quality and quantity of traini",
+            "box": {
+              "x": 110,
+              "y": 440,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "line",
+            "points": [
+              {
+                "x": 60,
+                "y": 700
+              },
+              {
+                "x": 1220,
+                "y": 700
+              }
+            ],
+            "stroke": "#10B981",
+            "strokeWidth": 3,
+            "strokeStyle": "solid"
+          },
+          {
+            "type": "text",
+            "text": "4",
+            "box": {
+              "x": 1200,
+              "y": 690,
+              "w": 60,
+              "h": 30
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#3B82F6",
+              "align": "right",
+              "bold": true,
+              "font": "Arial"
+            }
+          }
+        ]
+      },
+      {
+        "id": "slide-5",
+        "title": "Mathematical Foundations: Activation Functions and Signal Propagation",
+        "background": {
+          "color": "#f7fafc"
+        },
+        "transition": {
+          "type": "slideInRight",
+          "duration": 0.6
+        },
+        "elements": [
+          {
+            "type": "shape",
+            "shapeType": "rect",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "w": 1280,
+              "h": 100
+            },
+            "fill": "#3B82F6",
+            "border": null
+          },
+          {
+            "type": "text",
+            "text": "Mathematical Foundations: Activation Functions and Signal Propagation",
+            "box": {
+              "x": 60,
+              "y": 20,
+              "w": 1160,
+              "h": 80
+            },
+            "style": {
+              "fontSize": 44,
+              "align": "left",
+              "color": "#ffffff",
+              "bold": true,
+              "font": "Microsoft YaHei"
+            }
+          },
+          {
+            "type": "text",
+            "text": "By studying this material, learners should master the foundational role of activation functions and signal propagation i",
+            "box": {
+              "x": 60,
+              "y": 110,
+              "w": 1160,
+              "h": 40
+            },
+            "style": {
+              "fontSize": 14,
+              "color": "#10B981",
+              "italic": true,
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 60,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Artificial Neural Networks (ANNs) a",
+            "box": {
+              "x": 75,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 430,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Activation functions as the mechani",
+            "box": {
+              "x": 445,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 800,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Signal propagation through feedforw",
+            "box": {
+              "x": 815,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 265,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "Artificial neural networks are designed to replicate the brain's capacity to store and process ",
+            "box": {
+              "x": 110,
+              "y": 260,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 310,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "The training of an ANN involves repeatedly processing a dataset (the 'training set') while adju",
+            "box": {
+              "x": 110,
+              "y": 305,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 355,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "A well-designed neural network requires careful consideration of multiple factors, including th",
+            "box": {
+              "x": 110,
+              "y": 350,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 400,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "Signal propagation in ANNs follows a feedforward model, where each neuron in a hidden layer rec",
+            "box": {
+              "x": 110,
+              "y": 395,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 445,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "The distinction between supervised and unsupervised training lies in the presence of labeled ou",
+            "box": {
+              "x": 110,
+              "y": 440,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "line",
+            "points": [
+              {
+                "x": 60,
+                "y": 700
+              },
+              {
+                "x": 1220,
+                "y": 700
+              }
+            ],
+            "stroke": "#10B981",
+            "strokeWidth": 3,
+            "strokeStyle": "solid"
+          },
+          {
+            "type": "text",
+            "text": "5",
+            "box": {
+              "x": 1200,
+              "y": 690,
+              "w": 60,
+              "h": 30
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#3B82F6",
+              "align": "right",
+              "bold": true,
+              "font": "Arial"
+            }
+          }
+        ]
+      },
+      {
+        "id": "slide-6",
+        "title": "Network Topologies: Feedforward, Recurrent, and Modular Architectures",
+        "background": {
+          "color": "#f7fafc"
+        },
+        "transition": {
+          "type": "slideInRight",
+          "duration": 0.6
+        },
+        "elements": [
+          {
+            "type": "shape",
+            "shapeType": "rect",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "w": 1280,
+              "h": 100
+            },
+            "fill": "#3B82F6",
+            "border": null
+          },
+          {
+            "type": "text",
+            "text": "Network Topologies: Feedforward, Recurrent, and Modular Architectures",
+            "box": {
+              "x": 60,
+              "y": 20,
+              "w": 1160,
+              "h": 80
+            },
+            "style": {
+              "fontSize": 44,
+              "align": "left",
+              "color": "#ffffff",
+              "bold": true,
+              "font": "Microsoft YaHei"
+            }
+          },
+          {
+            "type": "text",
+            "text": "By studying this material, learners should master the fundamental distinctions between feedforward, recurrent, and modul",
+            "box": {
+              "x": 60,
+              "y": 110,
+              "w": 1160,
+              "h": 40
+            },
+            "style": {
+              "fontSize": 14,
+              "color": "#10B981",
+              "italic": true,
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 60,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Artificial Neural Networks (ANNs) a",
+            "box": {
+              "x": 75,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 430,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Feedforward neural networks, where ",
+            "box": {
+              "x": 445,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 800,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Recurrent neural networks, characte",
+            "box": {
+              "x": 815,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 265,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "Artificial Neural Networks learn by example rather than explicit programming, adjusting synapti",
+            "box": {
+              "x": 110,
+              "y": 260,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 310,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "Unlike conventional computers that rely on predefined algorithms, neural networks derive meanin",
+            "box": {
+              "x": 110,
+              "y": 305,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 355,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "The brain’s ability to store information as patterns—such as recognizing faces from multiple an",
+            "box": {
+              "x": 110,
+              "y": 350,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 400,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "Neural networks exhibit fault tolerance through redundant information coding; even with partial",
+            "box": {
+              "x": 110,
+              "y": 395,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 445,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "While neural networks are constrained by the physical limitations of two-dimensional integrated",
+            "box": {
+              "x": 110,
+              "y": 440,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "line",
+            "points": [
+              {
+                "x": 60,
+                "y": 700
+              },
+              {
+                "x": 1220,
+                "y": 700
+              }
+            ],
+            "stroke": "#10B981",
+            "strokeWidth": 3,
+            "strokeStyle": "solid"
+          },
+          {
+            "type": "text",
+            "text": "6",
+            "box": {
+              "x": 1200,
+              "y": 690,
+              "w": 60,
+              "h": 30
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#3B82F6",
+              "align": "right",
+              "bold": true,
+              "font": "Arial"
+            }
+          }
+        ]
+      },
+      {
+        "id": "slide-7",
+        "title": "Layered Structures: Input, Hidden, and Output Layers in Depth",
+        "background": {
+          "color": "#f7fafc"
+        },
+        "transition": {
+          "type": "slideInRight",
+          "duration": 0.6
+        },
+        "elements": [
+          {
+            "type": "shape",
+            "shapeType": "rect",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "w": 1280,
+              "h": 100
+            },
+            "fill": "#3B82F6",
+            "border": null
+          },
+          {
+            "type": "text",
+            "text": "Layered Structures: Input, Hidden, and Output Layers in Depth",
+            "box": {
+              "x": 60,
+              "y": 20,
+              "w": 1160,
+              "h": 80
+            },
+            "style": {
+              "fontSize": 44,
+              "align": "left",
+              "color": "#ffffff",
+              "bold": true,
+              "font": "Microsoft YaHei"
+            }
+          },
+          {
+            "type": "text",
+            "text": "By studying this material, learners should master the fundamental architecture of artificial neural networks, specifical",
+            "box": {
+              "x": 60,
+              "y": 110,
+              "w": 1160,
+              "h": 40
+            },
+            "style": {
+              "fontSize": 14,
+              "color": "#10B981",
+              "italic": true,
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 60,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "The three primary types of layers i",
+            "box": {
+              "x": 75,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 430,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Supervised training, where networks",
+            "box": {
+              "x": 445,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 800,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "The role of hidden layers in proces",
+            "box": {
+              "x": 815,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 265,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "Most practical neural networks consist of at least three layers: an input layer that receives r",
+            "box": {
+              "x": 110,
+              "y": 260,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 310,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "During supervised training, the network refines its performance by iteratively adjusting connec",
+            "box": {
+              "x": 110,
+              "y": 305,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 355,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "Hidden layers play a critical role in capturing complex patterns in data, but their design—incl",
+            "box": {
+              "x": 110,
+              "y": 350,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 400,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "Lateral inhibition allows neurons in the same layer, particularly in the output layer, to compe",
+            "box": {
+              "x": 110,
+              "y": 395,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 445,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "While supervised training dominates current applications due to its reliability and effectivene",
+            "box": {
+              "x": 110,
+              "y": 440,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "line",
+            "points": [
+              {
+                "x": 60,
+                "y": 700
+              },
+              {
+                "x": 1220,
+                "y": 700
+              }
+            ],
+            "stroke": "#10B981",
+            "strokeWidth": 3,
+            "strokeStyle": "solid"
+          },
+          {
+            "type": "text",
+            "text": "7",
+            "box": {
+              "x": 1200,
+              "y": 690,
+              "w": 60,
+              "h": 30
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#3B82F6",
+              "align": "right",
+              "bold": true,
+              "font": "Arial"
+            }
+          }
+        ]
+      },
+      {
+        "id": "slide-8",
+        "title": "Learning Paradigms: Supervised, Unsupervised, and Reinforcement Learning Mechanisms",
+        "background": {
+          "color": "#f7fafc"
+        },
+        "transition": {
+          "type": "slideInRight",
+          "duration": 0.6
+        },
+        "elements": [
+          {
+            "type": "shape",
+            "shapeType": "rect",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "w": 1280,
+              "h": 100
+            },
+            "fill": "#3B82F6",
+            "border": null
+          },
+          {
+            "type": "text",
+            "text": "Learning Paradigms: Supervised, Unsupervised, and Reinforcement Learning Mechanisms",
+            "box": {
+              "x": 60,
+              "y": 20,
+              "w": 1160,
+              "h": 80
+            },
+            "style": {
+              "fontSize": 44,
+              "align": "left",
+              "color": "#ffffff",
+              "bold": true,
+              "font": "Microsoft YaHei"
+            }
+          },
+          {
+            "type": "text",
+            "text": "By studying this material, the learner should master the fundamental distinctions between supervised, unsupervised, and ",
+            "box": {
+              "x": 60,
+              "y": 110,
+              "w": 1160,
+              "h": 40
+            },
+            "style": {
+              "fontSize": 14,
+              "color": "#10B981",
+              "italic": true,
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 60,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Supervised training in artificial n",
+            "box": {
+              "x": 75,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 430,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Unsupervised training, or adaptive ",
+            "box": {
+              "x": 445,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 800,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "The training set is a critical comp",
+            "box": {
+              "x": 815,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 265,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "In supervised learning, the network’s ability to converge on accurate outputs depends heavily o",
+            "box": {
+              "x": 110,
+              "y": 260,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 310,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "The process of training a neural network in supervised learning involves continuous refinement ",
+            "box": {
+              "x": 110,
+              "y": 305,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 355,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "Unsupervised learning holds the promise of enabling systems to adapt to new, unforeseen situati",
+            "box": {
+              "x": 110,
+              "y": 350,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 400,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "Neural networks, like biological systems, learn by adjusting synaptic connections (weights) bet",
+            "box": {
+              "x": 110,
+              "y": 395,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 445,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "While supervised learning dominates current applications due to its reliability and effectivene",
+            "box": {
+              "x": 110,
+              "y": 440,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "line",
+            "points": [
+              {
+                "x": 60,
+                "y": 700
+              },
+              {
+                "x": 1220,
+                "y": 700
+              }
+            ],
+            "stroke": "#10B981",
+            "strokeWidth": 3,
+            "strokeStyle": "solid"
+          },
+          {
+            "type": "text",
+            "text": "8",
+            "box": {
+              "x": 1200,
+              "y": 690,
+              "w": 60,
+              "h": 30
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#3B82F6",
+              "align": "right",
+              "bold": true,
+              "font": "Arial"
+            }
+          }
+        ]
+      },
+      {
+        "id": "slide-9",
+        "title": "Training Algorithms: Backpropagation, Gradient Descent, and Optimization Techniques",
+        "background": {
+          "color": "#f7fafc"
+        },
+        "transition": {
+          "type": "slideInRight",
+          "duration": 0.6
+        },
+        "elements": [
+          {
+            "type": "shape",
+            "shapeType": "rect",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "w": 1280,
+              "h": 100
+            },
+            "fill": "#3B82F6",
+            "border": null
+          },
+          {
+            "type": "text",
+            "text": "Training Algorithms: Backpropagation, Gradient Descent, and Optimization Techniques",
+            "box": {
+              "x": 60,
+              "y": 20,
+              "w": 1160,
+              "h": 80
+            },
+            "style": {
+              "fontSize": 44,
+              "align": "left",
+              "color": "#ffffff",
+              "bold": true,
+              "font": "Microsoft YaHei"
+            }
+          },
+          {
+            "type": "text",
+            "text": "By studying this material, learners should master the foundational training algorithms of artificial neural networks, pa",
+            "box": {
+              "x": 60,
+              "y": 110,
+              "w": 1160,
+              "h": 40
+            },
+            "style": {
+              "fontSize": 14,
+              "color": "#10B981",
+              "italic": true,
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 60,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Backpropagation (backward-error pro",
+            "box": {
+              "x": 75,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 430,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Supervised training, where both inp",
+            "box": {
+              "x": 445,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 800,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Adaptive learning, the neural netwo",
+            "box": {
+              "x": 815,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 265,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "Backpropagation is the most widely used algorithm for training artificial neural networks in su",
+            "box": {
+              "x": 110,
+              "y": 260,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 310,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "Neural networks require sufficient, representative training data to learn effectively; insuffic",
+            "box": {
+              "x": 110,
+              "y": 305,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 355,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "The design of a neural network—including the number of layers, nodes per layer, connection arch",
+            "box": {
+              "x": 110,
+              "y": 350,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 400,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "Supervised training involves continuous monitoring of network performance, often using statisti",
+            "box": {
+              "x": 110,
+              "y": 395,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 445,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "Neural networks excel at solving complex, non-linear problems where traditional computational m",
+            "box": {
+              "x": 110,
+              "y": 440,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "line",
+            "points": [
+              {
+                "x": 60,
+                "y": 700
+              },
+              {
+                "x": 1220,
+                "y": 700
+              }
+            ],
+            "stroke": "#10B981",
+            "strokeWidth": 3,
+            "strokeStyle": "solid"
+          },
+          {
+            "type": "text",
+            "text": "9",
+            "box": {
+              "x": 1200,
+              "y": 690,
+              "w": 60,
+              "h": 30
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#3B82F6",
+              "align": "right",
+              "bold": true,
+              "font": "Arial"
+            }
+          }
+        ]
+      },
+      {
+        "id": "slide-10",
+        "title": "Practical Applications: Case Studies in Image Recognition, NLP, and Predictive Analytics",
+        "background": {
+          "color": "#f7fafc"
+        },
+        "transition": {
+          "type": "slideInRight",
+          "duration": 0.6
+        },
+        "elements": [
+          {
+            "type": "shape",
+            "shapeType": "rect",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "w": 1280,
+              "h": 100
+            },
+            "fill": "#3B82F6",
+            "border": null
+          },
+          {
+            "type": "text",
+            "text": "Practical Applications: Case Studies in Image Recognition, NLP, and Predictive Analytics",
+            "box": {
+              "x": 60,
+              "y": 20,
+              "w": 1160,
+              "h": 80
+            },
+            "style": {
+              "fontSize": 44,
+              "align": "left",
+              "color": "#ffffff",
+              "bold": true,
+              "font": "Microsoft YaHei"
+            }
+          },
+          {
+            "type": "text",
+            "text": "By studying this material, learners should master the practical applications of Artificial Neural Networks (ANNs) across",
+            "box": {
+              "x": 60,
+              "y": 110,
+              "w": 1160,
+              "h": 40
+            },
+            "style": {
+              "fontSize": 14,
+              "color": "#10B981",
+              "italic": true,
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 60,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Artificial Neural Networks (ANNs) a",
+            "box": {
+              "x": 75,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 430,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Adaptive learning and self-organiza",
+            "box": {
+              "x": 445,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 800,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Pattern and sequence recognition as",
+            "box": {
+              "x": 815,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 265,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "Artificial Neural Networks (ANNs) are designed to mimic the information-processing capabilities",
+            "box": {
+              "x": 110,
+              "y": 260,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 310,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "ANNs excel in tasks like pattern recognition, novelty detection, and sequential decision-making",
+            "box": {
+              "x": 110,
+              "y": 305,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 355,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "One of the key advantages of ANNs is their adaptive learning capability, where they adjust syna",
+            "box": {
+              "x": 110,
+              "y": 350,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 400,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "ANNs demonstrate fault tolerance due to redundant information coding, meaning they can retain f",
+            "box": {
+              "x": 110,
+              "y": 395,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 445,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "Practical applications of ANNs span diverse fields, including gesture-based device control (e.g",
+            "box": {
+              "x": 110,
+              "y": 440,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "line",
+            "points": [
+              {
+                "x": 60,
+                "y": 700
+              },
+              {
+                "x": 1220,
+                "y": 700
+              }
+            ],
+            "stroke": "#10B981",
+            "strokeWidth": 3,
+            "strokeStyle": "solid"
+          },
+          {
+            "type": "text",
+            "text": "10",
+            "box": {
+              "x": 1200,
+              "y": 690,
+              "w": 60,
+              "h": 30
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#3B82F6",
+              "align": "right",
+              "bold": true,
+              "font": "Arial"
+            }
+          }
+        ]
+      },
+      {
+        "id": "slide-11",
+        "title": "Challenges and Limitations: Overfitting, Computational Complexity, and Interpretability",
+        "background": {
+          "color": "#f7fafc"
+        },
+        "transition": {
+          "type": "slideInRight",
+          "duration": 0.6
+        },
+        "elements": [
+          {
+            "type": "shape",
+            "shapeType": "rect",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "w": 1280,
+              "h": 100
+            },
+            "fill": "#3B82F6",
+            "border": null
+          },
+          {
+            "type": "text",
+            "text": "Challenges and Limitations: Overfitting, Computational Complexity, and Interpretability",
+            "box": {
+              "x": 60,
+              "y": 20,
+              "w": 1160,
+              "h": 80
+            },
+            "style": {
+              "fontSize": 44,
+              "align": "left",
+              "color": "#ffffff",
+              "bold": true,
+              "font": "Microsoft YaHei"
+            }
+          },
+          {
+            "type": "text",
+            "text": "By studying this material, the learner should understand the fundamental challenges and limitations inherent in Artifici",
+            "box": {
+              "x": 60,
+              "y": 110,
+              "w": 1160,
+              "h": 40
+            },
+            "style": {
+              "fontSize": 14,
+              "color": "#10B981",
+              "italic": true,
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 60,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Overfitting in Artificial Neural Ne",
+            "box": {
+              "x": 75,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 430,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Computational complexity refers to ",
+            "box": {
+              "x": 445,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 800,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Interpretability in ANNs describes ",
+            "box": {
+              "x": 815,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 265,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "Artificial Neural Networks, while powerful in deriving meaning from complex or imprecise data, ",
+            "box": {
+              "x": 110,
+              "y": 260,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 310,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "The computational complexity of ANNs is a significant barrier, particularly as networks grow in",
+            "box": {
+              "x": 110,
+              "y": 305,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 355,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "Interpretability remains one of the most pressing limitations of ANNs, as their decision-making",
+            "box": {
+              "x": 110,
+              "y": 350,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 400,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "Unlike conventional computers that follow explicit, step-by-step instructions to solve problems",
+            "box": {
+              "x": 110,
+              "y": 395,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 445,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "Despite their limitations, ANNs offer unique advantages such as fault tolerance and adaptive le",
+            "box": {
+              "x": 110,
+              "y": 440,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "line",
+            "points": [
+              {
+                "x": 60,
+                "y": 700
+              },
+              {
+                "x": 1220,
+                "y": 700
+              }
+            ],
+            "stroke": "#10B981",
+            "strokeWidth": 3,
+            "strokeStyle": "solid"
+          },
+          {
+            "type": "text",
+            "text": "11",
+            "box": {
+              "x": 1200,
+              "y": 690,
+              "w": 60,
+              "h": 30
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#3B82F6",
+              "align": "right",
+              "bold": true,
+              "font": "Arial"
+            }
+          }
+        ]
+      },
+      {
+        "id": "slide-12",
+        "title": "Emerging Trends: Deep Learning, Spiking Neural Networks, and Neuromorphic Computing",
+        "background": {
+          "color": "#f7fafc"
+        },
+        "transition": {
+          "type": "slideInRight",
+          "duration": 0.6
+        },
+        "elements": [
+          {
+            "type": "shape",
+            "shapeType": "rect",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "w": 1280,
+              "h": 100
+            },
+            "fill": "#3B82F6",
+            "border": null
+          },
+          {
+            "type": "text",
+            "text": "Emerging Trends: Deep Learning, Spiking Neural Networks, and Neuromorphic Computing",
+            "box": {
+              "x": 60,
+              "y": 20,
+              "w": 1160,
+              "h": 80
+            },
+            "style": {
+              "fontSize": 44,
+              "align": "left",
+              "color": "#ffffff",
+              "bold": true,
+              "font": "Microsoft YaHei"
+            }
+          },
+          {
+            "type": "text",
+            "text": "By studying this material, learners should understand the foundational principles and emerging advancements in neural ne",
+            "box": {
+              "x": 60,
+              "y": 110,
+              "w": 1160,
+              "h": 40
+            },
+            "style": {
+              "fontSize": 14,
+              "color": "#10B981",
+              "italic": true,
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 60,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Artificial Neural Networks (ANNs)",
+            "box": {
+              "x": 75,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 430,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Adaptive learning and self-organiza",
+            "box": {
+              "x": 445,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "roundRect",
+            "box": {
+              "x": 800,
+              "y": 160,
+              "w": 350,
+              "h": 35
+            },
+            "fill": "#F59E0B",
+            "border": {
+              "width": 1,
+              "color": "#F59E0B",
+              "style": "solid"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Biologically inspired computing and",
+            "box": {
+              "x": 815,
+              "y": 165,
+              "w": 320,
+              "h": 25
+            },
+            "style": {
+              "fontSize": 12,
+              "color": "#ffffff",
+              "bold": true,
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 265,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "Artificial Neural Networks are electronic models inspired by the neural structure of the brain,",
+            "box": {
+              "x": 110,
+              "y": 260,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 310,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "ANNs exhibit adaptive learning, meaning they can learn to perform tasks based on training data ",
+            "box": {
+              "x": 110,
+              "y": 305,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 355,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "Unlike conventional computers that rely on algorithmic, step-by-step instructions, neural netwo",
+            "box": {
+              "x": 110,
+              "y": 350,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 400,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "Neural networks demonstrate fault tolerance through redundant information coding; even with par",
+            "box": {
+              "x": 110,
+              "y": 395,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "shape",
+            "shapeType": "circle",
+            "box": {
+              "x": 80,
+              "y": 445,
+              "w": 8,
+              "h": 8
+            },
+            "fill": "#10B981"
+          },
+          {
+            "type": "text",
+            "text": "The field of biologically inspired computing, including neuromorphic computing, represents a ma",
+            "box": {
+              "x": 110,
+              "y": 440,
+              "w": 1100,
+              "h": 35
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#1f2937",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "line",
+            "points": [
+              {
+                "x": 60,
+                "y": 700
+              },
+              {
+                "x": 1220,
+                "y": 700
+              }
+            ],
+            "stroke": "#10B981",
+            "strokeWidth": 3,
+            "strokeStyle": "solid"
+          },
+          {
+            "type": "text",
+            "text": "12",
+            "box": {
+              "x": 1200,
+              "y": 690,
+              "w": 60,
+              "h": 30
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#3B82F6",
+              "align": "right",
+              "bold": true,
+              "font": "Arial"
+            }
+          }
+        ]
+      },
+      {
+        "id": "slide-13",
+        "title": "Synthesis and Future Directions: Key Takeaways and Research Frontiers",
+        "background": {
+          "gradient": {
+            "type": "linear",
+            "angle": 45,
+            "stops": [
+              {
+                "color": "#1f2937",
+                "position": 0
+              },
+              {
+                "color": "#111827",
+                "position": 100
+              }
+            ]
+          }
+        },
+        "transition": {
+          "type": "fade",
+          "duration": 1
+        },
+        "elements": [
+          {
+            "type": "shape",
+            "shapeType": "rect",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "w": 12,
+              "h": 720
+            },
+            "fill": "#F59E0B"
+          },
+          {
+            "type": "text",
+            "text": "Synthesis and Future Directions: Key Takeaways and Research Frontiers",
+            "box": {
+              "x": 80,
+              "y": 60,
+              "w": 1100,
+              "h": 100
+            },
+            "style": {
+              "fontSize": 52,
+              "align": "left",
+              "color": "#F59E0B",
+              "bold": true,
+              "font": "Microsoft YaHei"
+            },
+            "shadow": {
+              "x": 2,
+              "y": 2,
+              "blur": 4,
+              "color": "#00000050"
+            }
+          },
+          {
+            "type": "text",
+            "text": "✓",
+            "box": {
+              "x": 80,
+              "y": 210,
+              "w": 30,
+              "h": 30
+            },
+            "style": {
+              "fontSize": 24,
+              "color": "#10B981",
+              "bold": true
+            }
+          },
+          {
+            "type": "text",
+            "text": "Artificial Neural Networks are electronic models based on the neural structure of the brai",
+            "box": {
+              "x": 130,
+              "y": 210,
+              "w": 1050,
+              "h": 30
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#ffffff",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "text",
+            "text": "✓",
+            "box": {
+              "x": 80,
+              "y": 260,
+              "w": 30,
+              "h": 30
+            },
+            "style": {
+              "fontSize": 24,
+              "color": "#10B981",
+              "bold": true
+            }
+          },
+          {
+            "type": "text",
+            "text": "ANNs provide a powerful alternative to conventional computing techniques by capturing dyna",
+            "box": {
+              "x": 130,
+              "y": 260,
+              "w": 1050,
+              "h": 30
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#ffffff",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "text",
+            "text": "✓",
+            "box": {
+              "x": 80,
+              "y": 310,
+              "w": 30,
+              "h": 30
+            },
+            "style": {
+              "fontSize": 24,
+              "color": "#10B981",
+              "bold": true
+            }
+          },
+          {
+            "type": "text",
+            "text": "The effectiveness of an ANN depends on its architecture—specifically, the arrangement of n",
+            "box": {
+              "x": 130,
+              "y": 310,
+              "w": 1050,
+              "h": 30
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#ffffff",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "text",
+            "text": "✓",
+            "box": {
+              "x": 80,
+              "y": 360,
+              "w": 30,
+              "h": 30
+            },
+            "style": {
+              "fontSize": 24,
+              "color": "#10B981",
+              "bold": true
+            }
+          },
+          {
+            "type": "text",
+            "text": "While supervised learning (where networks are trained with labeled input-output pairs) is ",
+            "box": {
+              "x": 130,
+              "y": 360,
+              "w": 1050,
+              "h": 30
+            },
+            "style": {
+              "fontSize": 16,
+              "color": "#ffffff",
+              "align": "left",
+              "font": "Arial"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Thank You",
+            "box": {
+              "x": 80,
+              "y": 580,
+              "w": 1100,
+              "h": 80
+            },
+            "style": {
+              "fontSize": 48,
+              "align": "center",
+              "color": "#ffffff",
+              "italic": true,
+              "font": "Microsoft YaHei"
+            },
+            "shadow": {
+              "x": 3,
+              "y": 3,
+              "blur": 6,
+              "color": "#00000050"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

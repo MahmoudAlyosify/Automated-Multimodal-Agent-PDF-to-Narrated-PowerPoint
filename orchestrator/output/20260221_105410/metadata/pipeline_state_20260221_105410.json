@@ -1,0 +1,195 @@
+{
+  "run_id": "20260221_105410",
+  "pdf_path": "D:\\2026\\Automated-Multimodal-Agent-PDF-to-Narrated-PowerPoint\\orchestrator\\temp_uploads\\20260221_105410_Basic of Artificial Neural Network.pdf",
+  "pdf_filename": "Basic of Artificial Neural Network",
+  "output_dir": "output\\20260221_105410",
+  "status": "completed",
+  "current_stage": "finalize",
+  "error_message": "",
+  "start_time": "2026-02-21T10:54:10.453914",
+  "end_time": "2026-02-21T10:57:20.766467",
+  "parsed_content_count": 78,
+  "semantic_chunks_count": 45,
+  "slide_plan_count": 13,
+  "audio_files_count": 13,
+  "pptx_path": "output\\20260221_105410\\Basic of Artificial Neural Network_Narrated.pptx",
+  "parsed_content_path": "D:\\2026\\Automated-Multimodal-Agent-PDF-to-Narrated-PowerPoint\\Agentic Systems\\1- PDF Parser and Layout Analyzer Agent\\parsed_blocks.json",
+  "semantic_chunks_path": "D:\\2026\\Automated-Multimodal-Agent-PDF-to-Narrated-PowerPoint\\Agentic Systems\\2- Semantic Chunker Agent\\semantic_chunks.json",
+  "vector_index_path": "D:\\2026\\Automated-Multimodal-Agent-PDF-to-Narrated-PowerPoint\\Agentic Systems\\3- Vector DB + Embeddings Layer\\chunks.index",
+  "vector_metadata_path": "D:\\2026\\Automated-Multimodal-Agent-PDF-to-Narrated-PowerPoint\\Agentic Systems\\3- Vector DB + Embeddings Layer\\chunks_metadata.json",
+  "vector_embeddings_path": "D:\\2026\\Automated-Multimodal-Agent-PDF-to-Narrated-PowerPoint\\Agentic Systems\\3- Vector DB + Embeddings Layer\\chunks_embeddings.npy",
+  "slide_plan_path": "D:\\2026\\Automated-Multimodal-Agent-PDF-to-Narrated-PowerPoint\\Agentic Systems\\4- Slide Planner Agent\\slide_plan.json",
+  "slides_content_path": "D:\\2026\\Automated-Multimodal-Agent-PDF-to-Narrated-PowerPoint\\Agentic Systems\\5- Slide Generator Agent\\presentation.json",
+  "scripts_path": "D:\\2026\\Automated-Multimodal-Agent-PDF-to-Narrated-PowerPoint\\Agentic Systems\\7- Script Agent for each slide in PPTX\\scripts.json",
+  "audio_output_dir": "D:\\2026\\Automated-Multimodal-Agent-PDF-to-Narrated-PowerPoint\\Agentic Systems\\8- TTS  Generative Audio Agent\\audio_output",
+  "narrated_zip_path": "output\\20260221_105410\\Basic of Artificial Neural Network_Narrated_with_audio.zip",
+  "vector_store": {
+    "index_path": "D:\\2026\\Automated-Multimodal-Agent-PDF-to-Narrated-PowerPoint\\Agentic Systems\\3- Vector DB + Embeddings Layer\\chunks.index",
+    "metadata_path": "D:\\2026\\Automated-Multimodal-Agent-PDF-to-Narrated-PowerPoint\\Agentic Systems\\3- Vector DB + Embeddings Layer\\chunks_metadata.json",
+    "embeddings_path": "D:\\2026\\Automated-Multimodal-Agent-PDF-to-Narrated-PowerPoint\\Agentic Systems\\3- Vector DB + Embeddings Layer\\chunks_embeddings.npy",
+    "vector_count": 45,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2"
+  },
+  "stage_results": {
+    "parser": true,
+    "chunker": true,
+    "vector": true,
+    "planner": true,
+    "generator": true,
+    "script": true,
+    "tts": true,
+    "pptx": true
+  },
+  "logs": [
+    {
+      "timestamp": "2026-02-21T10:54:10",
+      "level": "INFO",
+      "stage": "orchestrator",
+      "message": "Pipeline started (run_id=20260221_105410)"
+    },
+    {
+      "timestamp": "2026-02-21T10:54:10",
+      "level": "INFO",
+      "stage": "parser",
+      "message": "Starting PDF parsing"
+    },
+    {
+      "timestamp": "2026-02-21T10:54:20",
+      "level": "INFO",
+      "stage": "parser",
+      "message": "Parsed 78 blocks"
+    },
+    {
+      "timestamp": "2026-02-21T10:54:20",
+      "level": "INFO",
+      "stage": "chunker",
+      "message": "Starting semantic chunking"
+    },
+    {
+      "timestamp": "2026-02-21T10:54:20",
+      "level": "INFO",
+      "stage": "chunker",
+      "message": "Created 45 semantic chunks"
+    },
+    {
+      "timestamp": "2026-02-21T10:54:20",
+      "level": "INFO",
+      "stage": "vector",
+      "message": "Starting vector store build"
+    },
+    {
+      "timestamp": "2026-02-21T10:54:28",
+      "level": "INFO",
+      "stage": "vector",
+      "message": "Vector store created"
+    },
+    {
+      "timestamp": "2026-02-21T10:54:28",
+      "level": "INFO",
+      "stage": "planner",
+      "message": "Starting slide planning"
+    },
+    {
+      "timestamp": "2026-02-21T10:57:12",
+      "level": "INFO",
+      "stage": "planner",
+      "message": "Planned slides via API"
+    },
+    {
+      "timestamp": "2026-02-21T10:57:12",
+      "level": "INFO",
+      "stage": "planner",
+      "message": "Created plan for 13 slides"
+    },
+    {
+      "timestamp": "2026-02-21T10:57:12",
+      "level": "INFO",
+      "stage": "generator",
+      "message": "Starting slide content generation"
+    },
+    {
+      "timestamp": "2026-02-21T10:57:12",
+      "level": "INFO",
+      "stage": "generator",
+      "message": "Generated slide content for 13 slides"
+    },
+    {
+      "timestamp": "2026-02-21T10:57:12",
+      "level": "INFO",
+      "stage": "script",
+      "message": "Starting narration script generation"
+    },
+    {
+      "timestamp": "2026-02-21T10:57:12",
+      "level": "INFO",
+      "stage": "script",
+      "message": "Generated scripts for 13 slides"
+    },
+    {
+      "timestamp": "2026-02-21T10:57:12",
+      "level": "INFO",
+      "stage": "tts",
+      "message": "Starting TTS audio generation"
+    },
+    {
+      "timestamp": "2026-02-21T10:57:15",
+      "level": "INFO",
+      "stage": "tts",
+      "message": "Generated 13 audio files"
+    },
+    {
+      "timestamp": "2026-02-21T10:57:15",
+      "level": "INFO",
+      "stage": "pptx",
+      "message": "Starting PPTX build"
+    },
+    {
+      "timestamp": "2026-02-21T10:57:17",
+      "level": "INFO",
+      "stage": "pptx",
+      "message": "PPTX created at D:\\2026\\Automated-Multimodal-Agent-PDF-to-Narrated-PowerPoint\\Agentic Systems\\6- PPTX Builder Agent\\lecture.pptx"
+    },
+    {
+      "timestamp": "2026-02-21T10:57:17",
+      "level": "INFO",
+      "stage": "finalize",
+      "message": "Finalizing pipeline outputs"
+    },
+    {
+      "timestamp": "2026-02-21T10:57:17",
+      "level": "INFO",
+      "stage": "finalize",
+      "message": "Copied PPTX: Basic of Artificial Neural Network_Narrated.pptx"
+    },
+    {
+      "timestamp": "2026-02-21T10:57:17",
+      "level": "INFO",
+      "stage": "finalize",
+      "message": "Copied 13 audio files"
+    },
+    {
+      "timestamp": "2026-02-21T10:57:17",
+      "level": "INFO",
+      "stage": "finalize",
+      "message": "Copied 5 metadata files"
+    },
+    {
+      "timestamp": "2026-02-21T10:57:20",
+      "level": "INFO",
+      "stage": "finalize",
+      "message": "Created narrated bundle: Basic of Artificial Neural Network_Narrated_with_audio.zip"
+    },
+    {
+      "timestamp": "2026-02-21T10:57:20",
+      "level": "INFO",
+      "stage": "finalize",
+      "message": "Pipeline completed successfully"
+    },
+    {
+      "timestamp": "2026-02-21T10:57:20",
+      "level": "INFO",
+      "stage": "finalize",
+      "message": "Saved pipeline metadata: pipeline_state_20260221_105410.json"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+# PDF to Narrated PowerPoint - Orchestrator Requirements
+# Install with: pip install -r requirements.txt
+
+# ============================================================================
+# Core LangGraph Framework
+# ============================================================================
+langgraph>=0.0.7
+langchain>=0.1.0
+langchain-core>=0.1.0
+
+# ============================================================================
+# Web Interface
+# ============================================================================
+streamlit>=1.28.0
+streamlit-option-menu>=0.3.6
+
+# ============================================================================
+# Existing Agent Dependencies
+# ============================================================================
+# PDF Processing
+PyMuPDF>=1.23.0  # fitz for PDF parsing
+pymupdf>=1.23.0
+
+# NLP & ML
+transformers>=4.30.0
+torch>=2.0.0
+scikit-learn>=1.3.0
+numpy>=1.24.0
+
+# Embeddings & Vector Search
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.0
+
+# Text-to-Speech
+pyttsx3>=2.90
+soundfile>=0.12.0
+
+# PowerPoint Generation
+python-pptx>=0.6.21
+
+# ============================================================================
+# Utilities & Support
+# ============================================================================
+requests>=2.31.0
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+dataclasses-json>=0.6.0
+
+# ============================================================================
+# Optional: Performance & Async
+# ============================================================================
+aiofiles>=23.2.0
+asyncio-contextmanager>=1.0.0
+
+# ============================================================================
+# Development & Debugging
+# ============================================================================
+python-json-logger>=2.0.0
+colorama>=0.4.6
+
+# ============================================================================
+# Optional: Advanced Audio Processing
+# ============================================================================
+# google-cloud-texttospeech>=2.14.0  # For Google TTS (optional)
+# azure-cognitiveservices-speech>=1.31.0  # For Azure TTS (optional)
