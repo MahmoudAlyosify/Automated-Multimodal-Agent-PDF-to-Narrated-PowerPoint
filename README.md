@@ -2,7 +2,10 @@
 
 ## 📽️ Demo Video
 
-[[▶️ Watch the demo](https://github.com/user-attachments/assets/24ac0119-9842-43c6-8980-a78e8f96fa2c](https://github.com/MahmoudAlyosify/Automated-Multimodal-Agent-PDF-to-Narrated-PowerPoint/blob/main/Demo/Demo%20of%20the%20Project%20PDF%20to%20Narrated%20Power%20point.mp4)](https://raw.githubusercontent.com/MahmoudAlyosify/Automated-Multimodal-Agent-PDF-to-Narrated-PowerPoint/main/Demo/Demo%20of%20the%20Project%20PDF%20to%20Narrated%20Power%20point.mp4)
+<video controls width="900" preload="metadata">
+  <source src="https://raw.githubusercontent.com/MahmoudAlyosify/Automated-Multimodal-Agent-PDF-to-Narrated-PowerPoint/main/Demo/Demo%20of%20the%20Project%20PDF%20to%20Narrated%20Power%20point.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ---
 
