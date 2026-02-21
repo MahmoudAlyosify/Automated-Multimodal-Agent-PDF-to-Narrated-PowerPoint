@@ -5,23 +5,23 @@
     "position": "intro",
     "intent": "By the end of this study, learners should understand the emergence and significance of Generative Artificial Intelligence (GenAI), recognizing its capabilities, underlying technological advancements, and transformative potential in business and society. They should also grasp the foundational role of large language models (LLMs) within GenAI and the key innovations, such as the transformer architecture, that have driven their rapid evolution and adoption.",
     "key_concepts": [
-      "Generative Artificial Intelligence (GenAI) as an emerging class of AI algorithms capable of producing novel content across text, audio, video, images, and code based on user prompts",
-      "Large Language Models (LLMs) as a dominant subset of GenAI focused on generating novel text from textual prompts, central to information-processing tasks due to the primacy of language",
-      "Transformer architecture, introduced in 2017, as a neural network design that efficiently captures long-range dependencies in data by processing entire context windows non-sequentially, enabling scalable and powerful language models",
-      "Scaling laws in machine learning, where increasing model parameters and training data (e.g., GPT-2 with 1.5 billion parameters vs. GPT-3 with 175 billion parameters) leads to significant performance improvements in generative tasks",
-      "The technology adoption cycle of GenAI, marked by rapid user growth, investor enthusiasm, and commercial deployment, signaling its transition from research-grade demonstrations to production-grade tools with broad societal and economic impact"
+      "Generative Artificial Intelligence (GenAI) as an emerging class of algorithms capable of producing novel content—such as text, audio, video, images, and code—based on user prompts, achieving near-human performance on professional and academic benchmarks",
+      "Large Language Models (LLMs) as a dominant subset of GenAI focused on generating novel text from textual inputs, distinguished by their central role in information-processing tasks and their rapid commercial adoption",
+      "The transformer architecture, introduced by Vaswani et al. in 2017, which revolutionized neural network design by efficiently capturing long-range dependencies in data through parallel processing of context, enabling scalable and high-performance models",
+      "The exponential growth in model size and training data, exemplified by models like GPT-2 (1.5 billion parameters) and GPT-3 (175 billion parameters), which has driven significant improvements in performance but also escalated computational and financial costs",
+      "The technology adoption cycle of GenAI, characterized by its rapid transition from research-grade prototypes to production-grade tools, fueled by investor enthusiasm, workforce demand, and the unprecedented speed of user adoption"
     ],
     "key_points": [
-      "Generative AI tools have achieved human-level performance on academic and professional benchmarks, such as scoring in the ninetieth percentile on the SAT and the bar exam, due to recent advances in machine learning, massive datasets, and increased computing power.",
-      "The rapid adoption of GenAI is exemplified by OpenAI’s ChatGPT, which reached one million users in just five days—far outpacing platforms like Instagram—highlighting the unprecedented accessibility and appeal of these technologies.",
-      "The economic and professional landscape is being reshaped by GenAI, with the number of jobs requiring AI-related skills quadrupling from 2022 to 2023, and investors significantly increasing capital allocation to generative AI startups (a 600% rise from 2020 to 2022).",
-      "While GenAI encompasses a variety of modalities, large language models (LLMs) dominate usage due to their versatility in addressing common information-processing tasks, though image- and code-based models have also seen successful commercial deployment (e.g., Adobe’s visual content tools and GitHub’s programming assistant).",
-      "The transformer architecture revolutionized language modeling by enabling efficient, non-sequential processing of context, leading to the development of increasingly large models (e.g., GPT-3 with 175 billion parameters) that, despite their high training costs, deliver superior performance."
+      "Generative AI tools have achieved remarkable performance benchmarks, such as scoring in the ninetieth percentile on standardized tests like the SAT and the bar exam, reflecting their advanced capabilities in generating human-like content across multiple modalities.",
+      "The rapid evolution of GenAI has been propelled by three critical factors: recent breakthroughs in machine learning, the availability of massive datasets, and substantial increases in computing power, which together have enabled models to reach and surpass human-level performance in specific tasks.",
+      "The adoption of GenAI has been unprecedented in speed and scale; for instance, OpenAI’s ChatGPT reached one million users in just five days, a milestone that took Instagram 2.5 months, signaling a transformative shift in how AI technologies are integrated into everyday applications.",
+      "The commercial and economic impact of GenAI is already evident, with the number of jobs requiring AI-related skills quadrupling from 2022 to 2023, while investor funding for GenAI startups surged by 600% between 2020 and 2022, underscoring its perceived potential to revolutionize industries.",
+      "Despite the focus on large language models in this report, GenAI encompasses a broader range of modalities, including image and code generation, which have already seen successful commercial deployment in tools like Adobe’s visual content creation platforms and GitHub’s programming assistance products."
     ],
     "examples": [
-      "OpenAI’s ChatGPT, a conversational web application built on a generative language model, serves as a prime example of GenAI’s rapid adoption, reaching one million users in five days—a milestone that took Instagram 2.5 months to achieve.",
-      "Adobe’s integration of GenAI for visual content creation and GitHub’s use of code-based GenAI models as programming assistants demonstrate the commercial viability and practical applications of non-text-based generative AI tools.",
-      "The progression from GPT-2 (1.5 billion parameters, 40 GB training data) to GPT-3 (175 billion parameters, 570 GB training data) illustrates the scaling trends in LLMs, where larger models trained on vast datasets yield substantial performance gains, albeit at a cost of tens of millions of dollars for training."
+      "The introduction of the transformer architecture in 2017 marked a pivotal moment in the development of large language models, enabling models like GPT-2 (with 1.5 billion parameters trained on 40 GB of data) and GPT-3 (with 175 billion parameters trained on 570 GB of text) to achieve unprecedented performance in text generation tasks.",
+      "OpenAI’s ChatGPT, a conversational web application built on a generative language model, exemplifies the rapid adoption of GenAI, reaching one million users in just five days—a stark contrast to the 2.5 months it took Instagram to achieve the same milestone, highlighting the accelerated pace of AI-driven innovation.",
+      "Commercial applications of GenAI extend beyond text generation, as demonstrated by Adobe’s integration of image-based GenAI tools for visual content creation and GitHub’s use of code-based GenAI models to assist developers, showcasing the versatility and practical utility of these technologies in real-world products."
     ],
     "source_chunks": [
       3,
@@ -39,25 +39,25 @@
     "slide_id": 2,
     "title": "Defining Generative AI: Core Concepts, Capabilities, and Modalities (Text, Audio, Video, Code)",
     "position": "content",
-    "intent": "By studying this material, learners should master the foundational principles of generative artificial intelligence (GenAI), including its core mechanisms, the modalities it operates across (such as text, audio, video, and code), and its transformative potential in business and technology. The goal is to understand how GenAI differs from traditional machine learning, why it has achieved unprecedented adoption, and how its capabilities are reshaping industries through real-world applications and emerging use cases.",
+    "intent": "By studying this material, learners should master the foundational principles of generative AI, including its core functionality, the modalities it operates across, and the technological advancements that enable its capabilities. They should also understand the real-world impact of generative AI on business processes, user adoption, and commercial applications, as well as the distinctions between generative AI and traditional machine learning approaches.",
     "key_concepts": [
-      "Generative artificial intelligence (GenAI) as a class of algorithms capable of producing novel content across multiple modalities—text, audio, video, images, and code—based on user prompts, driven by advances in machine learning, large datasets, and computational power.",
-      "Large language models (LLMs) as a dominant subset of GenAI focused on generating coherent and contextually relevant text from textual inputs, leveraging probabilistic prediction of the next word or token in a sequence to construct extended responses.",
-      "The shift from traditional supervised learning, which relied on hand-crafted, domain-specific data representations, to modern deep learning approaches that enable models to process raw, unstructured inputs like images and audio without manual feature engineering.",
-      "The rapid adoption and commercialization of GenAI tools, exemplified by the explosive growth in user engagement, investment, and job market demand, signaling a fundamental transformation in how businesses and individuals interact with technology.",
-      "The probabilistic and iterative nature of language models, which generate text by repeatedly sampling from a distribution of possible next words, resulting in outputs that are inherently random yet contextually grounded in the input prompt."
+      "Generative artificial intelligence (GenAI) as a class of algorithms capable of producing novel content across multiple modalities such as text, audio, video, images, and code based on user prompts",
+      "Large language models (LLMs) as a subset of generative AI focused on generating novel text from textual prompts, driven by their dominance in usage and centrality to information-processing tasks",
+      "The role of machine learning (ML) advancements, massive datasets, and increased computing power in propelling generative AI to human-level performance on academic and professional benchmarks",
+      "The distinction between traditional supervised learning algorithms, which rely on hand-crafted, domain-specific data representations, and modern generative AI, which automates learning across diverse modalities without such constraints",
+      "The probabilistic mechanism underlying language models, where the model predicts the next word (or token) by outputting a probability distribution over its vocabulary based on a given context window"
     ],
     "key_points": [
-      "Generative AI tools have achieved human-level performance on academic and professional benchmarks, such as scoring in the ninetieth percentile on the SAT and the bar exam, due to breakthroughs in machine learning, access to massive datasets, and increased computing power.",
-      "While GenAI encompasses a variety of modalities, large language models (LLMs) have taken a leading role in driving overall usage, largely because language is central to most information-processing tasks, though image- and code-based models have also seen successful commercial deployment.",
-      "The adoption of generative AI has been remarkably swift, with platforms like OpenAI’s ChatGPT reaching one million users in just five days—a milestone that took Instagram 2.5 months—while the number of jobs requiring AI-related skills quadrupled from 2022 to 2023, reflecting widespread enthusiasm and investment.",
-      "Unlike traditional machine learning algorithms, which struggled with unstructured data like images and audio, modern GenAI models leverage deep learning to process raw inputs directly, eliminating the need for painstakingly hand-crafted representations that previously limited predictive performance.",
-      "At their core, language models function by predicting the next word in a sequence based on a context window of preceding words, outputting a probability distribution over possible words and iteratively building text through repeated sampling, which introduces an element of randomness into the generated output."
+      "Generative AI tools have achieved remarkable performance levels, comparable to the ninetieth percentile on standardized tests like the SAT and the bar exam, due to recent breakthroughs in machine learning, access to vast datasets, and exponential growth in computing power.",
+      "Large language models (LLMs) are the primary drivers of generative AI adoption, given their ability to address a wide range of common information-processing tasks through natural language, though other modalities like image and code generation have also seen successful commercial deployment.",
+      "The rapid adoption of generative AI is evident in both consumer and business landscapes, with tools like OpenAI's ChatGPT reaching one million users in just five days and the demand for AI-related skills in the job market quadrupling from 2022 to 2023.",
+      "Unlike traditional machine learning algorithms, which struggled with unstructured data like images and audio due to their reliance on hand-crafted representations, generative AI models automate the learning process across diverse modalities, eliminating the need for domain-specific feature engineering.",
+      "At its core, a language model functions by iteratively predicting the next word in a sequence based on a probability distribution derived from a context window, enabling it to generate coherent and contextually relevant text through repeated sampling and incremental expansion."
     ],
     "examples": [
-      "Adobe’s integration of generative AI for visual content creation, enabling users to generate and manipulate images through intuitive prompts, demonstrates the commercial viability of image-based GenAI models in creative industries.",
-      "GitHub’s use of generative AI as a programming assistance tool, which helps developers write, debug, and optimize code, illustrates how code-based GenAI models are being deployed to enhance productivity in software development workflows.",
-      "OpenAI’s ChatGPT, a conversational web application built on a multimodal language model, reached one million users in just five days, showcasing the unprecedented speed at which generative AI tools can achieve mass adoption and reshape user expectations for digital interaction."
+      "Adobe has successfully deployed generative AI models for creating visual content, demonstrating the commercial viability of image-based generative AI in creative industries.",
+      "GitHub utilizes generative AI as a programming assistance tool, showcasing its practical application in code generation and software development workflows.",
+      "OpenAI's ChatGPT, a conversational web application built on a generative language model, reached one million users in just five days, illustrating the unprecedented speed of user adoption for generative AI technologies."
     ],
     "source_chunks": [
       3,
@@ -69,31 +69,31 @@
       15,
       16
     ],
-    "content_summary": "By studying this material, learners should master the foundational principles of generative artificial intelligence (GenAI), including its core mechanisms, the modalities it operates across (such as text, audio, video, and code), and its transformative potential in business and technology. The goal is to understand how GenAI differs from traditional machine learning, why it has achieved unprecedented adoption, and how its capabilities are reshaping industries through real-world applications and emerging use cases."
+    "content_summary": "By studying this material, learners should master the foundational principles of generative AI, including its core functionality, the modalities it operates across, and the technological advancements that enable its capabilities. They should also understand the real-world impact of generative AI on business processes, user adoption, and commercial applications, as well as the distinctions between generative AI and traditional machine learning approaches."
   },
   {
     "slide_id": 3,
     "title": "Taxonomy of GenAI-Related Disciplines: A Structured Overview of Subfields and Interdisciplinary Connections",
     "position": "content",
-    "intent": "By studying this material, learners should master the foundational taxonomy and interdisciplinary landscape of Generative AI (GenAI), understanding its core subfields, technological principles, and real-world applications. The goal is to recognize how GenAI differs from conventional machine learning, identify its key modalities (e.g., text, code, and images), and appreciate its rapid adoption and transformative potential across academic, professional, and business contexts.",
+    "intent": "By studying this material, learners should master the foundational taxonomy and interdisciplinary landscape of Generative AI (GenAI), particularly large language models (LLMs). They should understand the core principles driving GenAI’s rapid advancement, its distinguishing features from conventional machine learning, and its real-world applications in business, academia, and creative domains. Additionally, learners should recognize the speculative yet transformative potential of GenAI while critically evaluating its current capabilities and limitations.",
     "key_concepts": [
-      "Generative Artificial Intelligence (GenAI) as an emerging class of algorithms capable of producing novel content—such as text, audio, video, images, and code—based on user prompts, driven by advances in machine learning, large datasets, and increased computing power.",
-      "Large Language Models (LLMs) as a dominant subset of GenAI focused on generating human-like text from textual inputs, distinguished by their central role in information-processing tasks and widespread adoption compared to other GenAI modalities.",
-      "The distinction between GenAI and conventional machine learning models, where GenAI emphasizes *creation* of new content rather than prediction or classification, enabling applications previously infeasible due to economic or technological constraints.",
-      "The interdisciplinary connections within GenAI, spanning computational techniques (e.g., statistical modeling), domain-specific applications (e.g., legal exams, programming assistance), and commercial deployment (e.g., Adobe’s visual content tools, GitHub’s coding aids).",
-      "The technology adoption cycle of GenAI, characterized by rapid user growth (e.g., ChatGPT reaching 1 million users in five days), investor enthusiasm (e.g., 600% increase in startup funding from 2020 to 2022), and its potential to supercharge business processes and operations."
+      "Generative Artificial Intelligence (GenAI) as an emerging class of algorithms capable of producing novel content across text, audio, video, images, and code based on user prompts",
+      "Large Language Models (LLMs) as a dominant subset of GenAI focused on generating human-like text from textual inputs, underpinned by advancements in machine learning, massive datasets, and computational power",
+      "The distinction between GenAI and conventional machine learning models, particularly in their ability to create original content rather than merely classify or predict existing data",
+      "The role of benchmarks such as academic exams (e.g., SAT, bar exam) and professional assessments in evaluating GenAI’s performance, often achieving human-level or near-human-level results",
+      "The interdisciplinary connections of GenAI, spanning computer science, linguistics, statistics, and domain-specific applications like programming assistance and visual content creation"
     ],
     "key_points": [
-      "GenAI tools have achieved human-level performance on academic and professional benchmarks, such as scoring in the ninetieth percentile on the SAT and the bar exam, demonstrating their ability to match or exceed human capabilities in specific tasks.",
-      "The transformative potential of GenAI lies in its ability to convert research-grade demonstrations into accessible, production-grade goods and services, enabling entirely new deliverables that were previously economically or technologically unviable.",
-      "Large Language Models (LLMs) dominate the current landscape of GenAI usage due to their versatility in handling language-based tasks, which are central to most information-processing activities, though other modalities like image and code generation are also gaining commercial traction.",
-      "The rapid adoption of GenAI is evidenced by unprecedented user growth (e.g., ChatGPT’s five-day milestone to 1 million users) and a quadrupling of AI-related job postings from 2022 to 2023, reflecting both consumer enthusiasm and business demand.",
-      "While GenAI models operate on varied statistical and computational techniques, their outputs—such as text completions—are inherently random, meaning the same input prompt may yield different results, a characteristic that distinguishes them from deterministic systems."
+      "Generative AI tools have achieved remarkable progress, demonstrating performance comparable to the ninetieth percentile on standardized tests like the SAT and the bar exam, as evidenced by studies such as Katz et al., though some concerns about these assessments have been raised.",
+      "The adoption and commercialization of GenAI have accelerated at an unprecedented pace, with platforms like OpenAI’s ChatGPT reaching one million users in just five days, far outpacing the growth of earlier technological innovations like Instagram.",
+      "The economic and operational impact of GenAI is profound, with businesses rapidly integrating AI-related skills into their workflows—jobs mentioning such skills quadrupled from 2022 to 2023—and investors significantly increasing capital allocation to GenAI startups, which raised 600% more funding in 2022 than in 2020.",
+      "While GenAI encompasses a broad range of modalities, including audio, video, and code, this report focuses primarily on large language models due to their leading role in driving GenAI adoption and their centrality in addressing common information-processing tasks through language.",
+      "Despite their transformative potential, GenAI technologies remain in a developmental phase, with later discussions in the report venturing into speculative extrapolations about future advances, necessitating a cautious approach to their application and interpretation."
     ],
     "examples": [
-      "OpenAI’s GPT-4 demonstrated its capabilities by achieving ninetieth-percentile performance on the bar exam, as assessed by Katz et al., showcasing the advanced reasoning and comprehension abilities of modern LLMs in professional contexts.",
-      "Adobe’s deployment of GenAI tools for visual content creation and GitHub’s integration of AI-powered programming assistance (e.g., GitHub Copilot) illustrate the commercial viability and practical applications of non-text-based GenAI models in creative and technical domains.",
-      "The explosive growth of ChatGPT, which reached 1 million users in just five days—far outpacing platforms like Instagram (2.5 months)—highlights the unprecedented speed of GenAI adoption and its appeal to both individual users and enterprises."
+      "OpenAI’s GPT-4, a large language model, demonstrated performance at or near the ninetieth percentile on professional and academic benchmarks, including the bar exam, as highlighted in OpenAI’s announcement and subsequent assessments by researchers like Katz et al.",
+      "Adobe’s deployment of GenAI tools for visual content creation and GitHub’s integration of AI-powered programming assistance tools exemplify successful commercial applications of non-text-based generative models in creative and technical domains.",
+      "The rapid user adoption of ChatGPT, which reached one million users in five days, serves as a case study for the unprecedented speed at which GenAI technologies are being embraced, contrasting sharply with the slower adoption curves of earlier platforms like Instagram."
     ],
     "source_chunks": [
       5,
@@ -105,31 +105,31 @@
       10,
       16
     ],
-    "content_summary": "By studying this material, learners should master the foundational taxonomy and interdisciplinary landscape of Generative AI (GenAI), understanding its core subfields, technological principles, and real-world applications. The goal is to recognize how GenAI differs from conventional machine learning, identify its key modalities (e.g., text, code, and images), and appreciate its rapid adoption and transformative potential across academic, professional, and business contexts."
+    "content_summary": "By studying this material, learners should master the foundational taxonomy and interdisciplinary landscape of Generative AI (GenAI), particularly large language models (LLMs). They should understand the core principles driving GenAI’s rapid advancement, its distinguishing features from conventional machine learning, and its real-world applications in business, academia, and creative domains. Additionally, learners should recognize the speculative yet transformative potential of GenAI while critically evaluating its current capabilities and limitations."
   },
   {
     "slide_id": 4,
     "title": "From Research Demos to Production-Grade Tools: The Evolution and Commercialization of GenAI Technologies",
     "position": "content",
-    "intent": "By studying this material, learners should understand the transformative potential of generative AI (GenAI) technologies—particularly large language models (LLMs)—as they evolve from research demonstrations into production-grade tools. The focus should be on grasping how these models function, their commercial applications, and the principles that distinguish them from conventional machine learning, while also recognizing their real-world impact on business processes and user interaction.",
+    "intent": "By studying this material, learners should understand the transformative potential of generative AI technologies—particularly large language models (LLMs)—in evolving from research demonstrations to production-grade tools. They should grasp the foundational principles behind these models, their commercial applications, and the key distinctions between generative AI and traditional machine learning, while also recognizing real-world examples of their deployment and the broader implications for business and technology.",
     "key_concepts": [
-      "Generative Artificial Intelligence (GenAI)",
-      "Large Language Models (LLMs) and their role in text generation",
-      "Prompt engineering as a method for structuring inputs to elicit useful outputs",
-      "Beam Search as a systematic alternative to incremental word sampling in text generation",
-      "Stochasticity in GenAI responses, enabling varied outputs for the same input across runs"
+      "Generative Artificial Intelligence (GenAI) as an emerging class of algorithms capable of producing novel content across text, audio, video, images, and code based on user prompts, driven by advances in machine learning, massive datasets, and increased computing power",
+      "Large Language Models (LLMs) as a dominant subset of GenAI focused on generating human-like text from textual prompts, leveraging statistical and computational techniques to achieve high performance on academic and professional benchmarks",
+      "Prompt engineering as the practice of structuring initial text inputs to elicit useful and coherent outputs from GenAI models, a critical skill in optimizing their performance for specific tasks",
+      "Stochasticity in text generation, where the randomness introduced by sampling the next word from a probability distribution enables varied and contextually relevant responses across multiple runs of the same prompt",
+      "Supervised learning as a foundational machine learning methodology where prediction rules are derived from labeled examples, enabling models to generalize from seen data to unseen data, such as predicting house prices or classifying spam emails"
     ],
     "key_points": [
-      "The rapid adoption of generative AI technologies, such as OpenAI's ChatGPT, demonstrates their potential to revolutionize business processes and create entirely new deliverables that were previously infeasible due to economic or technological constraints. For instance, ChatGPT reached one million users in just five days, far outpacing the adoption rates of earlier technologies like Instagram.",
-      "Generative AI tools, particularly large language models, have achieved human-level performance on academic and professional benchmarks, such as scoring in the ninetieth percentile on the SAT and the bar exam, due to advances in machine learning, massive datasets, and increased computing power.",
-      "Unlike traditional supervised learning models, which rely on labeled examples to predict outcomes (e.g., house prices or spam detection), GenAI models generate novel content by predicting the next token in a sequence, introducing stochasticity to produce varied and contextually relevant outputs.",
-      "The commercial deployment of GenAI is already underway, with companies like Adobe leveraging image-based models for visual content creation and GitHub utilizing code-based models as programming assistance tools, highlighting the versatility and practical applications of these technologies.",
-      "The quality of text generated by LLMs is influenced by techniques like Beam Search, which systematically explores multiple word sequences to produce better results, and prompt engineering, which structures initial inputs to guide the model toward more useful and coherent outputs."
+      "The rapid evolution of generative AI technologies from research-grade demonstrations to production-grade tools has the potential to revolutionize business processes and unlock entirely new deliverables that were previously infeasible due to economic or technological constraints, as evidenced by the explosive adoption of tools like OpenAI's ChatGPT, which reached one million users in just five days",
+      "Generative AI startups have attracted unprecedented investment, with capital raised in 2022 increasing by 600% compared to 2020, reflecting widespread enthusiasm and confidence in the commercial viability and transformative impact of these technologies across industries",
+      "Large language models (LLMs) are at the forefront of generative AI adoption, not only due to their advanced capabilities in text generation but also because of the central role of language in addressing common information-processing tasks, though other modalities like image and code generation are also seeing successful commercial deployment",
+      "The quality of text generated by LLMs is significantly influenced by the method used to select the next word in a sequence; while stochastic sampling introduces desirable randomness and variability, deterministic approaches like greedy selection of the most likely word often degrade output quality",
+      "Despite their impressive performance, generative AI models like LLMs operate on principles that distinguish them from traditional supervised learning models, raising fundamental questions about how they internally determine output probabilities, how they are trained, and how they differ from conventional predictive models in practice"
     ],
     "examples": [
-      "OpenAI's ChatGPT serves as a prime example of the rapid adoption of GenAI technologies, reaching one million users in just five days—a milestone that took Instagram 2.5 months to achieve, illustrating the unprecedented speed at which these tools are being integrated into everyday use.",
-      "Adobe's use of image-based generative AI models for creating visual content and GitHub's deployment of code-based models as programming assistance tools demonstrate the successful commercialization of GenAI technologies across diverse industries, from creative design to software development.",
-      "The application of Beam Search in text generation, as coined by Raj Reddy at CMU, showcases how systematic search operations can improve the quality of outputs compared to incremental word sampling, providing a more refined and coherent result in language models."
+      "OpenAI's ChatGPT, a conversational web application built on a generative language model, serves as a prime example of the rapid adoption of GenAI, reaching one million users in just five days—a milestone that took Instagram 2.5 months to achieve—highlighting the unprecedented speed at which these technologies are being embraced by the public",
+      "Adobe's deployment of image-based generative AI models for creating visual content and GitHub's integration of code-based GenAI as a programming assistance tool demonstrate the successful commercialization of generative AI across diverse modalities, extending beyond text to practical, industry-specific applications",
+      "The use of Beam Search, a systematic search operation developed by Raj Reddy at CMU, illustrates an advanced technique employed in text generation to improve output quality by exploring multiple potential sequences rather than incrementally sampling the next word, showcasing the nuanced methods that enhance the performance of LLMs"
     ],
     "source_chunks": [
       4,
@@ -141,31 +141,31 @@
       23,
       26
     ],
-    "content_summary": "By studying this material, learners should understand the transformative potential of generative AI (GenAI) technologies—particularly large language models (LLMs)—as they evolve from research demonstrations into production-grade tools. The focus should be on grasping how these models function, their commercial applications, and the principles that distinguish them from conventional machine learning, while also recognizing their real-world impact on business processes and user interaction."
+    "content_summary": "By studying this material, learners should understand the transformative potential of generative AI technologies—particularly large language models (LLMs)—in evolving from research demonstrations to production-grade tools. They should grasp the foundational principles behind these models, their commercial applications, and the key distinctions between generative AI and traditional machine learning, while also recognizing real-world examples of their deployment and the broader implications for business and technology."
   },
   {
     "slide_id": 5,
     "title": "Comparative Analysis: GenAI vs. Conventional Machine Learning Models – Key Differences and Unique Advantages",
     "position": "content",
-    "intent": "By studying this material, learners should master the foundational distinctions between Generative AI (GenAI) and conventional machine learning models, particularly in their objectives, methodologies, and real-world applications. The focus will be on understanding how GenAI leverages prediction, pre-training, and hierarchical representation learning to generate novel content, while conventional machine learning excels in supervised tasks like classification and regression. Learners should also grasp the practical implications of these differences, including the unique advantages and limitations of each approach in applied contexts.",
+    "intent": "By studying this material, learners should master the foundational distinctions between Generative AI (GenAI) and conventional machine learning models, particularly in their objectives, methodologies, and real-world applications. The focus will be on understanding how GenAI leverages prediction, representation learning, and large-scale data to generate novel content, while also recognizing the unique advantages and limitations of both paradigms in practical contexts.",
     "key_concepts": [
-      "Generative Artificial Intelligence (GenAI) as an emerging class of algorithms capable of producing novel content—such as text, audio, video, and code—based on user prompts, driven by advances in machine learning, large datasets, and computational power",
-      "The principle of prediction as the core yardstick of machine learning, where the quality of a model is measured by its ability to make reasonable predictions on average, often repurposing complex problems (e.g., reverse image captioning) into prediction tasks",
-      "Deep neural networks and their hierarchical learning of representations, where lower layers capture task-agnostic features (e.g., edges in images) and higher layers specialize in task-specific outputs, enabling techniques like pre-training and fine-tuning",
-      "Supervised learning as a conventional machine learning paradigm focused on deriving prediction rules from labeled data, with the assumption that a model performing well on seen data will generalize to unseen data (e.g., predicting house prices or classifying spam emails)",
-      "The distinction between task-specific optimization in conventional machine learning and the amortized learning approach in GenAI, where pre-trained models (e.g., large language models) can be fine-tuned for diverse downstream tasks with limited additional data"
+      "Generative Artificial Intelligence (GenAI) as an emerging class of algorithms capable of producing novel content—such as text, audio, video, and code—based on user prompts, driven by advances in machine learning, massive datasets, and increased computing power",
+      "Prediction as the core yardstick of machine learning, where the quality of a model is measured by its ability to make reasonable predictions on average, rather than by traditional statistical concerns like causality or p-values",
+      "Deep neural networks and their hierarchical learning of representations, where lower layers capture task-agnostic features of data, while higher layers specialize in task-specific outputs, enabling techniques like pre-training and supervised fine-tuning",
+      "Supervised learning as a well-established subset of machine learning, where the goal is to derive a prediction rule from labeled examples that generalizes well to unseen data, exemplified by tasks like predicting house prices or classifying spam emails",
+      "The role of large language models (LLMs) within GenAI, which focus on generating novel text from prompts and dominate the current landscape due to their centrality in addressing common information-processing tasks"
     ],
     "key_points": [
-      "Generative AI models, particularly large language models (LLMs), have achieved human-level performance on benchmarks like the SAT and bar exam, demonstrating their ability to generate coherent and contextually relevant content across modalities such as text, code, and images.",
-      "Unlike conventional machine learning, which often prioritizes causal inference or statistical significance, GenAI operates on the principle of prediction alone—its success is measured by the average quality of its outputs, not by uncovering latent structures or causal relationships.",
-      "Deep neural networks in GenAI leverage hierarchical representation learning, where lower layers learn generalizable features (e.g., shapes or syntax) that can be repurposed for new tasks, while higher layers adapt to specific objectives, enabling efficient transfer learning through pre-training and fine-tuning.",
-      "Conventional supervised learning relies on abundant labeled data to train models that generalize to unseen examples, such as predicting house prices from square footage or filtering spam emails, with the underlying assumption that performance on training data translates to real-world applicability.",
-      "The practical deployment of GenAI has already seen commercial success in tools like Adobe’s visual content generators and GitHub’s programming assistants, highlighting its advantage in automating creative and information-processing tasks that were previously beyond the scope of traditional machine learning."
+      "Generative AI models, particularly large language models, have achieved human-level performance on academic and professional benchmarks, such as scoring in the ninetieth percentile on the SAT and the bar exam, due to recent breakthroughs in machine learning, data availability, and computational power.",
+      "Unlike conventional machine learning, which often relies on hand-crafted prediction rules or predefined classes of models, GenAI emphasizes flexible prediction rules that can cast a wide range of problems—such as reverse image captioning—as prediction tasks, even when the output is high-dimensional or complex.",
+      "Deep neural networks, a cornerstone of modern machine learning, require vast amounts of data to perform well but offer a critical advantage: they learn hierarchical representations of data, where lower layers capture general features and higher layers refine these for specific tasks, enabling efficient transfer learning across domains.",
+      "The machine learning methodology in supervised learning operates on the principle that a prediction rule trained on abundant labeled examples will generalize to unseen data, a leap of faith grounded in the hope that robust performance on training data translates to real-world applicability.",
+      "While GenAI encompasses models for various modalities, such as audio, video, and code, large language models have taken the lead in driving adoption due to their versatility in language-based tasks, though other GenAI applications—like Adobe’s visual content creation tools and GitHub’s programming assistance—are already seeing commercial success."
     ],
     "examples": [
-      "Reverse image captioning is presented as an example of how machine learning reframes complex problems as prediction tasks: instead of treating it as a classification problem, the model 'predicts' a high-dimensional image output given a textual description, illustrating the flexibility of prediction-centric approaches in GenAI.",
-      "The process of pre-training a deep neural network to distinguish between images of cats and dogs, followed by fine-tuning its lower layers to classify zebras and giraffes, demonstrates how hierarchical representation learning enables GenAI models to adapt to new tasks with minimal additional data.",
-      "Commercial applications like Adobe’s GenAI tools for visual content creation and GitHub’s Copilot for programming assistance showcase the real-world impact of GenAI, where models generate novel outputs (e.g., images or code) based on user prompts, a capability largely absent in conventional machine learning."
+      "The task of reverse image captioning, where a machine learning model 'predicts' a high-dimensional image from a few descriptive words, illustrates how GenAI reframes complex problems as prediction tasks, despite the unconventional nature of the output.",
+      "A practical application of deep neural networks involves pre-training a model on a large dataset to distinguish between images of cats and dogs, then fine-tuning a shallow neural network using the lower layers of the pre-trained model to classify images of zebras and giraffes, demonstrating the power of transfer learning.",
+      "Commercial deployments of GenAI, such as Adobe’s tools for creating visual content and GitHub’s programming assistance, showcase the real-world impact of these models beyond text generation, highlighting their growing role in creative and technical industries."
     ],
     "source_chunks": [
       8,
@@ -177,175 +177,139 @@
       10,
       26
     ],
-    "content_summary": "By studying this material, learners should master the foundational distinctions between Generative AI (GenAI) and conventional machine learning models, particularly in their objectives, methodologies, and real-world applications. The focus will be on understanding how GenAI leverages prediction, pre-training, and hierarchical representation learning to generate novel content, while conventional machine learning excels in supervised tasks like classification and regression. Learners should also grasp the practical implications of these differences, including the unique advantages and limitations of each approach in applied contexts."
+    "content_summary": "By studying this material, learners should master the foundational distinctions between Generative AI (GenAI) and conventional machine learning models, particularly in their objectives, methodologies, and real-world applications. The focus will be on understanding how GenAI leverages prediction, representation learning, and large-scale data to generate novel content, while also recognizing the unique advantages and limitations of both paradigms in practical contexts."
   },
   {
     "slide_id": 6,
-    "title": "Fundamental Principles of Language Models: Probabilistic Prediction and Contextual Understanding",
+    "title": "Fundamental Principles of Language Models: Probabilistic Prediction and Token-Based Generation",
     "position": "content",
-    "intent": "By studying this material, learners should master the foundational principles that distinguish large language models (LLMs) from traditional machine learning approaches, particularly their reliance on probabilistic prediction and contextual understanding. The goal is to understand how these models function, why their design enables flexible and impactful applications, and how their unique characteristics—such as prompt sensitivity and hallucination tendencies—shape their real-world utility and limitations.",
+    "intent": "By studying this material, learners should master the core principles underlying language models, particularly their reliance on probabilistic prediction and token-based generation. They should understand how prompts shape model outputs, why prediction is the central metric of success, and how these models differ from traditional machine learning approaches. Additionally, learners should grasp the practical implications of these principles, including their business applications and limitations like hallucination.",
     "key_concepts": [
-      "Probabilistic prediction as the core objective of language models",
-      "The role of vast, uncurated corpora in training language models and their divergence from traditional supervised learning datasets",
-      "Contextual understanding and the significance of the initial prompt in shaping model outputs",
-      "Prompt engineering as a technique to enhance model performance, particularly in logical reasoning tasks",
-      "Hallucination in language models and its connection to probabilistic generation and user feedback mechanisms"
+      "Probabilistic prediction as the foundation of language models",
+      "Token-based generation and the role of the initial context window (prompt)",
+      "Prompt engineering and its impact on model performance for complex tasks",
+      "The assumption of representativeness in training data and its challenges in language modeling",
+      "Hallucination in language models and its connection to probabilistic generation"
     ],
     "key_points": [
-      "Language models operate on a fundamentally simple principle: their primary goal is to make reasonable predictions on average, without concern for causality, statistical significance, or latent structure recovery—a sharp contrast to more ambitious statistical disciplines.",
-      "The success of machine learning, including language models, hinges on the ability to reframe diverse problems as prediction tasks, even when the relationship between inputs and outputs is unconventional, such as generating images from text descriptions.",
-      "Unlike traditional supervised learning, which relies on well-curated datasets closely aligned with specific tasks, language models are trained on massive, indiscriminately collected text corpora, raising questions about their applicability to business or domain-specific use cases.",
-      "Modern language models maintain coherence in their responses by continuously referencing the initial prompt, even when generating lengthy outputs, a capability that earlier models lacked and one that is heavily influenced by the art of prompt engineering.",
-      "The probabilistic nature of language models introduces challenges such as hallucination—where models generate plausible but incorrect or nonsensical information—which can be partially attributed to design choices that prioritize varied responses and user feedback."
+      "Language models generate text by producing completions conditioned on an initial set of words, known as the prompt, which crucially influences the coherence and quality of the output. Unlike earlier models, modern language models maintain awareness of the initial prompt even when generating large bodies of text, leading to more contextually relevant responses.",
+      "The primary goal of language models is to make reasonable predictions on average, eschewing more complex statistical considerations like causality or latent structure. This simplicity allows for flexible prediction rules that can be applied to a wide range of problems, from traditional regression tasks to high-dimensional challenges like reverse image captioning.",
+      "Language models are trained on vast, often indiscriminately collected corpora from the internet, which introduces challenges because the training data may not align perfectly with the specific tasks businesses or users care about. This misalignment raises questions about the representativeness of the data and the practical utility of the models.",
+      "Artful prompt engineering, such as decomposing a problem into intermediate subproblems, can significantly enhance a model’s performance on tasks requiring logical reasoning. This highlights the importance of human input in guiding the model toward more accurate and useful outputs.",
+      "The probabilistic nature of language models, combined with their reliance on prompts, can lead to hallucination—where the model generates plausible but incorrect or nonsensical responses. This phenomenon is partly due to the model’s design, which prioritizes generating varied and seemingly coherent text over strict factual accuracy."
     ],
     "examples": [
-      "The task of reverse image captioning, where a model 'predicts' an image from a textual description, exemplifies how machine learning redefines problems as prediction tasks, even when the input-output relationship is not straightforward or traditionally well-defined.",
-      "OpenAI's ChatGPT, a conversational web application built on a generative language model, reached one million users in just five days, illustrating the rapid adoption and transformative potential of LLMs in real-world applications compared to other technologies like Instagram, which took 2.5 months to achieve the same milestone.",
-      "Commercial deployments of generative AI models, such as Adobe's tools for creating visual content and GitHub's programming assistance tool, demonstrate the practical utility of these technologies beyond text generation, even though this report focuses primarily on language models."
+      "Prompt engineering has been shown to improve performance on logical reasoning tasks by encouraging the language model to break down a problem into smaller, manageable subproblems before attempting to solve it. This approach leverages the model’s ability to follow structured guidance provided in the prompt.",
+      "Generative AI tools like OpenAI’s ChatGPT, which is based on a large language model, reached one million users in just five days, demonstrating the rapid adoption and accessibility of these technologies. This contrasts sharply with other platforms, such as Instagram, which took 2.5 months to reach the same milestone.",
+      "Commercial deployments of generative AI models extend beyond text, with companies like Adobe using image-based models for visual content creation and GitHub employing code-based models as programming assistance tools. These applications highlight the versatility and business potential of generative AI technologies."
     ],
     "source_chunks": [
-      8,
+      21,
+      23,
       29,
       35,
-      67,
       4,
+      8,
       10,
-      20,
-      21
+      20
     ],
-    "content_summary": "By studying this material, learners should master the foundational principles that distinguish large language models (LLMs) from traditional machine learning approaches, particularly their reliance on probabilistic prediction and contextual understanding. The goal is to understand how these models function, why their design enables flexible and impactful applications, and how their unique characteristics—such as prompt sensitivity and hallucination tendencies—shape their real-world utility and limitations."
+    "content_summary": "By studying this material, learners should master the core principles underlying language models, particularly their reliance on probabilistic prediction and token-based generation. They should understand how prompts shape model outputs, why prediction is the central metric of success, and how these models differ from traditional machine learning approaches. Additionally, learners should grasp the practical implications of these principles, including their business applications and limitations like hallucination."
   },
   {
     "slide_id": 7,
-    "title": "Mechanics of Token Prediction: How Language Models Generate Text Through Sampling and Randomness",
+    "title": "Mechanics of Text Generation: Context Windows, Prompts, and the Role of Randomness in Output Variability",
     "position": "content",
-    "intent": "By studying this material, learners should master how large language models (LLMs) generate text through token prediction, including the role of probability distributions, sampling, and randomness in producing varied and coherent outputs. They should also understand the foundational principles of LLMs, such as model agnosticism, the importance of prompts, and why prediction—rather than causal inference—is the core objective of these systems.",
+    "intent": "By studying this material, learners should understand the fundamental mechanics behind text generation in large language models, particularly how context windows and prompts shape output, and why randomness is intentionally introduced to enhance response variability. The goal is to grasp why these models produce varied yet coherent text, how prompt engineering can improve performance, and the trade-offs between deterministic and stochastic generation methods.",
     "key_concepts": [
-      "Token prediction as the core functionality of language models",
-      "Probability distribution over vocabulary for next-word prediction",
-      "Stochasticity introduced by sampling from output distributions",
-      "Prompt engineering and its impact on text coherence and quality",
-      "Model agnosticism in machine learning and its application to LLMs"
+      "Context window: the sequence of preceding words or tokens that a language model uses to predict the next word in a sequence, serving as the foundational input for text generation.",
+      "Prompt: the initial set of words or instructions provided to a language model to condition and guide the generation of subsequent text, with modern models maintaining awareness of the prompt throughout the generation process to ensure coherence.",
+      "Stochasticity in text generation: the intentional introduction of randomness by sampling the next word from a probability distribution rather than always selecting the most likely word, which enables varied and creative outputs across multiple runs of the same prompt.",
+      "Prompt engineering: the practice of crafting and refining prompts to improve the quality, relevance, and logical structure of a language model’s output, often by decomposing complex tasks into intermediate subproblems for better reasoning performance.",
+      "In-context learning: a method of adapting pre-trained language models to specific tasks by embedding examples or instructions directly within the prompt, eliminating the need for computationally expensive fine-tuning while still achieving strong performance on downstream tasks."
     ],
     "key_points": [
-      "At its core, a language model predicts the next token by outputting a probability distribution over all possible words in its vocabulary, given a context window of preceding words. This incremental process is repeated to generate extended bodies of text.",
-      "The introduction of randomness through sampling—rather than always selecting the most likely word—enhances the quality and variability of generated text, as seen in models like ChatGPT, which can produce different responses to the same prompt across runs.",
-      "Modern language models maintain awareness of the initial prompt throughout text generation, enabling more coherent and contextually relevant outputs compared to earlier models that lost track of the original context.",
-      "Prompt engineering, such as breaking down problems into intermediate subproblems, can significantly improve the performance of language models, particularly in tasks requiring logical reasoning or structured outputs.",
-      "Language models operate under the principle of model agnosticism: they do not assume that their predictive mechanisms reflect any true underlying process (e.g., how humans compose text) but instead focus on making reasonable predictions on average."
+      "Language models generate text by iteratively predicting the next word based on a context window, outputting a probability distribution over possible words and sampling from it to produce varied and coherent completions.",
+      "The randomness introduced during the sampling step is critical to the quality and variability of generated text; replacing this with a greedy selection of the most likely word degrades output quality and limits creativity.",
+      "Modern language models retain awareness of the initial prompt throughout the generation process, unlike earlier models, which allows them to produce more contextually relevant and coherent responses over longer stretches of text.",
+      "Artfully designed prompts, such as those that break down complex problems into subproblems, can significantly enhance a model’s performance on tasks requiring logical reasoning or structured output.",
+      "In-context learning enables users to repurpose pre-trained language models for specific tasks without modifying the model’s weights, making large language models more accessible and adaptable for end-users across diverse applications."
     ],
     "examples": [
-      "ChatGPT demonstrates the effect of stochasticity in text generation by producing varied responses to the same prompt across different runs, a result of sampling the next word from a probability distribution rather than always selecting the most likely candidate.",
-      "Adobe’s deployment of image-based generative AI and GitHub’s use of code-based models as programming assistance tools illustrate the commercial success of generative AI beyond text, though this report focuses primarily on large language models due to their central role in information-processing tasks.",
-      "Prompt engineering techniques, such as decomposing a complex problem into smaller subproblems, have been shown to enhance the performance of language models in logical reasoning tasks, highlighting the importance of crafting effective prompts."
+      "The stochastic nature of text generation is why ChatGPT can produce different responses to the same prompt across multiple runs, as each completion is sampled from a distribution of possible next words rather than deterministically selecting the most probable one.",
+      "Prompt engineering techniques, such as decomposing a complex logical reasoning task into intermediate steps within the prompt, have been shown to improve the performance of language models on tasks that require structured problem-solving.",
+      "In-context learning, as demonstrated by GPT-3, allows users to specify a few labeled examples directly in the prompt to guide the model’s responses for unseen data, effectively treating the downstream task as a continuation of the prompt without requiring fine-tuning."
     ],
     "source_chunks": [
-      23,
-      30,
-      8,
-      10,
-      15,
       17,
+      8,
+      15,
+      16,
       21,
-      29
+      23,
+      44,
+      59
     ],
-    "content_summary": "By studying this material, learners should master how large language models (LLMs) generate text through token prediction, including the role of probability distributions, sampling, and randomness in producing varied and coherent outputs. They should also understand the foundational principles of LLMs, such as model agnosticism, the importance of prompts, and why prediction—rather than causal inference—is the core objective of these systems."
+    "content_summary": "By studying this material, learners should understand the fundamental mechanics behind text generation in large language models, particularly how context windows and prompts shape output, and why randomness is intentionally introduced to enhance response variability. The goal is to grasp why these models produce varied yet coherent text, how prompt engineering can improve performance, and the trade-offs between deterministic and stochastic generation methods."
   },
   {
     "slide_id": 8,
-    "title": "The Role of Prompts in GenAI: Crafting Inputs to Influence Outputs and Model Behavior",
+    "title": "Case Study: Image-Based GenAI – Midjourney and the Art of Visual Prompt Engineering",
     "position": "content",
-    "intent": "By studying this material, learners should master how prompts function as the critical interface between users and generative AI models, particularly large language models (LLMs). They should understand the principles of prompt engineering—how carefully structured inputs can shape model outputs, improve coherence, and enhance performance on complex tasks. Additionally, learners should recognize the broader role of prompts in aligning AI behavior with human intent, as demonstrated by techniques like supervised fine-tuning and reinforcement learning from human feedback.",
+    "intent": "By studying this material, learners should master the principles of image-based generative AI, particularly the role of prompt engineering in shaping outputs. They should understand how tools like Midjourney leverage user prompts to generate visually compelling content and recognize the broader implications of generative AI in commercial applications, such as Adobe’s visual content creation and GitHub’s programming assistance. Additionally, learners should grasp the significance of crafting artful prompts to enhance the quality and coherence of AI-generated outputs across modalities like text and images.",
     "key_concepts": [
-      "Prompt engineering: the deliberate structuring of initial textual inputs to guide and improve the quality, coherence, and utility of outputs generated by large language models",
-      "InstructGPT and model alignment: the process of fine-tuning generative AI models using supervised learning on labeled demonstrations and reinforcement learning from human feedback to ensure they follow user instructions effectively",
-      "Beam Search: a systematic search technique used during text generation that explores multiple potential word sequences simultaneously, often yielding more accurate and contextually appropriate completions than incremental word sampling",
-      "Context window: the initial set of words or tokens provided to a language model, which the model continuously references to maintain coherence and relevance throughout the generated output",
-      "Generative AI (GenAI): a class of artificial intelligence algorithms capable of producing novel content across multiple modalities—such as text, code, audio, and images—based on user-provided prompts, driven by advances in machine learning, large datasets, and computational power"
-    ],
-    "key_points": [
-      "While foundational models like GPT-3 excel at conversational tasks, they are not inherently trained to follow instructions; alignment techniques such as those used in InstructGPT are necessary to ensure models reliably adhere to user intent through supervised and reinforcement learning methods.",
-      "The initial prompt serves as the foundational context for language models, and unlike earlier models, modern LLMs maintain awareness of this prompt throughout the generation process, enabling more coherent and contextually consistent outputs over extended passages of text.",
-      "Artfully crafted prompts can significantly enhance model performance, particularly on complex tasks like logical reasoning, by encouraging the model to break problems into intermediate subproblems—a practice central to effective prompt engineering.",
-      "Generative AI tools have achieved human-level performance on professional and academic benchmarks, such as scoring in the 90th percentile on the SAT and the bar exam, reflecting their rapid advancement and growing real-world applicability.",
-      "The commercial adoption of generative AI is accelerating, with successful deployments in tools like Adobe’s visual content creation platforms and GitHub’s programming assistance, demonstrating the technology’s versatility across text, code, and image generation domains."
-    ],
-    "examples": [
-      "OpenAI’s InstructGPT model exemplifies how alignment techniques—such as fine-tuning on labeled demonstrations of desired behavior and ranking responses via human feedback—can transform a base language model into one that reliably follows user instructions, improving usability and output quality.",
-      "Adobe’s integration of generative AI into its creative tools allows users to generate visual content from textual prompts, illustrating how prompt-based systems are being deployed in commercial products to enhance creative workflows and content production.",
-      "GitHub’s Copilot, a programming assistance tool powered by generative AI, demonstrates the practical application of prompt engineering in code generation, where developers provide natural language descriptions as prompts to produce functional and contextually relevant code snippets."
-    ],
-    "source_chunks": [
-      63,
-      10,
-      21,
-      75,
-      3,
-      4,
-      8,
-      9
-    ],
-    "content_summary": "By studying this material, learners should master how prompts function as the critical interface between users and generative AI models, particularly large language models (LLMs). They should understand the principles of prompt engineering—how carefully structured inputs can shape model outputs, improve coherence, and enhance performance on complex tasks. Additionally, learners should recognize the broader role of prompts in aligning AI behavior with human intent, as demonstrated by techniques like supervised fine-tuning and reinforcement learning from human feedback."
-  },
-  {
-    "slide_id": 9,
-    "title": "Case Study: Image-Based GenAI – Midjourney and the Art of Visual Content Generation",
-    "position": "content",
-    "intent": "By studying this material, learners should understand the role and capabilities of image-based generative AI models like Midjourney, how they fit into the broader landscape of generative AI technologies, and their practical applications in visual content generation. The focus will also extend to recognizing the significance of prompt engineering in shaping outputs and appreciating the rapid commercial adoption and transformative potential of these tools in business and creative industries.",
-    "key_concepts": [
-      "Generative artificial intelligence (GenAI) tools",
-      "Image-based GenAI models",
+      "Generative artificial intelligence (GenAI)",
       "Prompt engineering",
-      "Commercial product deployment of GenAI",
-      "Human-level performance benchmarks in AI"
+      "Image-based GenAI models",
+      "Commercial deployment of GenAI tools",
+      "Stochasticity in generative AI responses"
     ],
     "key_points": [
-      "Generative AI tools represent a new class of algorithms capable of producing novel content—such as text, audio, video, images, and code—based on user-provided prompts, driven by recent advances in machine learning, massive datasets, and increased computing power.",
-      "While this report primarily focuses on large language models (LLMs) due to their dominance in usage and centrality in information-processing tasks, image- and code-based GenAI models have already achieved successful commercial deployment, as seen with Adobe’s visual content creation tools and GitHub’s programming assistance.",
-      "The quality and utility of content generated by AI models, including image-based systems like Midjourney, are heavily influenced by the crafting of the initial prompt, a practice known as prompt engineering, which can significantly enhance the coherence and relevance of outputs.",
-      "The rapid adoption of generative AI technologies, such as OpenAI’s ChatGPT reaching one million users in just five days, reflects their transformative potential to revolutionize business processes and enable new deliverables previously constrained by economic or technological limitations.",
-      "Generative AI models have demonstrated human-level performance on academic and professional benchmarks, achieving scores comparable to the ninetieth percentile on standardized tests like the SAT and the bar exam, underscoring their advanced capabilities."
+      "Generative AI tools are a new class of algorithms capable of producing novel content—such as text, images, audio, and code—based on user prompts, driven by advances in machine learning, massive datasets, and increased computing power, achieving human-level performance on benchmarks like the SAT and bar exam.",
+      "While the report primarily focuses on large language models (LLMs) due to their dominance in generative AI usage, image- and code-based GenAI models have already seen successful commercial deployment, exemplified by Adobe’s visual content creation tools and GitHub’s programming assistance.",
+      "The quality of AI-generated outputs is heavily influenced by the initial prompt, a concept known as prompt engineering, where artfully crafted prompts—such as breaking down problems into subproblems—can significantly improve the coherence and utility of the generated content.",
+      "Midjourney, an image-based GenAI model, demonstrates how visual prompts (e.g., 'Businessman in Tokyo amidst rush hour, his gaze fixed ahead, surrounded by a sea of black umbrellas') can produce detailed and contextually rich images, showcasing the power of prompt engineering in visual modalities.",
+      "The rapid adoption of generative AI, such as ChatGPT reaching one million users in just five days, reflects its transformative potential to supercharge business processes, enable new deliverables, and attract significant investment, with AI-related job postings quadrupling from 2022 to 2023."
     ],
     "examples": [
-      "Midjourney, an image-based GenAI model, generated a visually compelling response to the prompt: *'Businessman in Tokyo amidst rush hour, his gaze fixed ahead, surrounded by a sea of black umbrellas,'* showcasing its ability to create detailed and contextually rich visual content from textual descriptions.",
-      "Adobe has successfully deployed generative AI tools for visual content creation, integrating these models into its creative software suite to enable users to generate and manipulate images with unprecedented ease and efficiency.",
-      "GitHub’s programming assistance tool, powered by generative AI, exemplifies the commercial application of code-based GenAI models, helping developers write, debug, and optimize code through intelligent suggestions and automation."
+      "Midjourney’s response to the prompt 'Businessman in Tokyo amidst rush hour, his gaze fixed ahead, surrounded by a sea of black umbrellas' illustrates how image-based GenAI models can generate visually detailed and contextually nuanced outputs based on carefully crafted prompts.",
+      "Adobe’s use of generative AI for creating visual content and GitHub’s integration of GenAI as a programming assistance tool demonstrate the successful commercial deployment of image- and code-based generative AI models in real-world applications.",
+      "The practice of prompt engineering, such as decomposing a problem into intermediate subproblems, has been shown to improve the performance of language models on logical reasoning tasks, highlighting the importance of structured and thoughtful prompt design."
     ],
     "source_chunks": [
       10,
       3,
       11,
       21,
+      75,
       4,
       8,
-      23,
-      24
+      17
     ],
-    "content_summary": "By studying this material, learners should understand the role and capabilities of image-based generative AI models like Midjourney, how they fit into the broader landscape of generative AI technologies, and their practical applications in visual content generation. The focus will also extend to recognizing the significance of prompt engineering in shaping outputs and appreciating the rapid commercial adoption and transformative potential of these tools in business and creative industries."
+    "content_summary": "By studying this material, learners should master the principles of image-based generative AI, particularly the role of prompt engineering in shaping outputs. They should understand how tools like Midjourney leverage user prompts to generate visually compelling content and recognize the broader implications of generative AI in commercial applications, such as Adobe’s visual content creation and GitHub’s programming assistance. Additionally, learners should grasp the significance of crafting artful prompts to enhance the quality and coherence of AI-generated outputs across modalities like text and images."
   },
   {
-    "slide_id": 10,
+    "slide_id": 9,
     "title": "Case Study: Code-Based GenAI – OpenAI Codex, GitHub Copilot, and the Future of Automated Programming",
     "position": "content",
-    "intent": "By studying this material, learners should understand the role and impact of code-based generative AI models like OpenAI Codex and GitHub Copilot in automated programming. They should grasp how these tools function as commercial applications of generative AI, their rapid adoption in real-world settings, and their broader implications for the future of software development and business processes. Additionally, learners should recognize the foundational principles behind these technologies and their distinction from conventional machine learning approaches.",
+    "intent": "By studying this material, learners should understand the role and impact of code-based generative AI models like OpenAI Codex and GitHub Copilot in automated programming. They should grasp how these tools function as commercial applications of large language models, their rapid adoption in real-world settings, and the broader implications of generative AI in transforming business processes, software development, and content creation across multiple modalities.",
     "key_concepts": [
       "Large Language Models (LLMs) as a dominant force in generative AI, particularly for text and code generation, due to their ability to process and produce novel content from textual prompts",
-      "Generative artificial intelligence (GenAI) as an emerging class of AI algorithms capable of creating diverse content formats, including code, by leveraging advances in machine learning, large datasets, and computing power",
-      "Deep learning and neural networks with multiple layers that automate hierarchical representation learning, enabling breakthroughs in domains like image recognition, speech processing, and machine translation",
-      "Fine-tuning and alignment techniques, such as those used in OpenAI's InstructGPT, which refine pre-trained models to follow user instructions through supervised learning and reinforcement learning with human feedback",
-      "The commercial deployment of code-based GenAI tools, exemplified by GitHub Copilot, which translates natural language specifications into functional code and demonstrates the practical integration of AI into professional workflows"
+      "Generative artificial intelligence (GenAI) as an emerging class of algorithms capable of creating diverse content formats—including text, audio, video, images, and code—based on user inputs and advanced machine learning techniques",
+      "Deep learning and neural networks with hierarchical representation learning, which automate the extraction of meaningful patterns from data, enabling breakthroughs in domains like image recognition, speech processing, and machine translation",
+      "The alignment of generative models through techniques like supervised fine-tuning and reinforcement learning from human feedback (e.g., InstructGPT), which refines their ability to follow user instructions and produce contextually appropriate outputs",
+      "The commercial deployment of code-based GenAI tools, such as GitHub Copilot, which leverage models like OpenAI Codex to translate natural language specifications into functional code, demonstrating the practical integration of AI into software development workflows"
     ],
     "key_points": [
-      "Generative AI models, particularly large language models (LLMs), have taken a substantial lead in driving the overall usage of generative AI, largely due to the centrality of language in addressing common information-processing tasks, though code- and image-based models have also seen successful commercial deployment.",
-      "GitHub Copilot, built on OpenAI Codex, is a prominent example of a code-based GenAI tool that generates functional code from natural language specifications, and as of June 2023, it had already served over a million users, highlighting its rapid adoption in the programming community.",
-      "Generative AI tools have achieved human-level performance on various academic and professional benchmarks, such as scoring in the ninetieth percentile on the SAT and the bar exam, reflecting their advanced capabilities and potential to transform industries.",
-      "The transition of generative AI from research-grade demonstrations to production-grade tools has been remarkably swift, with applications like OpenAI's ChatGPT reaching one million users in just five days, signaling a paradigm shift in how businesses and individuals interact with AI technologies.",
-      "The underlying principles of generative AI, such as deep learning and automated representation learning, have enabled domain-agnostic advancements, with neural networks incrementally transforming data into more manageable forms to improve predictions across diverse fields like image recognition and machine translation."
+      "Generative AI, particularly large language models, has achieved human-level performance on academic and professional benchmarks, such as scoring in the ninetieth percentile on the SAT and the bar exam, signaling its rapid advancement and potential for real-world application",
+      "Code-based generative AI models like OpenAI Codex have enabled the creation of widely adopted commercial tools such as GitHub Copilot, which reportedly served over a million users by mid-2023, illustrating the swift transition of these technologies from research to production-grade solutions",
+      "The adoption of generative AI tools has been unprecedented in speed and scale; for instance, OpenAI’s ChatGPT reached one million users in just five days, far outpacing the growth of earlier transformative technologies like Instagram, reflecting both public enthusiasm and business demand",
+      "The revolution in deep learning, driven by neural networks with multiple layers, has automated hierarchical representation learning, leading to dramatic improvements in image recognition, speech processing, and machine translation, with these advances being relatively domain-agnostic and adaptable across industries",
+      "While generative models like GPT-3 excel at conversation-based tasks, they require additional alignment techniques—such as fine-tuning with labeled demonstrations and reinforcement learning from human feedback—to reliably follow user instructions and produce high-quality, contextually relevant outputs"
     ],
     "examples": [
-      "GitHub Copilot, powered by OpenAI Codex, serves as a concrete example of a commercially deployed code-based GenAI tool that assists programmers by generating functional code from natural language descriptions, demonstrating the practical utility of generative AI in software development.",
-      "The rapid user adoption of OpenAI's ChatGPT, which reached one million users in just five days, illustrates the unprecedented speed at which generative AI tools are being integrated into everyday applications, far outpacing the growth of platforms like Instagram.",
-      "The success of deep learning in the Imagenet challenge, where Krizhevsky, Sutskever, and Hinton slashed error rates for image recognition by leveraging GPUs and large datasets, showcases the foundational role of neural networks in enabling breakthroughs that later extended to other domains, including generative AI for code."
+      "GitHub Copilot, a commercial programming assistance tool built on OpenAI Codex, demonstrates the practical application of code-based generative AI by generating functional code from natural language specifications, serving over a million users as of June 2023 and showcasing its integration into real-world software development",
+      "Adobe’s deployment of generative AI for visual content creation highlights the commercial viability of AI-driven tools beyond text and code, illustrating how generative models are being leveraged to enhance creative workflows and produce novel multimedia outputs",
+      "The rapid user adoption of OpenAI’s ChatGPT, which reached one million users in just five days, serves as a key example of the unprecedented speed at which generative AI tools are being embraced by the public, outpacing the growth trajectories of earlier digital platforms like Instagram"
     ],
     "source_chunks": [
       10,
@@ -357,67 +321,103 @@
       40,
       63
     ],
-    "content_summary": "By studying this material, learners should understand the role and impact of code-based generative AI models like OpenAI Codex and GitHub Copilot in automated programming. They should grasp how these tools function as commercial applications of generative AI, their rapid adoption in real-world settings, and their broader implications for the future of software development and business processes. Additionally, learners should recognize the foundational principles behind these technologies and their distinction from conventional machine learning approaches."
+    "content_summary": "By studying this material, learners should understand the role and impact of code-based generative AI models like OpenAI Codex and GitHub Copilot in automated programming. They should grasp how these tools function as commercial applications of large language models, their rapid adoption in real-world settings, and the broader implications of generative AI in transforming business processes, software development, and content creation across multiple modalities."
   },
   {
-    "slide_id": 11,
-    "title": "Ethical and Practical Considerations: Randomness, User Feedback, and Model Deployment Strategies",
+    "slide_id": 10,
+    "title": "Statistical Foundations of GenAI: Probability Distributions, Sampling Techniques, and Model Training Paradigms",
     "position": "content",
-    "intent": "By studying this material, learners should understand the ethical and practical considerations surrounding the deployment of large language models (LLMs), including the trade-offs between randomness and structured output generation, the role of user feedback in model alignment, and the strategic approaches to deploying these models in real-world applications. The goal is to grasp how innovations like in-context learning and reinforcement learning from human feedback (RLHF) democratize access to AI while introducing new challenges in scalability, usability, and ethical responsibility.",
+    "intent": "By studying this material, learners should understand the statistical foundations underpinning large language models (LLMs), particularly how probability distributions and sampling techniques enable text generation. They should also grasp the key training paradigms—pre-training, supervised fine-tuning, and in-context learning—that allow LLMs to adapt to diverse tasks without exhaustive retraining, as well as recognize real-world applications and trade-offs in model deployment.",
     "key_concepts": [
-      "In-context learning: A paradigm introduced by GPT-3 that allows pre-trained language models to adapt to downstream tasks without computationally expensive fine-tuning, simply by providing a few labeled examples within the prompt itself, effectively treating each task as a conversational interaction.",
-      "Reinforcement Learning from Human Feedback (RLHF): A post-training alignment technique used in models like InstructGPT, where the model is fine-tuned not only through supervised learning on labeled demonstrations but also by incorporating human-ranked responses to prompts, ensuring the model follows user instructions more reliably.",
-      "Prompt engineering: The deliberate structuring of input text to guide generative AI models toward producing useful and coherent outputs, a critical skill for users interacting with LLMs to achieve desired results without modifying the underlying model architecture.",
-      "Beam Search: A systematic search algorithm, originally coined by Raj Reddy at CMU, used during text generation to explore multiple potential word sequences simultaneously, often yielding higher-quality outputs compared to incremental word sampling.",
-      "Supervised fine-tuning: A traditional machine learning approach where a pre-trained model is further trained on task-specific labeled data to improve performance on downstream applications, though it requires creating model replicas and significant computational resources, contrasting with more efficient methods like in-context learning."
+      "Probability distributions over vocabulary in language models",
+      "Pre-training and supervised fine-tuning as hierarchical learning paradigms",
+      "In-context learning as a lightweight alternative to fine-tuning",
+      "Beam Search as a systematic text generation technique",
+      "Alignment of language models via reinforcement learning from human feedback (RLHF)"
     ],
     "key_points": [
-      "The rapid adoption of generative AI, exemplified by ChatGPT reaching one million users in just five days, reflects both unprecedented enthusiasm and transformative potential for businesses, with AI-related job postings quadrupling from 2022 to 2023 and venture capital investment in generative AI startups surging by 600% since 2020.",
-      "While generative AI encompasses models for various modalities such as images, audio, and code, large language models (LLMs) have taken a leading role in driving overall usage due to the centrality of language in addressing common information-processing tasks, with successful commercial deployments already seen in tools like Adobe’s visual content creation and GitHub’s programming assistance.",
-      "GPT-3’s introduction of in-context learning significantly lowered the barrier to using LLMs by eliminating the need for users to create model replicas or run complex optimization procedures, democratizing access to these models despite not reducing the computational cost of training them.",
-      "InstructGPT demonstrates how post-training alignment techniques, such as supervised fine-tuning on labeled demonstrations and reinforcement learning from human feedback, can enhance an LLM’s ability to follow user instructions, bridging the gap between conversational ability and task-specific reliability.",
-      "The choice between in-context learning and supervised fine-tuning involves a trade-off: while fine-tuning may yield performance gains for specific tasks, it comes at the cost of increased computational load, whereas in-context learning offers a more accessible and flexible alternative for end-users."
+      "At their core, large language models function by predicting the next word in a sequence through a probability distribution over their entire vocabulary, given a context window of preceding words. This incremental prediction process enables the generation of coherent and contextually relevant text.",
+      "Deep neural networks, including LLMs, leverage hierarchical representation learning: lower layers capture general, task-agnostic features of the data, while higher layers specialize in task-specific representations. This allows pre-trained models to be repurposed for new tasks with minimal additional training, a process known as transfer learning.",
+      "The paradigm of pre-training on large, unlabeled datasets followed by supervised fine-tuning on task-specific labeled data has been foundational to modern LLMs. However, fine-tuning requires creating task-specific copies of the model, which can be computationally expensive and impractical for end-users.",
+      "In-context learning, introduced by models like GPT-3, eliminates the need for fine-tuning by embedding task-specific examples directly into the prompt. This approach democratizes access to LLMs, as users can adapt the model to new tasks without modifying its parameters or running complex optimization procedures.",
+      "While LLMs like GPT-3 excel at conversational tasks, they are not inherently trained to follow instructions. Models such as InstructGPT address this by aligning the model’s behavior with user intent through supervised learning on labeled demonstrations and reinforcement learning from human feedback (RLHF)."
     ],
     "examples": [
-      "ChatGPT, a conversational web application built on a generative language model, serves as a prime example of the rapid adoption of LLMs, reaching one million users in just five days—far outpacing platforms like Instagram, which took 2.5 months to achieve the same milestone.",
-      "Adobe’s integration of generative AI for visual content creation and GitHub’s use of AI-powered programming assistance tools illustrate successful commercial deployments of generative models beyond text, demonstrating their versatility across different modalities and industries.",
-      "InstructGPT’s use of reinforcement learning from human feedback (RLHF) showcases how models can be aligned to better follow user instructions, improving reliability in real-world applications by incorporating human-ranked responses into the fine-tuning process."
+      "Adobe’s deployment of generative AI models for creating visual content and GitHub’s use of code-based GenAI as a programming assistance tool demonstrate the commercial viability of generative AI beyond text, even as this report focuses primarily on large language models due to their widespread adoption and centrality in information-processing tasks.",
+      "Beam Search, a systematic search technique developed by Raj Reddy at CMU, is often employed in text generation to improve the quality of outputs compared to incremental word sampling, showcasing how structured algorithms can enhance the performance of language models.",
+      "The introduction of in-context learning in GPT-3 allows users to repurpose the model for downstream tasks—such as classification or question-answering—simply by providing a few labeled examples in the prompt, effectively turning each task into a conversational interaction without the need for model retraining."
     ],
     "source_chunks": [
-      4,
       10,
+      15,
+      41,
       55,
       59,
       63,
       67,
-      75,
-      3
+      75
     ],
-    "content_summary": "By studying this material, learners should understand the ethical and practical considerations surrounding the deployment of large language models (LLMs), including the trade-offs between randomness and structured output generation, the role of user feedback in model alignment, and the strategic approaches to deploying these models in real-world applications. The goal is to grasp how innovations like in-context learning and reinforcement learning from human feedback (RLHF) democratize access to AI while introducing new challenges in scalability, usability, and ethical responsibility."
+    "content_summary": "By studying this material, learners should understand the statistical foundations underpinning large language models (LLMs), particularly how probability distributions and sampling techniques enable text generation. They should also grasp the key training paradigms—pre-training, supervised fine-tuning, and in-context learning—that allow LLMs to adapt to diverse tasks without exhaustive retraining, as well as recognize real-world applications and trade-offs in model deployment."
+  },
+  {
+    "slide_id": 11,
+    "title": "Applications and Implications: Deployer Perspectives, User Feedback Loops, and Ethical Considerations",
+    "position": "content",
+    "intent": "By studying this material, learners should understand how generative AI models like InstructGPT and ChatGPT are deployed in real-world applications, the perspectives of both deployers and users in shaping model behavior, and the ethical and operational implications of their stochastic nature. The goal is to grasp how feedback loops, in-context learning, and probabilistic design influence performance, accessibility, and business adoption of these technologies.",
+    "key_concepts": [
+      "InstructGPT and alignment through human feedback",
+      "Stochasticity in generative language models and its impact on response variability and hallucination",
+      "In-context learning as a democratizing mechanism for large language model (LLM) customization",
+      "The role of initial prompts in shaping conditional probabilistic outputs of language models",
+      "The shift from research-grade demos to production-grade generative AI tools and their economic impact"
+    ],
+    "key_points": [
+      "Generative AI models, such as GPT-3 and its successors, are not inherently trained to follow instructions but can be aligned to do so through fine-tuning methods like supervised learning on labeled demonstrations and reinforcement learning from human feedback, as exemplified by OpenAI’s InstructGPT.",
+      "The stochastic nature of generative models—where the next word is sampled from a probability distribution rather than chosen deterministically—enables varied responses to the same prompt across multiple runs, which is desirable for user engagement but also contributes to phenomena like hallucination.",
+      "In-context learning allows users to repurpose pre-trained language models for specific tasks without adjusting the model’s weights, making LLMs more accessible and reducing the computational burden of fine-tuning, thereby democratizing their use for downstream applications.",
+      "The rapid adoption of generative AI tools, such as ChatGPT reaching one million users in just five days, reflects their potential to transform business processes and create new economic opportunities, with AI-related job postings quadrupling from 2022 to 2023 and significant investor enthusiasm.",
+      "Language models operate under a simplified goal of making reasonable predictions on average, eschewing complex statistical considerations like causality or p-values, which enables flexibility in casting diverse problems—such as reverse image captioning—as prediction tasks."
+    ],
+    "examples": [
+      "OpenAI’s InstructGPT model demonstrates how alignment with user instructions can be achieved through a combination of supervised learning on labeled demonstrations of desired behavior and reinforcement learning from human-ranked responses to prompts, illustrating a feedback-driven approach to improving model utility.",
+      "ChatGPT’s ability to generate varied responses to the same prompt across successive runs highlights the practical implications of stochasticity in generative models, where sampling from a probability distribution introduces randomness that enhances user experience but also risks producing inconsistent or hallucinated outputs.",
+      "The use of in-context learning in GPT-3 allows end-users to customize the model for specific tasks—such as sentiment analysis or question answering—by including a few labeled examples in the prompt, eliminating the need for computationally expensive fine-tuning and making advanced AI tools more accessible to non-experts."
+    ],
+    "source_chunks": [
+      63,
+      3,
+      4,
+      17,
+      20,
+      29,
+      59,
+      67
+    ],
+    "content_summary": "By studying this material, learners should understand how generative AI models like InstructGPT and ChatGPT are deployed in real-world applications, the perspectives of both deployers and users in shaping model behavior, and the ethical and operational implications of their stochastic nature. The goal is to grasp how feedback loops, in-context learning, and probabilistic design influence performance, accessibility, and business adoption of these technologies."
   },
   {
     "slide_id": 12,
-    "title": "Contextualizing Large Language Models (LLMs) in Recent AI Advances: Breakthroughs and Limitations",
+    "title": "Contextualizing Large Language Models (LLMs) in Recent AI Advances: Breakthroughs, Limitations, and Future Trajectories",
     "position": "content",
-    "intent": "By studying this material, learners should understand how large language models (LLMs) fit into the broader landscape of recent AI advances, particularly their unique capabilities, underlying mechanisms, and practical applications. The focus will be on grasping key breakthroughs like in-context learning and prompt engineering, as well as recognizing the distinctions and synergies between LLMs and traditional machine learning approaches such as pre-training and fine-tuning.",
+    "intent": "By studying this material, learners should understand the pivotal role of large language models (LLMs) within the broader landscape of generative AI, grasp the foundational machine learning principles that enable their functionality, and recognize their breakthroughs, practical applications, and inherent limitations. The goal is to contextualize LLMs not just as text-generating tools but as transformative technologies built on decades of AI advancements, particularly in representation learning, pre-training, and in-context learning, while also appreciating their accessibility and real-world impact across domains like programming and visual content creation.",
     "key_concepts": [
-      "Large Language Models (LLMs) as a subset of generative AI focused on text generation from textual prompts, distinguished by their ability to maintain coherence over extended responses by tracking the initial context window, or prompt.",
-      "Prompt engineering, the practice of crafting artful and strategic prompts to guide LLMs in decomposing complex problems into intermediate subproblems, thereby enhancing performance on tasks like logical reasoning.",
-      "Pre-training and supervised fine-tuning, a two-step process in deep learning where a model first learns general, task-agnostic features from large datasets (pre-training) and then adapts these features to specific tasks with smaller, labeled datasets (fine-tuning).",
-      "In-context learning, a method introduced by models like GPT-3 that allows LLMs to perform downstream tasks by including a few labeled examples directly in the prompt, eliminating the need for computationally expensive weight adjustments or fine-tuning.",
-      "The democratization of LLM usage, where in-context learning lowers the barrier for end-users by enabling task-specific customization through prompts rather than requiring model replication or sophisticated optimization procedures."
+      "Large Language Models (LLMs) as a subset of generative AI",
+      "Prompt engineering and its role in improving model performance on complex tasks",
+      "Pre-training and supervised fine-tuning in deep neural networks",
+      "In-context learning as a method for task adaptation without parameter adjustment",
+      "Hierarchical representation learning in deep neural networks"
     ],
     "key_points": [
-      "Large language models have taken a substantial lead in driving the adoption of generative AI, largely due to the central role of language in addressing everyday information-processing tasks, even as other generative models for images and code have also seen successful commercial deployment.",
-      "Modern LLMs distinguish themselves from earlier models by maintaining awareness of the initial prompt throughout the generation of lengthy text, resulting in more coherent and contextually relevant responses, particularly when prompts are thoughtfully engineered.",
-      "Deep neural networks, the foundation of LLMs, realize a long-promised advantage by hierarchically learning representations: lower layers capture general, task-agnostic features, while higher layers specialize in task-specific details, enabling efficient transfer learning across related tasks.",
-      "The introduction of in-context learning by models like GPT-3 has revolutionized the practical use of LLMs by allowing users to repurpose pre-trained models for specific tasks simply by providing examples in the prompt, drastically reducing computational costs and complexity.",
-      "While fine-tuning may still offer performance gains for certain tasks, the gap between fine-tuning and in-context learning has narrowed significantly, making LLMs more accessible to end-users who can now treat downstream tasks as conversational prompts rather than requiring model customization."
+      "Large language models (LLMs) have taken a substantial lead in driving the overall usage of generative AI, largely due to the centrality of language in addressing common information-processing tasks, even as other generative models for images and code have seen successful commercial deployment.",
+      "Modern LLMs maintain coherence over large bodies of generated text by continuously tracking the initial prompt, unlike earlier models, and their performance can be significantly enhanced through artful prompt engineering techniques such as decomposing problems into intermediate subproblems.",
+      "Deep neural networks, while data-hungry, realize a long-promised advantage by learning hierarchical representations—lower layers capture task-agnostic features, while higher layers specialize in task-specific details—enabling efficient transfer learning through pre-training and fine-tuning.",
+      "The GPT-3 model introduced in-context learning, a paradigm that allows pre-trained LLMs to adapt to new tasks by including a few labeled examples directly in the prompt, eliminating the need for computationally expensive weight adjustments and democratizing access to model customization.",
+      "The development of LLMs is rooted in decades of machine learning advancements, and their unique characteristics—such as in-context learning and hierarchical representation—distinguish them from traditional predictive models, fundamentally altering how users interact with and apply AI technologies."
     ],
     "examples": [
-      "Adobe’s deployment of generative AI models for creating visual content and GitHub’s use of AI as a programming assistance tool exemplify the commercial success of non-text-based generative models, highlighting the broader ecosystem in which LLMs operate.",
-      "Prompt engineering techniques that encourage LLMs to break down logical reasoning tasks into intermediate steps have been shown to improve performance, demonstrating how the quality of the prompt directly influences the utility of the generated output.",
-      "The GPT-3 model’s ability to perform in-context learning—where a user provides a few labeled examples in the prompt to guide the model’s response—illustrates how LLMs can be adapted to new tasks without the need for retraining or fine-tuning, making them highly versatile for end-users."
+      "Adobe has successfully deployed generative AI models for creating visual content, demonstrating the commercial viability of non-text-based generative AI in creative industries.",
+      "GitHub utilizes generative AI as a programming assistance tool, showcasing how LLMs and related models can enhance productivity in software development by automating and suggesting code completions.",
+      "Prompt engineering techniques that encourage LLMs to break down logical reasoning tasks into intermediate subproblems have been shown to improve performance, illustrating how thoughtful input design can unlock more sophisticated outputs."
     ],
     "source_chunks": [
       10,
@@ -426,45 +426,45 @@
       41,
       59,
       67,
-      23,
-      28
+      8,
+      23
     ],
-    "content_summary": "By studying this material, learners should understand how large language models (LLMs) fit into the broader landscape of recent AI advances, particularly their unique capabilities, underlying mechanisms, and practical applications. The focus will be on grasping key breakthroughs like in-context learning and prompt engineering, as well as recognizing the distinctions and synergies between LLMs and traditional machine learning approaches such as pre-training and fine-tuning."
+    "content_summary": "By studying this material, learners should understand the pivotal role of large language models (LLMs) within the broader landscape of generative AI, grasp the foundational machine learning principles that enable their functionality, and recognize their breakthroughs, practical applications, and inherent limitations. The goal is to contextualize LLMs not just as text-generating tools but as transformative technologies built on decades of AI advancements, particularly in representation learning, pre-training, and in-context learning, while also appreciating their accessibility and real-world impact across domains like programming and visual content creation."
   },
   {
     "slide_id": 13,
-    "title": "Summary, Key Takeaways, and Future Directions in Generative AI Research and Applications",
+    "title": "Summary, Key Takeaways, and Open Research Questions in Generative AI",
     "position": "conclusion",
-    "intent": "By studying this material, learners should grasp the transformative potential and current landscape of generative AI, particularly large language models (LLMs). They should understand the foundational principles that distinguish generative AI from traditional machine learning, recognize its rapid adoption and business impact, and appreciate both its practical applications and the speculative nature of its future developments.",
+    "intent": "By studying this material, learners should grasp the transformative impact and foundational principles of generative AI, particularly large language models (LLMs). They should understand how advancements in neural network architectures, such as transformers, have enabled unprecedented capabilities in content generation, as well as recognize the economic, technological, and practical implications of these models in real-world applications. Additionally, learners should identify the key questions and challenges that remain open in the field, shaping future research directions.",
     "key_concepts": [
-      "Generative artificial intelligence (GenAI) as an emerging class of algorithms capable of producing novel content across text, audio, video, images, and code based on user prompts",
-      "Large language models (LLMs) as a dominant subset of generative AI focused on generating text from textual prompts, driven by advances in machine learning, massive datasets, and increased computing power",
-      "The shift from traditional supervised machine learning, which relied on hand-crafted, domain-specific data representations, to modern deep learning approaches that automate feature extraction across modalities like images and audio",
-      "The technology adoption cycle and the speculative nature of future advancements in generative AI, given its developing and rapidly evolving state",
-      "The distinction between research-grade demonstrations and production-grade generative AI tools, and how the latter are being integrated into commercial products and business processes"
+      "Generative Artificial Intelligence (GenAI) as an emerging class of algorithms capable of producing novel content across multiple modalities, including text, audio, video, and code, based on user prompts",
+      "Transformers, a neural network architecture introduced by Vaswani et al. in 2017, which revolutionized language modeling by efficiently capturing long-range dependencies in data through parallel processing of context windows",
+      "Large Language Models (LLMs), a subset of GenAI focused on generating human-like text, exemplified by models such as GPT-2 and GPT-3, which leverage massive parameter counts and datasets to achieve high performance on benchmarks",
+      "The principle of prediction as the core mechanism in machine learning, where models are evaluated based on their ability to make accurate predictions on average, rather than through causal inference or statistical significance testing",
+      "The rapid adoption and commercialization of GenAI tools, driven by their accessibility, scalability, and potential to transform business processes, as evidenced by the exponential growth in user adoption, investment, and job market demand"
     ],
     "key_points": [
-      "Generative AI tools have achieved human-level performance on academic and professional benchmarks, such as scoring in the ninetieth percentile on the SAT and the bar exam, due to recent breakthroughs in machine learning and computational resources.",
-      "The adoption of generative AI has been remarkably swift; for example, OpenAI's ChatGPT reached one million users in just five days, far outpacing the adoption rates of earlier transformative technologies like Instagram, which took 2.5 months to reach the same milestone.",
-      "The business world has rapidly embraced generative AI, with the number of jobs mentioning AI-related skills quadrupling from 2022 to 2023, and investors significantly increasing capital allocation to generative AI startups—reportedly raising 600% more in 2022 than in 2020.",
-      "While generative AI encompasses a broad range of modalities, large language models (LLMs) have taken a leading role in driving usage, largely due to the centrality of language in addressing common information-processing tasks, though image- and code-based models are also seeing successful commercial deployment.",
-      "Despite the promise of automation in machine learning, traditional supervised learning algorithms required painstakingly hand-crafted data representations for each modality, which limited their predictive performance, whereas modern generative AI models automate this process, enabling more versatile and powerful applications."
+      "Generative AI technologies have transitioned rapidly from research-grade demonstrations to production-grade tools, with applications that can supercharge business operations and enable entirely new deliverables previously constrained by economic or technological limitations. For instance, OpenAI's ChatGPT reached one million users in just five days, illustrating the unprecedented speed of adoption compared to other technological innovations.",
+      "The introduction of the transformer architecture marked a pivotal shift in AI research, enabling models to process entire context windows at once and capture long-range relationships between tokens efficiently. This breakthrough led to the development of increasingly larger models, such as GPT-3, which boasts 175 billion parameters and was trained on 570 GB of text data, though at a cost of tens of millions of dollars.",
+      "Generative AI tools, particularly LLMs, have achieved human-level performance on a variety of academic and professional benchmarks, including scoring in the ninetieth percentile on the SAT and the bar exam. This performance underscores their potential to augment or even replace certain cognitive tasks traditionally performed by humans.",
+      "Despite their impressive capabilities, the internal workings of language models remain an area of active inquiry. Questions persist about how these models determine output probabilities, how they differ from traditional predictive models, and what principles govern their training and usage, highlighting the need for further research.",
+      "The simplicity of the prediction-centric approach in machine learning has enabled the field to tackle a wide array of problems by reframing them as prediction tasks. For example, reverse image captioning—generating an image from a textual description—is treated as a high-dimensional prediction problem, demonstrating the flexibility and adaptability of this paradigm."
     ],
     "examples": [
-      "Adobe’s integration of generative AI for creating visual content, which demonstrates the commercial deployment of image-based generative models in creative industries.",
-      "GitHub’s use of generative AI as a programming assistance tool, illustrating how code-based generative models are being applied to enhance software development workflows.",
-      "OpenAI’s ChatGPT, a conversational web application based on a generative language model, which exemplifies the rapid user adoption and accessibility of production-grade generative AI tools."
+      "OpenAI's ChatGPT, a conversational web application built on a generative language model, serves as a prime example of the rapid adoption of GenAI tools. Within five days of its launch, it amassed one million users, a milestone that took Instagram 2.5 months to achieve, illustrating the unprecedented demand and accessibility of these technologies.",
+      "Adobe's integration of image-based generative AI models into its creative suite demonstrates the commercial deployment of GenAI tools. Similarly, GitHub's use of code-based generative AI as a programming assistance tool showcases how these models are being leveraged to enhance productivity in specialized domains.",
+      "The progression from GPT-2 to GPT-3 exemplifies the scaling trends in language modeling. GPT-2, released in 2019, featured 1.5 billion parameters and was trained on 40 GB of data, while GPT-3, released in 2020, expanded to 175 billion parameters and 570 GB of text data, reflecting the correlation between model size, dataset scale, and performance improvements."
     ],
     "source_chunks": [
       4,
+      53,
       3,
       8,
       10,
-      37,
-      72,
-      9,
-      16
+      23,
+      24,
+      29
     ],
-    "content_summary": "By studying this material, learners should grasp the transformative potential and current landscape of generative AI, particularly large language models (LLMs). They should understand the foundational principles that distinguish generative AI from traditional machine learning, recognize its rapid adoption and business impact, and appreciate both its practical applications and the speculative nature of its future developments."
+    "content_summary": "By studying this material, learners should grasp the transformative impact and foundational principles of generative AI, particularly large language models (LLMs). They should understand how advancements in neural network architectures, such as transformers, have enabled unprecedented capabilities in content generation, as well as recognize the economic, technological, and practical implications of these models in real-world applications. Additionally, learners should identify the key questions and challenges that remain open in the field, shaping future research directions."
   }
 ]

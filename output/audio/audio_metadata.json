@@ -20,84 +20,84 @@
       "title": "Defining Generative AI: Core Concepts, Capabilities, and Modalities (Text, Audio, Video, Code)",
       "audio_file": "slide_02_audio.wav",
       "text_length": 1045,
-      "estimated_duration": 56.8
+      "estimated_duration": 57.6
     },
     {
       "slide_id": 3,
       "title": "Taxonomy of GenAI-Related Disciplines: A Structured Overview of Subfields and Interdisciplinary Connections",
       "audio_file": "slide_03_audio.wav",
       "text_length": 1076,
-      "estimated_duration": 59.2
+      "estimated_duration": 58.4
     },
     {
       "slide_id": 4,
       "title": "From Research Demos to Production-Grade Tools: The Evolution and Commercialization of GenAI Technologies",
       "audio_file": "slide_04_audio.wav",
       "text_length": 1087,
-      "estimated_duration": 58.8
+      "estimated_duration": 61.2
     },
     {
       "slide_id": 5,
       "title": "Comparative Analysis: GenAI vs. Conventional Machine Learning Models – Key Differences and Unique Advantages",
       "audio_file": "slide_05_audio.wav",
-      "text_length": 1080,
-      "estimated_duration": 57.2
+      "text_length": 1078,
+      "estimated_duration": 59.2
     },
     {
       "slide_id": 6,
-      "title": "Fundamental Principles of Language Models: Probabilistic Prediction and Contextual Understanding",
+      "title": "Fundamental Principles of Language Models: Probabilistic Prediction and Token-Based Generation",
       "audio_file": "slide_06_audio.wav",
-      "text_length": 1060,
-      "estimated_duration": 57.2
-    },
-    {
-      "slide_id": 7,
-      "title": "Mechanics of Token Prediction: How Language Models Generate Text Through Sampling and Randomness",
-      "audio_file": "slide_07_audio.wav",
-      "text_length": 1037,
-      "estimated_duration": 58.4
-    },
-    {
-      "slide_id": 8,
-      "title": "The Role of Prompts in GenAI: Crafting Inputs to Influence Outputs and Model Behavior",
-      "audio_file": "slide_08_audio.wav",
-      "text_length": 1013,
-      "estimated_duration": 60.0
-    },
-    {
-      "slide_id": 9,
-      "title": "Case Study: Image-Based GenAI – Midjourney and the Art of Visual Content Generation",
-      "audio_file": "slide_09_audio.wav",
-      "text_length": 1015,
-      "estimated_duration": 63.2
-    },
-    {
-      "slide_id": 10,
-      "title": "Case Study: Code-Based GenAI – OpenAI Codex, GitHub Copilot, and the Future of Automated Programming",
-      "audio_file": "slide_10_audio.wav",
-      "text_length": 1043,
-      "estimated_duration": 60.8
-    },
-    {
-      "slide_id": 11,
-      "title": "Ethical and Practical Considerations: Randomness, User Feedback, and Model Deployment Strategies",
-      "audio_file": "slide_11_audio.wav",
-      "text_length": 1053,
+      "text_length": 1064,
       "estimated_duration": 58.8
     },
     {
+      "slide_id": 7,
+      "title": "Mechanics of Text Generation: Context Windows, Prompts, and the Role of Randomness in Output Variability",
+      "audio_file": "slide_07_audio.wav",
+      "text_length": 1049,
+      "estimated_duration": 61.6
+    },
+    {
+      "slide_id": 8,
+      "title": "Case Study: Image-Based GenAI – Midjourney and the Art of Visual Prompt Engineering",
+      "audio_file": "slide_08_audio.wav",
+      "text_length": 1034,
+      "estimated_duration": 63.6
+    },
+    {
+      "slide_id": 9,
+      "title": "Case Study: Code-Based GenAI – OpenAI Codex, GitHub Copilot, and the Future of Automated Programming",
+      "audio_file": "slide_09_audio.wav",
+      "text_length": 1057,
+      "estimated_duration": 61.6
+    },
+    {
+      "slide_id": 10,
+      "title": "Statistical Foundations of GenAI: Probability Distributions, Sampling Techniques, and Model Training Paradigms",
+      "audio_file": "slide_10_audio.wav",
+      "text_length": 1085,
+      "estimated_duration": 59.2
+    },
+    {
+      "slide_id": 11,
+      "title": "Applications and Implications: Deployer Perspectives, User Feedback Loops, and Ethical Considerations",
+      "audio_file": "slide_11_audio.wav",
+      "text_length": 1095,
+      "estimated_duration": 60.0
+    },
+    {
       "slide_id": 12,
-      "title": "Contextualizing Large Language Models (LLMs) in Recent AI Advances: Breakthroughs and Limitations",
+      "title": "Contextualizing Large Language Models (LLMs) in Recent AI Advances: Breakthroughs, Limitations, and Future Trajectories",
       "audio_file": "slide_12_audio.wav",
-      "text_length": 1042,
-      "estimated_duration": 58.4
+      "text_length": 1071,
+      "estimated_duration": 59.6
     },
     {
       "slide_id": 13,
-      "title": "Summary, Key Takeaways, and Future Directions in Generative AI Research and Applications",
+      "title": "Summary, Key Takeaways, and Open Research Questions in Generative AI",
       "audio_file": "slide_13_audio.wav",
-      "text_length": 939,
-      "estimated_duration": 53.6
+      "text_length": 921,
+      "estimated_duration": 51.2
     }
   ]
 }
