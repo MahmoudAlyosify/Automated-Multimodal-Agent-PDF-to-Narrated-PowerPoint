@@ -1,7 +1,7 @@
 # Automated Multimodal Agent: PDF to Narrated PowerPoint
 
 ## Overview
-[Demo](https://github.com/MahmoudAlyosify/Automated-Multimodal-Agent-PDF-to-Narrated-PowerPoint/blob/main/Demo/Demo%20of%20the%20Project%20PDF%20to%20Narrated%20Power%20point.mp4)
+(https://github.com/MahmoudAlyosify/Automated-Multimodal-Agent-PDF-to-Narrated-PowerPoint/blob/main/Demo/Demo%20of%20the%20Project%20PDF%20to%20Narrated%20Power%20point.mp4)
 ---
 
 ## 📋 Project Overview
