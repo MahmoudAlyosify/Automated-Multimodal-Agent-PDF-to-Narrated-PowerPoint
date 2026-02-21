@@ -3,7 +3,7 @@
 ## 📽️ Demo Video
 
 <video controls width="900" preload="metadata">
-  <source src="https://youtu.be/JgY9u6NNvGE?si=a44qzmeWyGEDW_37" type="video/mp4">
+  <source src="https://youtu.be/JgY9u6NNvGE" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
