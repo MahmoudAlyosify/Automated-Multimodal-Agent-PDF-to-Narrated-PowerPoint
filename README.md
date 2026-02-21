@@ -1,5 +1,4 @@
 # Automated Multimodal Agent: PDF to Narrated PowerPoint
-# 🎬 Automated Multimodal Agent: PDF to Narrated PowerPoint
 
 ## Overview
 **Transform PDF documents into engaging, fully-narrated PowerPoint presentations with AI-powered automation.**
@@ -297,42 +296,42 @@ output/
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                   Streamlit Web UI                       │
+│                   Streamlit Web UI                      │
 │  (Upload PDF → Monitor Progress → Download PPTX+Audio)  │
 └────────────────────┬────────────────────────────────────┘
                      │
                      ↓
 ┌─────────────────────────────────────────────────────────┐
-│              LangGraph StateGraph Orchestrator           │
+│              LangGraph StateGraph Orchestrator          │
 ├─────────────────────────────────────────────────────────┤
-│                                                          │
-│  START                                                   │
-│    ↓                                                     │
+│                                                         │
+│  START                                                  │
+│    ↓                                                    │
 │  [1] PDF Parser → Extract blocks (parsed_blocks.json)   │
-│    ↓                                                     │
+│    ↓                                                    │
 │  [2] Chunker → Semantic chunks (semantic_chunks.json)   │
-│    ↓                                                     │
+│    ↓                                                    │
 │  [3] Vector DB → Embeddings (chunks.index)              │
-│    ↓                                                     │
+│    ↓                                                    │
 │  [4] Planner → Slide layout (slide_plan.json)           │
-│    ↓                                                     │
+│    ↓                                                    │
 │  [5] Generator → Presentation (presentation.json)       │
-│    ↓                                                     │
+│    ↓                                                    │
 │  [6] Script Agent → Narration (scripts.json)            │
-│    ↓                                                     │
+│    ↓                                                    │
 │  [7] TTS Agent → Audio (*.wav files)                    │
-│    ↓                                                     │
+│    ↓                                                    │
 │  [8] PPTX Builder → PowerPoint (lecture.pptx)           │
-│    ↓                                                     │
+│    ↓                                                    │
 │  Finalize → Output assembly                             │
-│    ↓                                                     │
-│  END                                                     │
-│                                                          │
+│    ↓                                                    │
+│  END                                                    │
+│                                                         │
 └─────────────────────────────────────────────────────────┘
                      │
                      ↓
 ┌─────────────────────────────────────────────────────────┐
-│              Final Output Delivery                       │
+│              Final Output Delivery                      │
 ├─────────────────────────────────────────────────────────┤
 │  ✓ {PDF}_Narrated.pptx (PowerPoint)                     │
 │  ✓ audio/ folder (WAV files)                            │
