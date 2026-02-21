@@ -3,7 +3,7 @@
 ## 📽️ Demo Video
 
 <video controls width="900" preload="metadata">
-  <source src="https://raw.githubusercontent.com/MahmoudAlyosify/Automated-Multimodal-Agent-PDF-to-Narrated-PowerPoint/main/Demo/Demo%20of%20the%20Project%20PDF%20to%20Narrated%20Power%20point.mp4" type="video/mp4">
+  <source src="https://youtu.be/JgY9u6NNvGE?si=a44qzmeWyGEDW_37" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
