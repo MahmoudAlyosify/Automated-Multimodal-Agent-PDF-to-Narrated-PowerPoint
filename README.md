@@ -2,10 +2,7 @@
 
 ## 📽️ Demo Video
 
-<video controls width="900" preload="metadata">
-  <source src="https://youtu.be/JgY9u6NNvGE" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/srhrPcwGKZo?si=IOUIE4Df4iGPomoE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
