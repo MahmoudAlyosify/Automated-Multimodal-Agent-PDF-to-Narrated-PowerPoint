@@ -1,8 +1,10 @@
 # 🎙️ Automated Multimodal Agent: PDF to Narrated PowerPoint
 
-A production-ready multimodal AI system that autonomously converts static PDF documents into professional PowerPoint presentations with synchronized, AI-generated audio narration.
+A multimodal AI system that autonomously converts static PDF documents into professional PowerPoint presentations with synchronized, AI-generated audio narration.
 
 Powered by an 8-stage agentic pipeline orchestrated with LangGraph and presented through a sleek Streamlit web interface, this tool delivers complete end-to-end automation.
+
+The Automated Multimodal Agent is an advanced artificial intelligence system designed to autonomously convert static PDF documents into dynamic, narrated PowerPoint presentations. Utilizing a sophisticated multi-agent orchestration framework, the system breaks down the complex task of presentation creation into specialized micro-tasks. By seamlessly integrating document parsing, natural language processing (NLP), vector-based semantic retrieval, and Text-to-Speech (TTS) synthesis, the project significantly reduces the time and manual effort required to create professional, accessible, and engaging multimedia presentations.
 
 ---
 
