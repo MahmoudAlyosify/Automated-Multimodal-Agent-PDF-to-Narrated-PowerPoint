@@ -247,5 +247,3 @@ If you find this project useful:
 
 **Automate. Narrate. Elevate.**
 
-```
-```
