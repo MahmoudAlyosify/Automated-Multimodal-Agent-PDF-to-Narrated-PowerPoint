@@ -10,7 +10,7 @@ The Automated Multimodal Agent is an advanced artificial intelligence system des
 ## Article at Medium
 
 You can explore it here: 
-🔗 (https://medium.com/@mahmoudalyosify/from-static-pdf-to-talking-slides-automated-multimodal-agent-9b62c9a992c3)
+🔗 https://medium.com/@mahmoudalyosify/from-static-pdf-to-talking-slides-automated-multimodal-agent-9b62c9a992c3
 
 ---
 
