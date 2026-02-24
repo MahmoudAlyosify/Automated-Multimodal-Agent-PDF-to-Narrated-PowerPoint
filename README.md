@@ -58,10 +58,6 @@ You can explore the full project details here:
 
 - 🌐 **Professional Web UI**  
   Real-time progress tracking, error handling, and file management via Streamlit.
-
-- 🔒 **100% Local Processing**  
-  Total privacy with no data sent to external cloud APIs.
-
 ---
 
 ## 🏗️ System Architecture (v2.0 – LangGraph Edition)
