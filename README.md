@@ -6,6 +6,14 @@ Powered by an 8-stage agentic pipeline orchestrated with LangGraph and presented
 
 The Automated Multimodal Agent is an advanced artificial intelligence system designed to autonomously convert static PDF documents into dynamic, narrated PowerPoint presentations. Utilizing a sophisticated multi-agent orchestration framework, the system breaks down the complex task of presentation creation into specialized micro-tasks. By seamlessly integrating document parsing, natural language processing (NLP), vector-based semantic retrieval, and Text-to-Speech (TTS) synthesis, the project significantly reduces the time and manual effort required to create professional, accessible, and engaging multimedia presentations.
 
+------
+
+## 🌐 Project Website
+
+You can explore the full project details here:
+
+🔗 https://mahmoudalyosifysite.github.io/Projects/Automated%20MultimodalAgent%20PDF%20to%20Narrated%20PowerPoint.html
+
 ---
 
 ## 📽️ Demo Video
