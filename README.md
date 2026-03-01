@@ -71,7 +71,7 @@ Eight specialized agents handle specific micro-tasks, all coordinated by a maste
 │                    Streamlit Web UI                     │
 │  (Upload PDF → Monitor Progress → Download PPTX+Audio)  │
 └────────────────────┬────────────────────────────────────┘
-↓
+                     ↓
 ┌─────────────────────────────────────────────────────────┐
 │              LangGraph StateGraph Orchestrator          │
 ├─────────────────────────────────────────────────────────┤
